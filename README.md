@@ -1,0 +1,23 @@
+# my awesome
+
+Este es una lista de recomendaciones personales para el uso de ciertas herramientas en el día a día o en instituciones específicas. Las herramientas están organizadas por categorías para facilitar su búsqueda y uso.
+
+## 💰 Financiera
+
+- [Splitwise](https://www.splitwise.com/) - Una aplicación útil para dividir gastos entre personas utilizando el número de teléfono para contactarlos. Es especialmente útil para dividir gastos en salidas a restaurantes o actividades grupales.
+- [Slach](https://slach.cl/) - Esta herramienta es perfecta para compartir la información de datos de transferencia bancaria sin tener que enviarla de manera indirecta. En Chile, para hacer una transferencia a una cuenta bancaria de otra persona se necesita demasiada información, y Slach lo simplifica mediante un simple URL que agrupa toda la información necesaria, permitiendo al usuario copiar y pegar los datos de transferencia rápidamente.
+- [Fintual](https://fintual.cl/) - Plataforma chilena de inversiones automatizada que permite invertir en fondos mutuos, acciones, reserva y objetivos específicos sin montos mínimos. Regulada por la CMF (Comisión para el Mercado Financiero) y con más de 170,000 usuarios. Es especialmente útil para personas que quieren comenzar a invertir de manera sencilla, con perfiles de riesgo personalizados y tecnología que automatiza la gestión de portafolios.
+- [Racional](https://racional.cl/) - Plataforma chilena de inversiones con enfoque social que permite invertir desde $5,000 en acciones estadounidenses, ETFs y portafolios temáticos. Incluye una comunidad donde puedes descubrir las inversiones de otros usuarios, seguir temas específicos como sustentabilidad o crypto, y tener tu propia cuenta de inversiones en brokers regulados por la CMF y SEC. Es especialmente útil para personas que quieren comenzar a invertir con montos pequeños y aprender de una comunidad de inversionistas.
+
+## 🚀 Productividad
+
+- [Luma](https://lu.ma/) - Plataforma moderna de gestión de eventos que permite crear páginas de eventos atractivas, vender tickets, gestionar registros y automatizar comunicaciones vía email, SMS y WhatsApp. Incluye integración con Zoom/Google Meet, check-in de invitados, análisis de eventos y funciones avanzadas como token gating y pagos en crypto. Es especialmente útil para organizar desde pequeñas reuniones hasta grandes conferencias, con plan gratuito para eventos ilimitados y opciones premium para funcionalidades avanzadas.
+
+## 👥 Comunidades
+
+- [Chelas.js](https://lu.ma/chelas.js) - Comunidad de JavaScript en Santiago, Chile que organiza meetups regulares para desarrolladores. Los eventos incluyen charlas técnicas, networking y oportunidades de aprendizaje en un ambiente relajado con cervezas. Es especialmente útil para desarrolladores JavaScript que quieren mantenerse actualizados con las últimas tendencias, hacer networking con otros profesionales del área y participar en la comunidad tech chilena.
+- [JavaScript Chile](https://lu.ma/javascript-chile) - Corporación sin fines de lucro compuesta por voluntarios dedicada a impulsar y promover el uso de JavaScript en Chile. Organiza talleres de formación, conferencias, meetups y eventos educativos para construir una comunidad inclusiva y diversa de desarrolladores. Es especialmente útil para desarrolladores de todos los niveles que buscan oportunidades de aprendizaje formal, colaboración en proyectos y crecimiento profesional en el ecosistema JavaScript chileno.
+
+## 🔗 Relacionado
+
+- [LM Awesome](https://github.com/JonDotsoy/lm-awesome) - Una colección curada de enlaces, repositorios y herramientas para Modelos de Lenguaje (LM). Incluye herramientas de IA, modelos, prompts, sitios comparativos y herramientas MCP (Model Context Protocol). Es especialmente útil para desarrolladores que trabajan con inteligencia artificial y necesitan referencias rápidas a las mejores herramientas disponibles en el ecosistema de IA.
