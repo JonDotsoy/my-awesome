@@ -19,6 +19,10 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [JavaScript Chile](https://lu.ma/javascript-chile) - Corporación sin fines de lucro compuesta por voluntarios dedicada a impulsar y promover el uso de JavaScript en Chile. Organiza talleres de formación, conferencias, meetups y eventos educativos para construir una comunidad inclusiva y diversa de desarrolladores. Es especialmente útil para desarrolladores de todos los niveles que buscan oportunidades de aprendizaje formal, colaboración en proyectos y crecimiento profesional en el ecosistema JavaScript chileno.
 - [Tribú Latam](https://www.tribulatam.com/) - Plataforma que conecta y empodera la comunidad tech latina a través de eventos presenciales y virtuales, mentorías gratuitas con más de 200 expertos, oportunidades laborales, grupos exclusivos de líderes tech (DOMOS), capacitaciones y beneficios. Con presencia en múltiples países de Latinoamérica, es especialmente útil para profesionales tech que buscan networking regional, desarrollo de carrera, mentoría especializada y acceso a oportunidades laborales en el ecosistema tecnológico latinoamericano.
 
+## 📚 Recursos de Conocimiento
+
+- [Guía Salarial BUK 2025](https://www.buk.cl/hubfs/Guia-Salarialbuk_2025.pdf) - PDF con bandas salariales y análisis de remuneraciones en Chile basado en datos administrativos de 31.700 colaboradores y 3.270 organizaciones. Útil para comparar sueldos por cargo, tamaño de empresa e industria.
+
 ## 🔗 Relacionado
 
 - [LM Awesome](https://github.com/JonDotsoy/lm-awesome) - Una colección curada de enlaces, repositorios y herramientas para Modelos de Lenguaje (LM). Incluye herramientas de IA, modelos, prompts, sitios comparativos y herramientas MCP (Model Context Protocol). Es especialmente útil para desarrolladores que trabajan con inteligencia artificial y necesitan referencias rápidas a las mejores herramientas disponibles en el ecosistema de IA.
