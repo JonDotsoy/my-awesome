@@ -2,6 +2,14 @@
 
 Este es una lista de recomendaciones personales para el uso de ciertas herramientas en el día a día o en instituciones específicas. Las herramientas están organizadas por categorías para facilitar su búsqueda y uso.
 
+## Índice
+
+- [💰 Financiera](#-financiera)
+- [🚀 Productividad](#-productividad)
+- [👥 Comunidades](#-comunidades)
+- [📚 Recursos de Conocimiento](#-recursos-de-conocimiento)
+- [🔗 Relacionado](#-relacionado)
+
 ## 💰 Financiera
 
 - [Splitwise](https://www.splitwise.com/) - Una aplicación útil para dividir gastos entre personas utilizando el número de teléfono para contactarlos. Es especialmente útil para dividir gastos en salidas a restaurantes o actividades grupales.
