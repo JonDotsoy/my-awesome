@@ -62,6 +62,7 @@ Cuando se solicite agregar una nueva herramienta:
 - Mantener las descripciones claras y específicas sobre el valor que aporta cada herramienta
 - Considerar el contexto local (por ejemplo, herramientas específicas para Chile)
 - Actualizar la fecha de última modificación cuando sea relevante
+- No es necesario ejecutar pruebas automatizadas tras realizar cambios en este repositorio
 
 ## Convenciones de commits
 
