@@ -8,6 +8,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [🚀 Productividad](#-productividad)
 - [👥 Comunidades](#-comunidades)
 - [📚 Recursos de Conocimiento](#-recursos-de-conocimiento)
+- [💼 Empleo](#-empleo)
 - [🔗 Relacionado](#-relacionado)
 
 ## 💰 Financiera
@@ -30,6 +31,10 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 ## 📚 Recursos de Conocimiento
 
 - [Guía Salarial BUK 2025](https://www.buk.cl/hubfs/Guia-Salarialbuk_2025.pdf) - PDF con bandas salariales y análisis de remuneraciones en Chile basado en datos administrativos de 31.700 colaboradores y 3.270 organizaciones. Útil para comparar sueldos por cargo, tamaño de empresa e industria.
+
+## 💼 Empleo
+
+- [Get on Board](https://www.getonbrd.com/) - Plataforma de empleos enfocada en tecnología y startups en Latinoamérica. Permite a las empresas publicar vacantes y a los profesionales crear perfiles para recibir ofertas, además de ofrecer recursos como cursos, conferencias y meetups. Es especialmente útil para quienes buscan oportunidades laborales remotas o presenciales en el ecosistema tech latinoamericano.
 
 ## 🔗 Relacionado
 
