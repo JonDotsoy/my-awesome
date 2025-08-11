@@ -62,3 +62,8 @@ Cuando se solicite agregar una nueva herramienta:
 - Mantener las descripciones claras y específicas sobre el valor que aporta cada herramienta
 - Considerar el contexto local (por ejemplo, herramientas específicas para Chile)
 - Actualizar la fecha de última modificación cuando sea relevante
+
+## Convenciones de commits
+
+- Los mensajes de commit deben seguir el formato [Conventional Commits](https://www.conventionalcommits.org/).
+- Si se modifica el archivo `README.md`, el commit debe ser de tipo `feat` con el formato `feat: <mensaje>`.
