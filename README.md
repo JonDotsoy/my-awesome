@@ -2,7 +2,7 @@
 
 Este es una lista de recomendaciones personales para el uso de ciertas herramientas en el día a día o en instituciones específicas. Las herramientas están organizadas por categorías para facilitar su búsqueda y uso.
 
-## Índice
+## Contenido
 
 - [💰 Financiera](#-financiera)
 - [🚀 Productividad](#-productividad)
