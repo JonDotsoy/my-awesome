@@ -8,6 +8,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [🚀 Productividad](#-productividad)
 - [👥 Comunidades](#-comunidades)
 - [📚 Recursos de Conocimiento](#-recursos-de-conocimiento)
+- [📖 Lectura](#-lectura)
 - [💼 Empleo](#-empleo)
 - [🔗 Relacionado](#-relacionado)
 
@@ -31,6 +32,10 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 ## 📚 Recursos de Conocimiento
 
 - [Guía Salarial BUK 2025](https://www.buk.cl/hubfs/Guia-Salarialbuk_2025.pdf) - PDF con bandas salariales y análisis de remuneraciones en Chile basado en datos administrativos de 31.700 colaboradores y 3.270 organizaciones. Útil para comparar sueldos por cargo, tamaño de empresa e industria.
+
+## 📖 Lectura
+
+- [Goodreads](https://www.goodreads.com/) - Plataforma para catalogar y seguir los libros que lees, registrar tu progreso de lectura y descubrir nuevas recomendaciones. Permite compartir reseñas con una comunidad global de lectores, facilitando la organización de tus procesos de lectura.
 
 ## 💼 Empleo
 
