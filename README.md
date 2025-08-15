@@ -6,6 +6,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 
 - [💰 Financiera](#-financiera)
 - [🚀 Productividad](#-productividad)
+- [🤖 Automatización](#-automatizacion)
 - [👥 Comunidades](#-comunidades)
 - [📚 Recursos de Conocimiento](#-recursos-de-conocimiento)
 - [📖 Lectura](#-lectura)
@@ -22,6 +23,12 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 ## 🚀 Productividad
 
 - [Luma](https://lu.ma/) - Plataforma moderna de gestión de eventos que permite crear páginas de eventos atractivas, vender tickets, gestionar registros y automatizar comunicaciones vía email, SMS y WhatsApp. Incluye integración con Zoom/Google Meet, check-in de invitados, análisis de eventos y funciones avanzadas como token gating y pagos en crypto. Es especialmente útil para organizar desde pequeñas reuniones hasta grandes conferencias, con plan gratuito para eventos ilimitados y opciones premium para funcionalidades avanzadas.
+
+## 🤖 Automatización
+
+- [n8n](https://n8n.io/) - Plataforma de automatización de flujos de trabajo de código abierto que permite conectar servicios y crear integraciones mediante una interfaz visual. Es útil para automatizar procesos y sincronizar datos sin necesidad de escribir código intensivo.
+- [Apache Airflow](https://airflow.apache.org/) - Plataforma de código abierto para programar, monitorear y gestionar flujos de trabajo como grafos acíclicos dirigidos (DAGs). Es útil para orquestar pipelines de datos y tareas periódicas a gran escala.
+- [Spring Batch](https://spring.io/projects/spring-batch) - Framework de procesamiento por lotes para Java dentro del ecosistema Spring que facilita la creación de trabajos robustos y transaccionales. Es útil para procesar grandes volúmenes de datos de forma confiable.
 
 ## 👥 Comunidades
 
