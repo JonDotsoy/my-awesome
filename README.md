@@ -6,6 +6,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 
 - [💰 Financiera](#-financiera)
 - [🚀 Productividad](#-productividad)
+- [📝 Diagramación](#-diagramacion)
 - [🤖 Automatización](#-automatizacion)
 - [👥 Comunidades](#-comunidades)
 - [📚 Recursos de Conocimiento](#-recursos-de-conocimiento)
@@ -23,6 +24,11 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 ## 🚀 Productividad
 
 - [Luma](https://lu.ma/) - Plataforma moderna de gestión de eventos que permite crear páginas de eventos atractivas, vender tickets, gestionar registros y automatizar comunicaciones vía email, SMS y WhatsApp. Incluye integración con Zoom/Google Meet, check-in de invitados, análisis de eventos y funciones avanzadas como token gating y pagos en crypto. Es especialmente útil para organizar desde pequeñas reuniones hasta grandes conferencias, con plan gratuito para eventos ilimitados y opciones premium para funcionalidades avanzadas.
+
+## 📝 Diagramación
+
+- [Mermaid](https://mermaid.js.org/) - Librería de código abierto que permite crear diagramas y visualizaciones a partir de texto en Markdown. Es útil para documentar flujos y diseños directamente en el código o documentación.
+- [Excalidraw](https://excalidraw.com/) - Pizarra virtual colaborativa de código abierto que permite crear bocetos y diagramas con apariencia dibujada a mano, ideal para lluvias de ideas y trabajo en equipo.
 
 ## 🤖 Automatización
 
