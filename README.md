@@ -45,6 +45,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 ## 📚 Recursos de Conocimiento
 
 - [Guía Salarial BUK 2025](https://www.buk.cl/hubfs/Guia-Salarialbuk_2025.pdf) - PDF con bandas salariales y análisis de remuneraciones en Chile basado en datos administrativos de 31.700 colaboradores y 3.270 organizaciones. Útil para comparar sueldos por cargo, tamaño de empresa e industria.
+- [Indie Hackers](https://www.indiehackers.com/) - Comunidad global de emprendedores independientes que comparten sus experiencias construyendo negocios rentables. Ofrece historias detalladas de startups exitosas, ideas de negocio, estrategias de monetización, y foros de discusión donde emprendedores comparten métricas reales de sus proyectos. Es especialmente útil para encontrar inspiración para nuevos proyectos, aprender de casos de éxito reales, y conectar con otros fundadores independientes que han construido negocios desde cero.
 
 ## 📖 Lectura
 
