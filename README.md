@@ -33,6 +33,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 
 ## 🤖 Automatización
 
+- [Make.com](https://www.make.com/) - Plataforma de automatización visual con una gran cantidad de integraciones que permite conectar aplicaciones y automatizar flujos de trabajo de manera intuitiva. Es más simple de entender que n8n, muestra exactamente los créditos utilizados en cada ejecución y es ideal para usuarios que buscan una experiencia más amigable en la automatización de procesos.
 - [n8n](https://n8n.io/) - Plataforma de automatización de flujos de trabajo de código abierto que permite conectar servicios y crear integraciones mediante una interfaz visual. Es útil para automatizar procesos y sincronizar datos sin necesidad de escribir código intensivo.
 - [Apache Airflow](https://airflow.apache.org/) - Plataforma de código abierto para programar, monitorear y gestionar flujos de trabajo como grafos acíclicos dirigidos (DAGs). Es útil para orquestar pipelines de datos y tareas periódicas a gran escala.
 - [Spring Batch](https://spring.io/projects/spring-batch) - Framework de procesamiento por lotes para Java dentro del ecosistema Spring que facilita la creación de trabajos robustos y transaccionales. Es útil para procesar grandes volúmenes de datos de forma confiable.
