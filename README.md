@@ -8,6 +8,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [🚀 Productividad](#-productividad)
 - [📝 Diagramación](#-diagramacion)
 - [🤖 Automatización](#-automatizacion)
+- [🖥️ Infraestructura](#-infraestructura)
 - [👥 Comunidades](#-comunidades)
 - [📚 Recursos de Conocimiento](#-recursos-de-conocimiento)
 - [📖 Lectura](#-lectura)
@@ -35,6 +36,10 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [n8n](https://n8n.io/) - Plataforma de automatización de flujos de trabajo de código abierto que permite conectar servicios y crear integraciones mediante una interfaz visual. Es útil para automatizar procesos y sincronizar datos sin necesidad de escribir código intensivo.
 - [Apache Airflow](https://airflow.apache.org/) - Plataforma de código abierto para programar, monitorear y gestionar flujos de trabajo como grafos acíclicos dirigidos (DAGs). Es útil para orquestar pipelines de datos y tareas periódicas a gran escala.
 - [Spring Batch](https://spring.io/projects/spring-batch) - Framework de procesamiento por lotes para Java dentro del ecosistema Spring que facilita la creación de trabajos robustos y transaccionales. Es útil para procesar grandes volúmenes de datos de forma confiable.
+
+## 🖥️ Infraestructura
+
+- [Caddy](https://caddyserver.com/) - Servidor web y proxy reverso de código abierto escrito en Go que se configura automáticamente con HTTPS. Es especialmente útil para desarrolladores que necesitan una alternativa moderna a nginx o Apache, con configuración más simple, certificados SSL automáticos y capacidades de proxy reverso integradas para microservicios y aplicaciones web.
 
 ## 👥 Comunidades
 
