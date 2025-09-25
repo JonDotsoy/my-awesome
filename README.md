@@ -39,6 +39,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 
 ## 🖥️ Infraestructura
 
+- [nginx](https://nginx.org/) - Servidor web de alto rendimiento, proxy reverso, balanceador de carga y proxy de correo HTTP escrito en C. Es conocido por su estabilidad, rico conjunto de características, configuración simple y bajo consumo de recursos. Es especialmente útil para servir contenido estático de manera eficiente, manejar grandes volúmenes de conexiones concurrentes, funcionar como proxy reverso para aplicaciones web y distribuir carga entre múltiples servidores backend.
 - [Caddy](https://caddyserver.com/) - Servidor web y proxy reverso de código abierto escrito en Go que se configura automáticamente con HTTPS. Es especialmente útil para desarrolladores que necesitan una alternativa moderna a nginx o Apache, con configuración más simple, certificados SSL automáticos y capacidades de proxy reverso integradas para microservicios y aplicaciones web.
 
 ## 👥 Comunidades
