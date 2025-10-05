@@ -42,6 +42,7 @@ This is a list of personal recommendations for using certain tools in daily life
 
 - [nginx](https://nginx.org/) - High-performance web server, reverse proxy, load balancer, and HTTP mail proxy written in C. It's known for its stability, rich feature set, simple configuration, and low resource consumption. It's especially useful for efficiently serving static content, handling large volumes of concurrent connections, functioning as a reverse proxy for web applications, and distributing load among multiple backend servers.
 - [Caddy](https://caddyserver.com/) - Open-source web server and reverse proxy written in Go that automatically configures with HTTPS. It's especially useful for developers who need a modern alternative to nginx or Apache, with simpler configuration, automatic SSL certificates, and integrated reverse proxy capabilities for microservices and web applications.
+- [Cloudflare Workers](https://workers.cloudflare.com/) - Serverless platform that allows running JavaScript code at Cloudflare's edge, globally distributed to minimize latency. It's especially useful for quickly publishing web pages, including Astro.build sites, creating serverless APIs, implementing authentication and authorization functions, and developing complete web applications that run close to end users with high availability and optimized performance.
 
 ## 👥 Communities
 
