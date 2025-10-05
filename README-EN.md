@@ -6,6 +6,7 @@ This is a list of personal recommendations for using certain tools in daily life
 
 - [💰 Financial](#-financial)
 - [🚀 Productivity](#-productivity)
+- [📧 Communication](#-communication)
 - [📝 Diagramming](#-diagramming)
 - [🤖 Automation](#-automation)
 - [🖥️ Infrastructure](#-infrastructure)
@@ -25,6 +26,10 @@ This is a list of personal recommendations for using certain tools in daily life
 ## 🚀 Productivity
 
 - [Luma](https://lu.ma/) - Modern event management platform that allows creating attractive event pages, selling tickets, managing registrations, and automating communications via email, SMS, and WhatsApp. It includes integration with Zoom/Google Meet, guest check-in, event analytics, and advanced features like token gating and crypto payments. It's especially useful for organizing everything from small meetings to large conferences, with a free plan for unlimited events and premium options for advanced functionalities.
+
+## 📧 Communication
+
+- [Resend](https://resend.com/) - Developer-focused email delivery service that enables sending transactional emails and marketing campaigns simply and reliably. Offers a modern, easy-to-integrate API with features like detailed delivery analytics, responsive templates, and DKIM authentication support. It's especially useful for developers who need to implement email functionality in their applications, from individual notifications to mass advertising campaigns, with minimal setup and high deliverability rates.
 
 ## 📝 Diagramming
 
