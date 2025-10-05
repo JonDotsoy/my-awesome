@@ -6,6 +6,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 
 - [💰 Financiera](#-financiera)
 - [🚀 Productividad](#-productividad)
+- [📧 Comunicación](#-comunicacion)
 - [📝 Diagramación](#-diagramacion)
 - [🤖 Automatización](#-automatizacion)
 - [🖥️ Infraestructura](#-infraestructura)
@@ -25,6 +26,10 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 ## 🚀 Productividad
 
 - [Luma](https://lu.ma/) - Plataforma moderna de gestión de eventos que permite crear páginas de eventos atractivas, vender tickets, gestionar registros y automatizar comunicaciones vía email, SMS y WhatsApp. Incluye integración con Zoom/Google Meet, check-in de invitados, análisis de eventos y funciones avanzadas como token gating y pagos en crypto. Es especialmente útil para organizar desde pequeñas reuniones hasta grandes conferencias, con plan gratuito para eventos ilimitados y opciones premium para funcionalidades avanzadas.
+
+## 📧 Comunicación
+
+- [Resend](https://resend.com/) - Servicio de entrega de correo electrónico para desarrolladores que permite enviar emails transaccionales y campañas de marketing de forma sencilla y confiable. Ofrece una API moderna y fácil de integrar, con características como análisis detallados de entrega, plantillas responsivas, y soporte para autenticación DKIM. Es especialmente útil para desarrolladores que necesitan implementar funcionalidades de email en sus aplicaciones, desde notificaciones individuales hasta campañas publicitarias masivas, con una configuración mínima y alta tasa de entregabilidad.
 
 ## 📝 Diagramación
 
