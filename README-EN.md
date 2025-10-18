@@ -12,6 +12,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [🖥️ Infrastructure](#-infrastructure)
 - [👥 Communities](#-communities)
 - [📚 Knowledge Resources](#-knowledge-resources)
+- [🌐 Language Learning](#-language-learning)
 - [📖 Reading](#-reading)
 - [💼 Employment](#-employment)
 - [🔗 Related](#-related)
@@ -63,6 +64,11 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Indie Hackers](https://www.indiehackers.com/) - Global community of independent entrepreneurs who share their experiences building profitable businesses. It offers detailed stories of successful startups, business ideas, monetization strategies, and discussion forums where entrepreneurs share real metrics from their projects. It's especially useful for finding inspiration for new projects, learning from real success cases, and connecting with other independent founders who have built businesses from scratch.
 - [Patterns.dev](https://www.patterns.dev/) - Comprehensive resource created by Lydia Hallie and Addy Osmani that presents a complete collection of design patterns for modern web development. It includes JavaScript, React, performance, and web application architecture patterns, all explained with practical examples, real use cases, and best practices. It's especially useful for frontend and fullstack developers looking to improve their application architecture, implement industry-proven patterns, and stay updated with the most effective techniques for building scalable and maintainable web applications.
 - [Refactoring Guru](https://refactoring.guru/) - Complete educational platform that teaches software design patterns, refactoring techniques, and software architecture principles through clear explanations, practical examples in multiple programming languages, and visual diagrams. It covers the classic 23 Gang of Four patterns, common antipatterns, and step-by-step refactoring methodologies. It's especially useful for developers of all levels looking to improve code quality, learn fundamental design patterns, master professional refactoring techniques, and build more maintainable and scalable software.
+
+## 🌐 Language Learning
+
+- [BBC Learning English](https://www.bbc.co.uk/learningenglish) - BBC educational platform offering a wide collection of free resources for learning English, including structured courses, video lessons, podcasts, interactive exercises, and materials to improve vocabulary, grammar, and pronunciation. It's especially useful for practicing listening (audio comprehension) with authentic content from native speakers, improving comprehension skills through news and current affairs programs, and accessing content organized by levels from beginner to advanced.
+- [Curso-ingles.com](https://curso-ingles.com/) - Free Spanish-language website dedicated to teaching English with courses organized by levels (basic, intermediate, advanced), business English, and travel vocabulary. It includes practical tools like verb conjugator, translator, and interactive exercises. It's especially useful for Spanish speakers looking for simple and clear grammatical explanations in Spanish, expanding vocabulary in a structured way, and learning English self-taught with resources organized from scratch to advanced level.
 
 ## 📖 Reading
 
