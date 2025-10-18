@@ -12,6 +12,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [🖥️ Infraestructura](#-infraestructura)
 - [👥 Comunidades](#-comunidades)
 - [📚 Recursos de Conocimiento](#-recursos-de-conocimiento)
+- [🌐 Aprendizaje de Idiomas](#-aprendizaje-de-idiomas)
 - [📖 Lectura](#-lectura)
 - [💼 Empleo](#-empleo)
 - [🔗 Relacionado](#-relacionado)
@@ -63,6 +64,11 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [Indie Hackers](https://www.indiehackers.com/) - Comunidad global de emprendedores independientes que comparten sus experiencias construyendo negocios rentables. Ofrece historias detalladas de startups exitosas, ideas de negocio, estrategias de monetización, y foros de discusión donde emprendedores comparten métricas reales de sus proyectos. Es especialmente útil para encontrar inspiración para nuevos proyectos, aprender de casos de éxito reales, y conectar con otros fundadores independientes que han construido negocios desde cero.
 - [Patterns.dev](https://www.patterns.dev/) - Recurso integral creado por Lydia Hallie y Addy Osmani que presenta una colección completa de patrones de diseño para el desarrollo web moderno. Incluye patrones de JavaScript, React, rendimiento, y arquitectura de aplicaciones web, todos explicados con ejemplos prácticos, casos de uso reales y mejores prácticas. Es especialmente útil para desarrolladores frontend y fullstack que buscan mejorar la arquitectura de sus aplicaciones, implementar patrones probados en la industria, y mantenerse actualizados con las técnicas más efectivas para construir aplicaciones web escalables y mantenibles.
 - [Refactoring Guru](https://refactoring.guru/) - Plataforma educativa completa que enseña patrones de diseño de software, técnicas de refactoring y principios de arquitectura de software mediante explicaciones claras, ejemplos prácticos en múltiples lenguajes de programación y diagramas visuales. Cubre los 23 patrones clásicos de Gang of Four, antipatrones comunes, y metodologías de refactorización paso a paso. Es especialmente útil para desarrolladores de todos los niveles que buscan mejorar la calidad de su código, aprender patrones de diseño fundamentales, dominar técnicas de refactorización profesional, y construir software más mantenible y escalable.
+
+## 🌐 Aprendizaje de Idiomas
+
+- [BBC Learning English](https://www.bbc.co.uk/learningenglish) - Plataforma educativa de la BBC que ofrece una amplia colección de recursos gratuitos para aprender inglés, incluyendo cursos estructurados, lecciones en video, podcasts, ejercicios interactivos y material para mejorar vocabulario, gramática y pronunciación. Es especialmente útil para practicar listening (comprensión auditiva) con contenido auténtico de hablantes nativos, mejorar habilidades de comprensión a través de noticias y programas de actualidad, y acceder a contenido organizado por niveles desde principiante hasta avanzado.
+- [Curso-ingles.com](https://curso-ingles.com/) - Sitio web gratuito en español dedicado a la enseñanza del inglés con cursos organizados por niveles (básico, intermedio, avanzado), inglés de negocios y vocabulario para viajar. Incluye herramientas prácticas como conjugador de verbos, traductor y ejercicios interactivos. Es especialmente útil para hispanohablantes que buscan explicaciones gramaticales simples y claras en español, ampliar vocabulario de manera estructurada, y aprender inglés de forma autodidacta con recursos organizados desde cero hasta nivel avanzado.
 
 ## 📖 Lectura
 
