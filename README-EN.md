@@ -36,6 +36,7 @@ This is a list of personal recommendations for using certain tools in daily life
 
 - [Mermaid](https://mermaid.js.org/) - Open-source library that allows creating diagrams and visualizations from text in Markdown. It's useful for documenting flows and designs directly in code or documentation.
 - [Excalidraw](https://excalidraw.com/) - Open-source collaborative virtual whiteboard that allows creating sketches and diagrams with a hand-drawn appearance, ideal for brainstorming and team work.
+- [MakeGraph](https://makegraph.app/es) - Free online tool for creating charts and graphs quickly and easily. It allows generating a wide variety of visualizations (bar charts, line charts, pie charts, scatter plots, radar charts, heatmaps, among others) with customization options for colors, themes, and labels. Exports in PNG or SVG formats, ideal for presentations, documentation, and static sites. No registration required and especially useful for creating professional data visualizations in seconds.
 
 ## 🤖 Automation
 
