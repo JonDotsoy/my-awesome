@@ -36,6 +36,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 
 - [Mermaid](https://mermaid.js.org/) - Librería de código abierto que permite crear diagramas y visualizaciones a partir de texto en Markdown. Es útil para documentar flujos y diseños directamente en el código o documentación.
 - [Excalidraw](https://excalidraw.com/) - Pizarra virtual colaborativa de código abierto que permite crear bocetos y diagramas con apariencia dibujada a mano, ideal para lluvias de ideas y trabajo en equipo.
+- [MakeGraph](https://makegraph.app/es) - Herramienta online gratuita para crear gráficos y diagramas de manera rápida y sencilla. Permite generar una amplia variedad de visualizaciones (gráficos de barras, líneas, circulares, dispersión, radar, mapas de calor, entre otros) con opciones de personalización de colores, temas y etiquetas. Exporta en formatos PNG o SVG, ideal para presentaciones, documentación y sitios estáticos. No requiere registro y es especialmente útil para crear visualizaciones de datos profesionales en segundos.
 
 ## 🤖 Automatización
 
