@@ -11,6 +11,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [🤖 Automatización](#-automatizacion)
 - [🖥️ Infraestructura](#-infraestructura)
 - [👥 Comunidades](#-comunidades)
+- [📰 Noticias](#-noticias)
 - [📚 Recursos de Conocimiento](#-recursos-de-conocimiento)
 - [🌐 Aprendizaje de Idiomas](#-aprendizaje-de-idiomas)
 - [📖 Lectura](#-lectura)
@@ -56,6 +57,10 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [Chelas.js](https://lu.ma/chelas.js) - Comunidad de JavaScript en Santiago, Chile que organiza meetups regulares para desarrolladores. Los eventos incluyen charlas técnicas, networking y oportunidades de aprendizaje en un ambiente relajado con cervezas. Es especialmente útil para desarrolladores JavaScript que quieren mantenerse actualizados con las últimas tendencias, hacer networking con otros profesionales del área y participar en la comunidad tech chilena.
 - [JavaScript Chile](https://lu.ma/javascript-chile) - Corporación sin fines de lucro compuesta por voluntarios dedicada a impulsar y promover el uso de JavaScript en Chile. Organiza talleres de formación, conferencias, meetups y eventos educativos para construir una comunidad inclusiva y diversa de desarrolladores. Es especialmente útil para desarrolladores de todos los niveles que buscan oportunidades de aprendizaje formal, colaboración en proyectos y crecimiento profesional en el ecosistema JavaScript chileno.
 - [Tribú Latam](https://www.tribulatam.com/) - Plataforma que conecta y empodera la comunidad tech latina a través de eventos presenciales y virtuales, mentorías gratuitas con más de 200 expertos, oportunidades laborales, grupos exclusivos de líderes tech (DOMOS), capacitaciones y beneficios. Con presencia en múltiples países de Latinoamérica, es especialmente útil para profesionales tech que buscan networking regional, desarrollo de carrera, mentoría especializada y acceso a oportunidades laborales en el ecosistema tecnológico latinoamericano.
+
+## 📰 Noticias
+
+- [daily.dev](https://app.daily.dev/) - Red profesional y plataforma para desarrolladores que ofrece un feed personalizado de noticias tech curado desde más de 1,300 fuentes confiables, incluyendo artículos, tutoriales y actualizaciones sobre lenguajes de programación, frameworks y patrones de diseño. Incluye comunidad global para discusiones, compartir proyectos y colaboración, recursos de carrera, eventos de coding, y funcionalidad offline. Disponible como extensión de navegador y PWA, es especialmente útil para mantenerse al día con las últimas tendencias tecnológicas, descubrir nuevas herramientas y librerías, participar en discusiones técnicas, y acceder a un hub centralizado para el aprendizaje continuo y networking profesional en desarrollo de software.
 
 ## 📚 Recursos de Conocimiento
 
