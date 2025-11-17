@@ -11,6 +11,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [🤖 Automation](#-automation)
 - [🖥️ Infrastructure](#-infrastructure)
 - [👥 Communities](#-communities)
+- [📰 News](#-news)
 - [📚 Knowledge Resources](#-knowledge-resources)
 - [🌐 Language Learning](#-language-learning)
 - [📖 Reading](#-reading)
@@ -55,6 +56,10 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Chelas.js](https://lu.ma/chelas.js) - JavaScript community in Santiago, Chile that organizes regular meetups for developers. Events include technical talks, networking, and learning opportunities in a relaxed atmosphere with beers. It's especially useful for JavaScript developers who want to stay updated with the latest trends, network with other professionals in the field, and participate in the Chilean tech community.
 - [JavaScript Chile](https://lu.ma/javascript-chile) - Non-profit corporation composed of volunteers dedicated to promoting and encouraging the use of JavaScript in Chile. It organizes training workshops, conferences, meetups, and educational events to build an inclusive and diverse community of developers. It's especially useful for developers of all levels looking for formal learning opportunities, project collaboration, and professional growth in the Chilean JavaScript ecosystem.
 - [Tribú Latam](https://www.tribulatam.com/) - Platform that connects and empowers the Latin tech community through in-person and virtual events, free mentoring with more than 200 experts, job opportunities, exclusive groups of tech leaders (DOMOS), training, and benefits. With presence in multiple Latin American countries, it's especially useful for tech professionals seeking regional networking, career development, specialized mentoring, and access to job opportunities in the Latin American technology ecosystem.
+
+## 📰 News
+
+- [daily.dev](https://app.daily.dev/) - Professional network and platform for developers that offers a personalized tech news feed curated from over 1,300 trusted sources, including articles, tutorials, and updates on programming languages, frameworks, and design patterns. It includes a global community for discussions, project sharing and collaboration, career resources, coding events, and offline functionality. Available as a browser extension and PWA, it's especially useful for staying up to date with the latest tech trends, discovering new tools and libraries, participating in technical discussions, and accessing a centralized hub for continuous learning and professional networking in software development.
 
 ## 📚 Knowledge Resources
 
