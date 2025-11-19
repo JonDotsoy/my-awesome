@@ -28,6 +28,7 @@ This is a list of personal recommendations for using certain tools in daily life
 ## 🚀 Productivity
 
 - [Luma](https://lu.ma/) - Modern event management platform that allows creating attractive event pages, selling tickets, managing registrations, and automating communications via email, SMS, and WhatsApp. It includes integration with Zoom/Google Meet, guest check-in, event analytics, and advanced features like token gating and crypto payments. It's especially useful for organizing everything from small meetings to large conferences, with a free plan for unlimited events and premium options for advanced functionalities.
+- [Ray.so](https://www.ray.so/) - Online tool that transforms code snippets into visually appealing images perfect for sharing on social media, blogs, presentations, and documentation. Offers customizable themes (light/dark), multiple syntax highlighting color schemes, automatic programming language detection, options to show/hide line numbers, and padding adjustments. It's especially useful for developers sharing code on Twitter, LinkedIn, or technical communities, creating visually attractive tutorials, and adding professional code examples in articles or presentations. Includes integration with VS Code and other development tools.
 
 ## 📧 Communication
 
