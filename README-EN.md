@@ -33,6 +33,7 @@ This is a list of personal recommendations for using certain tools in daily life
 ## 📧 Communication
 
 - [Resend](https://resend.com/) - Developer-focused email delivery service that enables sending transactional emails and marketing campaigns simply and reliably. Offers a modern, easy-to-integrate API with features like detailed delivery analytics, responsive templates, and DKIM authentication support. It's especially useful for developers who need to implement email functionality in their applications, from individual notifications to mass advertising campaigns, with minimal setup and high deliverability rates.
+- [Kapso](https://kapso.ai/) - Developer platform that enables integration of WhatsApp, SMS, and calls (voice/video) into applications via API. Offers a unified interface for managing messages, templates, contacts, and conversation history, with support for webhooks and conversational flows. Includes a generous free quota and SDK for TypeScript/JavaScript. It's especially useful for implementing chatbots, customer service systems, automated notifications, and multi-channel communication, with advanced features like interactive buttons, WebRTC call management, and automatic WhatsApp messaging window compliance.
 
 ## 📝 Diagramming
 
