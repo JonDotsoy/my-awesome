@@ -33,6 +33,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 ## 📧 Comunicación
 
 - [Resend](https://resend.com/) - Servicio de entrega de correo electrónico para desarrolladores que permite enviar emails transaccionales y campañas de marketing de forma sencilla y confiable. Ofrece una API moderna y fácil de integrar, con características como análisis detallados de entrega, plantillas responsivas, y soporte para autenticación DKIM. Es especialmente útil para desarrolladores que necesitan implementar funcionalidades de email en sus aplicaciones, desde notificaciones individuales hasta campañas publicitarias masivas, con una configuración mínima y alta tasa de entregabilidad.
+- [Kapso](https://kapso.ai/) - Plataforma para desarrolladores que permite integrar WhatsApp, SMS y llamadas (voz/video) en aplicaciones mediante API. Ofrece una interfaz unificada para gestionar mensajes, plantillas, contactos e historial de conversaciones, con soporte para webhooks y flujos conversacionales. Incluye una generosa cuota gratuita y SDK para TypeScript/JavaScript. Es especialmente útil para implementar chatbots, sistemas de atención al cliente, notificaciones automáticas y comunicación multicanal, con funcionalidades avanzadas como botones interactivos, gestión de llamadas vía WebRTC y cumplimiento automático de ventanas de mensajería de WhatsApp.
 
 ## 📝 Diagramación
 
