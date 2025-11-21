@@ -8,6 +8,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [🚀 Productivity](#-productivity)
 - [📧 Communication](#-communication)
 - [📝 Diagramming](#-diagramming)
+- [🎮 Browser Graphics Engines](#-browser-graphics-engines)
 - [🤖 Automation](#-automation)
 - [🖥️ Infrastructure](#-infrastructure)
 - [👥 Communities](#-communities)
@@ -40,6 +41,12 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Mermaid](https://mermaid.js.org/) - Open-source library that allows creating diagrams and visualizations from text in Markdown. It's useful for documenting flows and designs directly in code or documentation.
 - [Excalidraw](https://excalidraw.com/) - Open-source collaborative virtual whiteboard that allows creating sketches and diagrams with a hand-drawn appearance, ideal for brainstorming and team work.
 - [MakeGraph](https://makegraph.app/es) - Free online tool for creating graphs and diagrams quickly and easily. It allows generating a wide variety of visualizations (bar charts, line charts, pie charts, scatter plots, radar charts, heat maps, among others) with color, theme, and label customization options. Exports in PNG or SVG formats, ideal for presentations, documentation, and static sites. No registration required and especially useful for creating professional data visualizations in seconds.
+
+## 🎮 Browser Graphics Engines
+
+- [TypeGPU](https://docs.swmansion.com/TypeGPU/) - TypeScript library that enhances the WebGPU API with type-safe and declarative resource management. It enables working with 3D graphics and GPU computation in the browser safely, catching type errors at compile time rather than runtime, and automatically aligning data structures between TypeScript and WGSL shaders. It's especially useful for developers who need to create web applications with advanced 3D graphics, complex simulations, or parallel GPU computation, leveraging the power of WebGPU with TypeScript's type safety and significantly reducing GPU resource-related runtime errors.
+- [Three.js](https://threejs.org/) - Open-source JavaScript library that facilitates creating interactive 3D graphics and visualizations in the browser using WebGL. It abstracts WebGL's complexity with a high-level API that allows creating 3D scenes, adding lights, materials, textures, cameras, and animations with just a few lines of code. It's especially useful for developing browser-based games, 3D scientific and financial data visualizations, product previews for eCommerce, interactive educational content, and any web application requiring 3D graphics without plugins, taking advantage of the browser's native GPU acceleration.
+- [Babylon.js](https://www.babylonjs.com/) - Open-source 3D graphics engine that uses WebGL and WebGPU to render high-quality interactive 3D content directly in web browsers. It includes full support for physically based rendering (PBR), animation system, integrated physics engines, asset loaders for popular formats (glTF, OBJ, STL), Node Material Editor for creating shaders visually, and AR/VR capabilities through WebXR. It's especially useful for creating real-time games, immersive AR/VR browser experiences, interactive product configurators, 3D educational models, and architectural visualizations, all with native TypeScript support, advanced development tools, and performance optimizations that work even on less powerful devices.
 
 ## 🤖 Automation
 

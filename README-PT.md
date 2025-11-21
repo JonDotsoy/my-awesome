@@ -8,6 +8,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [🚀 Produtividade](#-produtividade)
 - [📧 Comunicação](#-comunicacao)
 - [📝 Diagramação](#-diagramacao)
+- [🎮 Motores Gráficos para o Navegador](#-motores-graficos-para-o-navegador)
 - [🤖 Automação](#-automacao)
 - [🖥️ Infraestrutura](#-infraestrutura)
 - [👥 Comunidades](#-comunidades)
@@ -40,6 +41,12 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [Mermaid](https://mermaid.js.org/) - Biblioteca de código aberto que permite criar diagramas e visualizações a partir de texto em Markdown. É útil para documentar fluxos e designs diretamente no código ou documentação.
 - [Excalidraw](https://excalidraw.com/) - Quadro branco virtual colaborativo de código aberto que permite criar esboços e diagramas com aparência desenhada à mão, ideal para brainstorming e trabalho em equipe.
 - [MakeGraph](https://makegraph.app/es) - Ferramenta online gratuita para criar gráficos e diagramas de maneira rápida e simples. Permite gerar uma ampla variedade de visualizações (gráficos de barras, linhas, circulares, dispersão, radar, mapas de calor, entre outros) com opções de personalização de cores, temas e etiquetas. Exporta em formatos PNG ou SVG, ideal para apresentações, documentação e sites estáticos. Não requer registro e é especialmente útil para criar visualizações de dados profissionais em segundos.
+
+## 🎮 Motores Gráficos para o Navegador
+
+- [TypeGPU](https://docs.swmansion.com/TypeGPU/) - Biblioteca TypeScript que melhora a API do WebGPU com gestão de recursos type-safe e declarativa. Permite trabalhar com gráficos 3D e computação GPU no navegador de maneira segura, capturando erros de tipo em tempo de compilação em vez de execução, e alinhando automaticamente as estruturas de dados entre TypeScript e shaders WGSL. É especialmente útil para desenvolvedores que precisam criar aplicações web com gráficos 3D avançados, simulações complexas ou computação paralela em GPU, aproveitando o poder do WebGPU com a segurança de tipos do TypeScript e reduzindo significativamente erros de runtime relacionados com recursos GPU.
+- [Three.js](https://threejs.org/) - Biblioteca JavaScript de código aberto que facilita a criação de gráficos e visualizações 3D interativas no navegador usando WebGL. Abstrai a complexidade do WebGL com uma API de alto nível que permite criar cenas 3D, adicionar luzes, materiais, texturas, câmeras e animações com poucas linhas de código. É especialmente útil para desenvolver jogos baseados em navegador, visualizações de dados científicos e financeiros em 3D, pré-visualizações de produtos para eCommerce, conteúdo educativo interativo, e qualquer aplicação web que requeira gráficos 3D sem necessidade de plugins, aproveitando a aceleração por GPU nativa do navegador.
+- [Babylon.js](https://www.babylonjs.com/) - Motor de gráficos 3D de código aberto que usa WebGL e WebGPU para renderizar conteúdo 3D interativo de alta qualidade diretamente em navegadores web. Inclui suporte completo para renderização baseada em física (PBR), sistema de animação, motores de física integrados, carregadores de assets para formatos populares (glTF, OBJ, STL), Node Material Editor para criar shaders visualmente, e capacidades AR/VR mediante WebXR. É especialmente útil para criar jogos em tempo real, experiências imersivas de AR/VR no navegador, configuradores de produtos interativos, modelos educativos 3D, e visualizações arquitetônicas, tudo com suporte nativo para TypeScript, ferramentas de desenvolvimento avançadas e otimizações de desempenho que funcionam mesmo em dispositivos menos potentes.
 
 ## 🤖 Automação
 
