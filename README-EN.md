@@ -87,6 +87,7 @@ This is a list of personal recommendations for using certain tools in daily life
 ## 💼 Employment
 
 - [Get on Board](https://www.getonbrd.com/) - Job platform focused on technology and startups in Latin America. It allows companies to post vacancies and professionals to create profiles to receive offers, in addition to offering resources such as courses, conferences, and meetups. It's especially useful for those seeking remote or in-person job opportunities in the Latin American tech ecosystem.
+- [Glassdoor](https://www.glassdoor.com/) - Workplace transparency platform that combines job search, salary research, and company reviews written by current and former employees. Offers detailed information about company culture, salary ranges by position and location, real interview questions, and CEO ratings. It's especially useful for researching employers before applying, negotiating salaries based on real market data, preparing for interviews with experiences shared by the community, and making informed decisions about job opportunities with complete transparency about compensation and work environment.
 
 ## 🔗 Related
 

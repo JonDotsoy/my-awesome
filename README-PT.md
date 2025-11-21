@@ -87,6 +87,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 ## 💼 Emprego
 
 - [Get on Board](https://www.getonbrd.com/) - Plataforma de empregos focada em tecnologia e startups na América Latina. Permite às empresas publicar vagas e aos profissionais criar perfis para receber ofertas, além de oferecer recursos como cursos, conferências e meetups. É especialmente útil para quem busca oportunidades de trabalho remotas ou presenciais no ecossistema tech latino-americano.
+- [Glassdoor](https://www.glassdoor.com/) - Plataforma de transparência laboral que combina busca de emprego, pesquisa salarial e avaliações de empresas escritas por funcionários atuais e anteriores. Oferece informação detalhada sobre cultura empresarial, faixas salariais por cargo e localização, perguntas de entrevistas reais, e avaliações de CEOs. É especialmente útil para pesquisar empregadores antes de aplicar, negociar salários baseando-se em dados reais do mercado, preparar-se para entrevistas com experiências compartilhadas pela comunidade, e tomar decisões informadas sobre oportunidades de trabalho com transparência total sobre compensações e ambiente de trabalho.
 
 ## 🔗 Relacionado
 
