@@ -17,6 +17,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [🌐 Language Learning](#-language-learning)
 - [📖 Reading](#-reading)
 - [💼 Employment](#-employment)
+- [📦 Code Repositories](#-code-repositories)
 - [🔗 Related](#-related)
 
 ## 💰 Financial
@@ -96,6 +97,12 @@ This is a list of personal recommendations for using certain tools in daily life
 
 - [Get on Board](https://www.getonbrd.com/) - Job platform focused on technology and startups in Latin America. It allows companies to post vacancies and professionals to create profiles to receive offers, in addition to offering resources such as courses, conferences, and meetups. It's especially useful for those seeking remote or in-person job opportunities in the Latin American tech ecosystem.
 - [Glassdoor](https://www.glassdoor.com/) - Workplace transparency platform that combines job search, salary research, and company reviews written by current and former employees. Offers detailed information about company culture, salary ranges by position and location, real interview questions, and CEO ratings. It's especially useful for researching employers before applying, negotiating salaries based on real market data, preparing for interviews with experiences shared by the community, and making informed decisions about job opportunities with complete transparency about compensation and work environment.
+
+## 📦 Code Repositories
+
+- [GitHub](https://github.com/) - Cloud-based code hosting platform that enables storing, managing, and collaborating on software projects using Git. Offers public and private repositories, version control, pull requests, code reviews, issue tracking, GitHub Actions for CI/CD, and a global developer community. It's especially useful for collaborating on open-source projects, maintaining a professional development portfolio, and managing software projects of any scale with integrated automation and security tools.
+- [Codeberg](https://codeberg.org/) - Free and open-source code hosting platform operated as a non-profit by the community. Based on Forgejo (a Gitea fork), it offers Git repositories, issue tracking, wikis, and static page hosting through Codeberg Pages. Prioritizes user privacy with no corporate tracking and servers located in the European Union. It's especially useful for developers who value privacy, seek an ethical alternative to commercial platforms, and want to contribute to free software projects in a community-managed environment.
+- [GitLab](https://gitlab.com/) - Complete DevOps platform that integrates Git repository hosting, CI/CD, issue tracking, project management, container registries, and security tools in a single application. Offers cloud-hosted or self-hosted options, with automated pipelines defined through YAML files. It's especially useful for teams seeking an all-in-one solution for the software development lifecycle, from planning to deployment and monitoring, with emphasis on DevSecOps and automation.
 
 ## 🔗 Related
 

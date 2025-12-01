@@ -17,6 +17,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [🌐 Aprendizaje de Idiomas](#-aprendizaje-de-idiomas)
 - [📖 Lectura](#-lectura)
 - [💼 Empleo](#-empleo)
+- [📦 Repositorios de Código](#-repositorios-de-codigo)
 - [🔗 Relacionado](#-relacionado)
 
 ## 💰 Financiera
@@ -96,6 +97,12 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 
 - [Get on Board](https://www.getonbrd.com/) - Plataforma de empleos enfocada en tecnología y startups en Latinoamérica. Permite a las empresas publicar vacantes y a los profesionales crear perfiles para recibir ofertas, además de ofrecer recursos como cursos, conferencias y meetups. Es especialmente útil para quienes buscan oportunidades laborales remotas o presenciales en el ecosistema tech latinoamericano.
 - [Glassdoor](https://www.glassdoor.com/) - Plataforma de transparencia laboral que combina búsqueda de empleo, investigación salarial y reseñas de empresas escritas por empleados actuales y anteriores. Ofrece información detallada sobre cultura empresarial, rangos salariales por cargo y ubicación, preguntas de entrevistas reales, y valoraciones de CEOs. Es especialmente útil para investigar empleadores antes de aplicar, negociar salarios basándose en datos reales del mercado, prepararse para entrevistas con experiencias compartidas por la comunidad, y tomar decisiones informadas sobre oportunidades laborales con transparencia total sobre compensaciones y ambiente de trabajo.
+
+## 📦 Repositorios de Código
+
+- [GitHub](https://github.com/) - Plataforma de alojamiento de código en la nube que permite almacenar, gestionar y colaborar en proyectos de software utilizando Git. Ofrece repositorios públicos y privados, control de versiones, pull requests, revisiones de código, seguimiento de issues, GitHub Actions para CI/CD, y una comunidad global de desarrolladores. Es especialmente útil para colaborar en proyectos de código abierto, mantener un portafolio profesional de desarrollo, y gestionar proyectos de software de cualquier escala con herramientas integradas de automatización y seguridad.
+- [Codeberg](https://codeberg.org/) - Plataforma de alojamiento de código libre y de código abierto, operada sin fines de lucro por la comunidad. Basada en Forgejo (un fork de Gitea), ofrece repositorios Git, seguimiento de issues, wikis, y hosting de páginas estáticas mediante Codeberg Pages. Prioriza la privacidad del usuario sin rastreo corporativo y con servidores ubicados en la Unión Europea. Es especialmente útil para desarrolladores que valoran la privacidad, buscan una alternativa ética a plataformas comerciales, y quieren contribuir a proyectos de software libre en un entorno gestionado por la comunidad.
+- [GitLab](https://gitlab.com/) - Plataforma DevOps completa que integra alojamiento de repositorios Git, CI/CD, seguimiento de issues, gestión de proyectos, registros de contenedores y herramientas de seguridad en una sola aplicación. Ofrece opciones de alojamiento en la nube o auto-hospedado, con pipelines automatizados definidos mediante archivos YAML. Es especialmente útil para equipos que buscan una solución todo-en-uno para el ciclo de vida del desarrollo de software, desde la planificación hasta el despliegue y monitoreo, con énfasis en DevSecOps y automatización.
 
 ## 🔗 Relacionado
 
