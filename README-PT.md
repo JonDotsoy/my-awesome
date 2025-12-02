@@ -15,6 +15,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [👥 Comunidades](#-comunidades)
 - [📰 Notícias](#-noticias)
 - [📚 Recursos de Conhecimento](#-recursos-de-conhecimento)
+- [🧩 Bibliotecas de Componentes UI](#-bibliotecas-de-componentes-ui)
 - [🌐 Aprendizagem de Idiomas](#-aprendizagem-de-idiomas)
 - [📖 Leitura](#-leitura)
 - [💼 Emprego](#-emprego)
@@ -89,6 +90,10 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [Patterns.dev](https://www.patterns.dev/) - Recurso integral criado por Lydia Hallie e Addy Osmani que apresenta uma coleção completa de padrões de design para o desenvolvimento web moderno. Inclui padrões de JavaScript, React, desempenho, e arquitetura de aplicações web, todos explicados com exemplos práticos, casos de uso reais e melhores práticas. É especialmente útil para desenvolvedores frontend e fullstack que buscam melhorar a arquitetura de suas aplicações, implementar padrões comprovados na indústria, e se manter atualizados com as técnicas mais efetivas para construir aplicações web escaláveis e mantíveis.
 - [Refactoring Guru](https://refactoring.guru/) - Plataforma educativa completa que ensina padrões de design de software, técnicas de refatoração e princípios de arquitetura de software mediante explicações claras, exemplos práticos em múltiplas linguagens de programação e diagramas visuais. Cobre os 23 padrões clássicos de Gang of Four, antipadrões comuns, e metodologias de refatoração passo a passo. É especialmente útil para desenvolvedores de todos os níveis que buscam melhorar a qualidade de seu código, aprender padrões de design fundamentais, dominar técnicas de refatoração profissional, e construir software mais mantível e escalável.
 - [CodeWiki](https://codewiki.google/) - Plataforma de documentação impulsionada por IA do Google que gera e mantém automaticamente wikis interativas para repositórios de código. Utiliza Gemini AI para escanear repositórios completos, criar documentação estruturada que se atualiza após cada commit, gerar diagramas de arquitetura e sequência em tempo real, e fornecer um assistente de chat integrado para responder perguntas sobre a base de código. É especialmente útil para acelerar a integração de novos desenvolvedores, manter documentação sempre atualizada sem esforço manual, navegar e compreender projetos complexos mediante diagramas visuais interativos, e obter respostas instantâneas sobre a arquitetura e funcionamento do código através do chat com IA.
+
+## 🧩 Bibliotecas de Componentes UI
+
+- [ReUI](https://reui.io/) - Biblioteca de componentes React de código aberto que oferece componentes prontos para usar, no estilo copy-and-paste, construídos com Tailwind CSS, Radix UI e TypeScript. Apresenta componentes sem dependências, temas globais via variáveis CSS e templates de aplicações full-stack com integração Next.js. É especialmente útil para desenvolvedores que buscam prototipagem rápida, componentes de UI prontos para produção com personalização flexível, e uma alternativa moderna às bibliotecas de componentes tradicionais sem lock-in de fornecedor.
 
 ## 🌐 Aprendizagem de Idiomas
 
