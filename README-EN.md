@@ -11,6 +11,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [🎮 Browser Graphics Engines](#-browser-graphics-engines)
 - [🤖 Automation](#-automation)
 - [🖥️ Infrastructure](#-infrastructure)
+- [🔧 API Testing Tools](#-api-testing-tools)
 - [👥 Communities](#-communities)
 - [📰 News](#-news)
 - [📚 Knowledge Resources](#-knowledge-resources)
@@ -61,6 +62,11 @@ This is a list of personal recommendations for using certain tools in daily life
 - [nginx](https://nginx.org/) - High-performance web server, reverse proxy, load balancer, and HTTP mail proxy written in C. It's known for its stability, rich feature set, simple configuration, and low resource consumption. It's especially useful for efficiently serving static content, handling large volumes of concurrent connections, functioning as a reverse proxy for web applications, and distributing load among multiple backend servers.
 - [Caddy](https://caddyserver.com/) - Open-source web server and reverse proxy written in Go that automatically configures with HTTPS. It's especially useful for developers who need a modern alternative to nginx or Apache, with simpler configuration, automatic SSL certificates, and integrated reverse proxy capabilities for microservices and web applications.
 - [Cloudflare Workers](https://workers.cloudflare.com/) - Serverless platform that allows running JavaScript code at Cloudflare's edge, globally distributed to minimize latency. It's especially useful for quickly publishing web pages, including Astro.build sites, creating serverless APIs, implementing authentication and authorization functions, and developing complete web applications that run close to end users with high availability and optimized performance.
+
+## 🔧 API Testing Tools
+
+- [HTTPie](https://httpie.io/) - Modern, user-friendly HTTP client that simplifies interaction with APIs and web services. Available as a command-line tool and desktop/web application, it offers intuitive syntax, colorized formatted output, native JSON support, built-in authentication (OAuth, JWT, Basic Auth, API keys), and persistent sessions. It's especially useful for developers looking for a simpler and free alternative to other API testing tools, with a clean interface that improves productivity when debugging and testing endpoints.
+- [Postman](https://www.postman.com/) - Comprehensive platform for API development, testing, documentation, and collaboration. Offers a complete API client with support for multiple HTTP methods, environment management, organized collections, automated testing with JavaScript scripts, mock servers, automatic documentation generation, and collaborative workspaces. It's especially useful for teams that need a robust solution for the entire API lifecycle, from design to monitoring, with integrations for CI/CD and collaboration tools.
 
 ## 👥 Communities
 

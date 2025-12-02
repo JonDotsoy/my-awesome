@@ -11,6 +11,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [🎮 Motores Gráficos para el Navegador](#-motores-graficos-para-el-navegador)
 - [🤖 Automatización](#-automatizacion)
 - [🖥️ Infraestructura](#-infraestructura)
+- [🔧 Herramientas de Prueba de API](#-herramientas-de-prueba-de-api)
 - [👥 Comunidades](#-comunidades)
 - [📰 Noticias](#-noticias)
 - [📚 Recursos de Conocimiento](#-recursos-de-conocimiento)
@@ -61,6 +62,11 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [nginx](https://nginx.org/) - Servidor web de alto rendimiento, proxy reverso, balanceador de carga y proxy de correo HTTP escrito en C. Es conocido por su estabilidad, rico conjunto de características, configuración simple y bajo consumo de recursos. Es especialmente útil para servir contenido estático de manera eficiente, manejar grandes volúmenes de conexiones concurrentes, funcionar como proxy reverso para aplicaciones web y distribuir carga entre múltiples servidores backend.
 - [Caddy](https://caddyserver.com/) - Servidor web y proxy reverso de código abierto escrito en Go que se configura automáticamente con HTTPS. Es especialmente útil para desarrolladores que necesitan una alternativa moderna a nginx o Apache, con configuración más simple, certificados SSL automáticos y capacidades de proxy reverso integradas para microservicios y aplicaciones web.
 - [Cloudflare Workers](https://workers.cloudflare.com/) - Plataforma serverless que permite ejecutar código JavaScript en el edge de Cloudflare, distribuido globalmente para minimizar la latencia. Es especialmente útil para publicar páginas web rápidamente, incluyendo sitios de Astro.build, crear APIs sin servidor, implementar funciones de autenticación y autorización, y desarrollar aplicaciones web completas que se ejecutan cerca de los usuarios finales con alta disponibilidad y rendimiento optimizado.
+
+## 🔧 Herramientas de Prueba de API
+
+- [HTTPie](https://httpie.io/) - Cliente HTTP moderno y amigable que simplifica la interacción con APIs y servicios web. Disponible como herramienta de línea de comandos y aplicación de escritorio/web, ofrece sintaxis intuitiva, salida formateada con colores, soporte nativo para JSON, autenticación integrada (OAuth, JWT, Basic Auth, API keys) y sesiones persistentes. Es especialmente útil para desarrolladores que buscan una alternativa más simple y gratuita a otras herramientas de prueba de API, con una interfaz limpia que mejora la productividad al depurar y probar endpoints.
+- [Postman](https://www.postman.com/) - Plataforma integral para desarrollo, prueba, documentación y colaboración de APIs. Ofrece un cliente API completo con soporte para múltiples métodos HTTP, gestión de entornos, colecciones organizadas, pruebas automatizadas con scripts JavaScript, servidores mock, generación automática de documentación y espacios de trabajo colaborativos. Es especialmente útil para equipos que necesitan una solución robusta para todo el ciclo de vida de APIs, desde el diseño hasta el monitoreo, con integraciones para CI/CD y herramientas de colaboración.
 
 ## 👥 Comunidades
 
