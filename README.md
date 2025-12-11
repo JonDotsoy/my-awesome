@@ -93,6 +93,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 
 ## 🧩 Bibliotecas de Componentes UI
 
+- [Magic UI](https://magicui.design/) - Biblioteca de componentes UI animados y efectos de código abierto para React, TypeScript y Tailwind CSS. Ofrece más de 150 componentes y efectos animados listos para copiar y pegar, diseñados específicamente para crear landing pages y dashboards visualmente atractivos con Framer Motion. Incluye primitivos de movimiento suaves y listos para producción, compatibilidad con shadcn/ui, y plantillas premium para secciones de hero, precios y testimonios. Es especialmente útil para design engineers, indie hackers, agencias y startups que necesitan crear interfaces web interactivas y pulidas rápidamente, con énfasis en diseño de movimiento y animaciones de alta calidad.
 - [ReUI](https://reui.io/) - Biblioteca de componentes React de código abierto que ofrece componentes listos para usar, estilo copy-and-paste, construidos con Tailwind CSS, Radix UI y TypeScript. Presenta componentes sin dependencias, temas globales mediante variables CSS y plantillas de aplicaciones full-stack con integración Next.js. Es especialmente útil para desarrolladores que buscan prototipado rápido, componentes de UI listos para producción con personalización flexible, y una alternativa moderna a las bibliotecas de componentes tradicionales sin bloqueo de proveedor.
 
 ## 🌐 Aprendizaje de Idiomas
