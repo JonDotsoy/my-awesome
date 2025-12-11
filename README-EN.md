@@ -93,6 +93,7 @@ This is a list of personal recommendations for using certain tools in daily life
 
 ## 🧩 UI Component Libraries
 
+- [Magic UI](https://magicui.design/) - Open-source animated UI components and effects library for React, TypeScript, and Tailwind CSS. Offers over 150 ready-to-copy-and-paste animated components and effects, specifically designed to create visually engaging landing pages and dashboards with Framer Motion. Includes smooth, production-ready motion primitives, compatibility with shadcn/ui, and premium templates for hero sections, pricing, and testimonials. It's especially useful for design engineers, indie hackers, agencies, and startups who need to quickly build polished, interactive web UIs with emphasis on motion design and high-quality animations.
 - [ReUI](https://reui.io/) - Open-source React component library offering ready-to-use, copy-and-paste components built with Tailwind CSS, Radix UI, and TypeScript. Features zero-dependency components, global theming via CSS variables, and full-stack app templates with Next.js integration. It's especially useful for developers seeking fast prototyping, production-ready UI components with flexible customization, and a modern alternative to traditional component libraries without vendor lock-in.
 
 ## 🌐 Language Learning
