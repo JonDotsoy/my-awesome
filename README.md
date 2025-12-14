@@ -6,6 +6,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 
 - [💰 Financiera](#-financiera)
 - [🚀 Productividad](#-productividad)
+- [🎬 Generador de Contenido](#-generador-de-contenido)
 - [📧 Comunicación](#-comunicacion)
 - [📝 Diagramación](#-diagramacion)
 - [🎮 Motores Gráficos para el Navegador](#-motores-graficos-para-el-navegador)
@@ -33,6 +34,10 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 
 - [Luma](https://lu.ma/) - Plataforma moderna de gestión de eventos que permite crear páginas de eventos atractivas, vender tickets, gestionar registros y automatizar comunicaciones vía email, SMS y WhatsApp. Incluye integración con Zoom/Google Meet, check-in de invitados, análisis de eventos y funciones avanzadas como token gating y pagos en crypto. Es especialmente útil para organizar desde pequeñas reuniones hasta grandes conferencias, con plan gratuito para eventos ilimitados y opciones premium para funcionalidades avanzadas.
 - [Ray.so](https://www.ray.so/) - Herramienta online que transforma fragmentos de código en imágenes visualmente atractivas perfectas para compartir en redes sociales, blogs, presentaciones y documentación. Ofrece temas personalizables (claro/oscuro), múltiples esquemas de colores para resaltado de sintaxis, detección automática de lenguaje de programación, opciones para mostrar/ocultar números de línea y ajustes de padding. Es especialmente útil para desarrolladores que comparten código en Twitter, LinkedIn o comunidades técnicas, crear tutoriales visualmente atractivos, y añadir ejemplos de código profesionales en artículos o presentaciones. Incluye integración con VS Code y otras herramientas de desarrollo.
+
+## 🎬 Generador de Contenido
+
+- [AutoAE](https://autoae.online/) - Plataforma diseñada para crear reels para redes sociales de manera automatizada. Es especialmente útil para creadores de contenido, marketers digitales y administradores de redes sociales que necesitan producir contenido visual atractivo de forma rápida y eficiente para plataformas como Instagram, TikTok y Facebook, optimizando el proceso de creación de videos cortos sin necesidad de conocimientos avanzados de edición.
 
 ## 📧 Comunicación
 
