@@ -11,6 +11,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [📝 Diagramming](#-diagramming)
 - [🎮 Browser Graphics Engines](#-browser-graphics-engines)
 - [🤖 Automation](#-automation)
+- [🤖 AI Agents](#-ai-agents)
 - [🖥️ Infrastructure](#-infrastructure)
 - [🔧 API Testing Tools](#-api-testing-tools)
 - [👥 Communities](#-communities)
@@ -62,6 +63,10 @@ This is a list of personal recommendations for using certain tools in daily life
 - [n8n](https://n8n.io/) - Open-source workflow automation platform that allows connecting services and creating integrations through a visual interface. It's useful for automating processes and synchronizing data without the need to write intensive code.
 - [Apache Airflow](https://airflow.apache.org/) - Open-source platform for scheduling, monitoring, and managing workflows as directed acyclic graphs (DAGs). It's useful for orchestrating data pipelines and large-scale periodic tasks.
 - [Spring Batch](https://spring.io/projects/spring-batch) - Batch processing framework for Java within the Spring ecosystem that facilitates creating robust and transactional jobs. It's useful for processing large volumes of data reliably.
+
+## 🤖 AI Agents
+
+- [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) - Open-source multi-agent framework for AI-driven software development. Implements the "Agent-as-Code" paradigm with 21+ specialized agents (Product Manager, Architect, Developer, QA, etc.) and 34+ guided workflows covering the entire development lifecycle (analysis, planning, implementation, QA). Integrates with popular tools like Claude, Cursor, and VS Code, automatically adjusting process complexity based on project size. It's especially useful for individual developers seeking to improve code quality with structured planning, teams wanting to implement AI-enhanced agile development best practices, and organizations needing systematic delivery pipelines with preserved context across project phases.
 
 ## 🖥️ Infrastructure
 
