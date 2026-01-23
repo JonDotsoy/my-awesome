@@ -14,6 +14,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [🤖 Agentes IA](#-agentes-ia)
 - [🖥️ Infraestrutura](#-infraestrutura)
 - [🔧 Ferramentas de Teste de API](#-ferramentas-de-teste-de-api)
+- [🧪 Automação de Navegadores e Testing](#-automacao-de-navegadores-e-testing)
 - [👥 Comunidades](#-comunidades)
 - [📰 Notícias](#-noticias)
 - [📚 Recursos de Conhecimento](#-recursos-de-conhecimento)
@@ -59,7 +60,6 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 
 ## 🤖 Automação
 
-- [Stagehand](https://www.stagehand.dev/) - Framework de código aberto para automação de navegadores projetado especificamente para desenvolvedores, equipes de produto e agentes impulsionados por IA (LLM). Permite escrever tarefas de automação usando tanto código como linguagem natural, combinando a flexibilidade da IA com o controle preciso de Playwright ou Puppeteer. Inclui primitivas componíveis como `act()` (executar ações), `extract()` (extrair dados estruturados), `observe()` (descobrir elementos) e `agent()` (automatizar fluxos completos). É especialmente útil para testes automatizados de UI mais robustos e menos frágeis que suítes tradicionais, web scraping que se adapta a mudanças de UI, automação de processos web (RPA), e para potencializar agentes de IA que precisam interagir com sites dinâmicos de maneira confiável, reduzindo significativamente a manutenção típica de scripts baseados em seletores.
 - [Make.com](https://www.make.com/) - Plataforma de automação visual com uma grande quantidade de integrações que permite conectar aplicações e automatizar fluxos de trabalho de maneira intuitiva. É mais simples de entender que n8n, mostra exatamente os créditos utilizados em cada execução e é ideal para usuários que buscam uma experiência mais amigável na automação de processos.
 - [n8n](https://n8n.io/) - Plataforma de automação de fluxos de trabalho de código aberto que permite conectar serviços e criar integrações mediante uma interface visual. É útil para automatizar processos e sincronizar dados sem necessidade de escrever código intensivo.
 - [Apache Airflow](https://airflow.apache.org/) - Plataforma de código aberto para programar, monitorar e gerenciar fluxos de trabalho como grafos acíclicos dirigidos (DAGs). É útil para orquestrar pipelines de dados e tarefas periódicas em grande escala.
@@ -83,6 +83,11 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 
 - [HTTPie](https://httpie.io/) - Cliente HTTP moderno e amigável que simplifica a interação com APIs e serviços web. Disponível como ferramenta de linha de comando e aplicação de desktop/web, oferece sintaxe intuitiva, saída formatada com cores, suporte nativo para JSON, autenticação integrada (OAuth, JWT, Basic Auth, API keys) e sessões persistentes. É especialmente útil para desenvolvedores que buscam uma alternativa mais simples e gratuita a outras ferramentas de teste de API, com uma interface limpa que melhora a produtividade ao depurar e testar endpoints.
 - [Postman](https://www.postman.com/) - Plataforma integral para desenvolvimento, teste, documentação e colaboração de APIs. Oferece um cliente API completo com suporte para múltiplos métodos HTTP, gestão de ambientes, coleções organizadas, testes automatizados com scripts JavaScript, servidores mock, geração automática de documentação e espaços de trabalho colaborativos. É especialmente útil para equipes que precisam de uma solução robusta para todo o ciclo de vida de APIs, desde o design até o monitoramento, com integrações para CI/CD e ferramentas de colaboração.
+
+## 🧪 Automação de Navegadores e Testing
+
+- [Playwright](https://playwright.dev/) - Framework de código aberto desenvolvido pela Microsoft para automação de navegadores e testing end-to-end. Suporta Chromium, Firefox e WebKit com uma API unificada, permitindo testes cross-browser confiáveis. Inclui espera automática de elementos, execução paralela, emulação de dispositivos móveis, interceptação de rede, captura de screenshots e vídeos, e ferramentas avançadas como o gerador de código (codegen) e o trace viewer para debugging. Disponível para JavaScript/TypeScript, Python, C# e Java. É especialmente útil para testing automatizado de aplicações web modernas, testes de regressão visual, automação de processos web, e validação cross-browser, reduzindo significativamente testes flaky graças ao seu sistema de auto-wait e manejo robusto de eventos.
+- [Stagehand](https://www.stagehand.dev/) - Framework de código aberto para automação de navegadores projetado especificamente para desenvolvedores, equipes de produto e agentes impulsionados por IA (LLM). Permite escrever tarefas de automação usando tanto código como linguagem natural, combinando a flexibilidade da IA com o controle preciso de Playwright ou Puppeteer. Inclui primitivas componíveis como `act()` (executar ações), `extract()` (extrair dados estruturados), `observe()` (descobrir elementos) e `agent()` (automatizar fluxos completos). É especialmente útil para testes automatizados de UI mais robustos e menos frágeis que suítes tradicionais, web scraping que se adapta a mudanças de UI, automação de processos web (RPA), e para potencializar agentes de IA que precisam interagir com sites dinâmicos de maneira confiável, reduzindo significativamente a manutenção típica de scripts baseados em seletores.
 
 ## 👥 Comunidades
 

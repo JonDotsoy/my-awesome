@@ -14,6 +14,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [🤖 AI Agents](#-ai-agents)
 - [🖥️ Infrastructure](#-infrastructure)
 - [🔧 API Testing Tools](#-api-testing-tools)
+- [🧪 Browser Automation and Testing](#-browser-automation-and-testing)
 - [👥 Communities](#-communities)
 - [📰 News](#-news)
 - [📚 Knowledge Resources](#-knowledge-resources)
@@ -59,7 +60,6 @@ This is a list of personal recommendations for using certain tools in daily life
 
 ## 🤖 Automation
 
-- [Stagehand](https://www.stagehand.dev/) - Open-source browser automation framework specifically designed for developers, product teams, and AI-powered (LLM) agents. Allows writing automation tasks using both code and natural language, combining AI flexibility with the precise control of Playwright or Puppeteer. Includes composable primitives like `act()` (perform actions), `extract()` (extract structured data), `observe()` (discover elements), and `agent()` (automate complete workflows). It's especially useful for automated UI testing that's more robust and less brittle than traditional test suites, web scraping that adapts to UI changes, robotic process automation (RPA), and powering AI agents that need to reliably interact with dynamic websites, significantly reducing the typical maintenance burden of selector-based scripts.
 - [Make.com](https://www.make.com/) - Visual automation platform with a large number of integrations that allows connecting applications and automating workflows intuitively. It's simpler to understand than n8n, shows exactly the credits used in each execution, and is ideal for users looking for a more user-friendly experience in process automation.
 - [n8n](https://n8n.io/) - Open-source workflow automation platform that allows connecting services and creating integrations through a visual interface. It's useful for automating processes and synchronizing data without the need to write intensive code.
 - [Apache Airflow](https://airflow.apache.org/) - Open-source platform for scheduling, monitoring, and managing workflows as directed acyclic graphs (DAGs). It's useful for orchestrating data pipelines and large-scale periodic tasks.
@@ -83,6 +83,11 @@ This is a list of personal recommendations for using certain tools in daily life
 
 - [HTTPie](https://httpie.io/) - Modern, user-friendly HTTP client that simplifies interaction with APIs and web services. Available as a command-line tool and desktop/web application, it offers intuitive syntax, colorized formatted output, native JSON support, built-in authentication (OAuth, JWT, Basic Auth, API keys), and persistent sessions. It's especially useful for developers looking for a simpler and free alternative to other API testing tools, with a clean interface that improves productivity when debugging and testing endpoints.
 - [Postman](https://www.postman.com/) - Comprehensive platform for API development, testing, documentation, and collaboration. Offers a complete API client with support for multiple HTTP methods, environment management, organized collections, automated testing with JavaScript scripts, mock servers, automatic documentation generation, and collaborative workspaces. It's especially useful for teams that need a robust solution for the entire API lifecycle, from design to monitoring, with integrations for CI/CD and collaboration tools.
+
+## 🧪 Browser Automation and Testing
+
+- [Playwright](https://playwright.dev/) - Open-source browser automation framework developed by Microsoft for end-to-end testing and browser automation. Supports Chromium, Firefox, and WebKit with a unified API, enabling reliable cross-browser testing. Includes automatic element waiting, parallel execution, mobile device emulation, network interception, screenshot and video capture, and advanced tools like code generator (codegen) and trace viewer for debugging. Available for JavaScript/TypeScript, Python, C#, and Java. It's especially useful for automated testing of modern web applications, visual regression testing, web process automation, and cross-browser validation, significantly reducing flaky tests thanks to its auto-wait system and robust event handling.
+- [Stagehand](https://www.stagehand.dev/) - Open-source browser automation framework specifically designed for developers, product teams, and AI-powered (LLM) agents. Allows writing automation tasks using both code and natural language, combining AI flexibility with the precise control of Playwright or Puppeteer. Includes composable primitives like `act()` (perform actions), `extract()` (extract structured data), `observe()` (discover elements), and `agent()` (automate complete workflows). It's especially useful for automated UI testing that's more robust and less brittle than traditional test suites, web scraping that adapts to UI changes, robotic process automation (RPA), and powering AI agents that need to reliably interact with dynamic websites, significantly reducing the typical maintenance burden of selector-based scripts.
 
 ## 👥 Communities
 
