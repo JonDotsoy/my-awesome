@@ -6,6 +6,8 @@ This document has instructions for agents that will help maintain and update the
 
 "my awesome" es una lista curada de recomendaciones personales de herramientas útiles para el día a día o instituciones específicas. Las herramientas se organizan por categorías para facilitar su búsqueda y uso.
 
+**Este es un proyecto en crecimiento**: Se pueden agregar nuevas categorías y herramientas en cualquier momento según las necesidades y descubrimientos del usuario.
+
 ## Estructura de los Archivos README
 
 El proyecto mantiene **tres archivos README en diferentes idiomas**:
@@ -32,7 +34,9 @@ Cada herramienta debe seguir este formato:
 
 ### Emojis Temáticos
 
-Cada categoría debe tener un emoji que represente visualmente su contenido. Al crear nuevas categorías, elegir un emoji apropiado que facilite la identificación visual:
+Cada categoría debe tener un emoji que represente visualmente su contenido. Al crear nuevas categorías, elegir un emoji apropiado que facilite la identificación visual.
+
+**Ejemplos de emojis usados actualmente:**
 
 - 💰 para finanzas
 - 🚀 para productividad
@@ -54,28 +58,36 @@ Cada categoría debe tener un emoji que represente visualmente su contenido. Al 
 - 📦 para repositorios/paquetes
 - 🔗 para enlaces/relacionados
 
+**Para nuevas categorías**: Elige un emoji que sea intuitivo y represente claramente el tema. Puedes usar emojis que no estén en la lista anterior si son más apropiados para la nueva categoría.
+
 ### Categorías Existentes
 
-1. **💰 Financiera**: Herramientas relacionadas con finanzas, pagos, transferencias, división de gastos, inversiones, etc.
-2. **🚀 Productividad**: Herramientas para mejorar la eficiencia y gestión de tareas
-3. **🎬 Generador de Contenido**: Plataformas para crear contenido multimedia
-4. **📧 Comunicación**: Servicios de email, mensajería y comunicación
-5. **📝 Diagramación**: Herramientas para crear diagramas, gráficos y visualizaciones
-6. **🎮 Motores Gráficos para el Navegador**: Bibliotecas para gráficos 3D y WebGL/WebGPU
-7. **🤖 Automatización**: Plataformas para automatizar flujos de trabajo y procesos
-8. **🤖 IA Agents**: Frameworks y herramientas para agentes de IA y desarrollo asistido
-9. **🖥️ Infraestructura**: Servidores web, proxies, plataformas serverless
-10. **🔧 Herramientas de Prueba de API**: Clientes HTTP y herramientas para testing de APIs
-11. **🧪 Automatización de Navegadores y Testing**: Frameworks para testing E2E y automatización web
-12. **👥 Comunidades**: Grupos y comunidades tecnológicas
-13. **📰 Noticias**: Plataformas de noticias tecnológicas y actualizaciones
-14. **📚 Recursos de Conocimiento**: Sitios de inspiración, aprendizaje y documentación
-15. **🧩 Bibliotecas de Componentes UI**: Colecciones de componentes para interfaces de usuario
-16. **🌐 Aprendizaje de Idiomas**: Recursos para aprender otros idiomas
-17. **📖 Lectura**: Plataformas para gestionar y descubrir libros
-18. **💼 Empleo**: Portales de búsqueda de trabajo y transparencia salarial
-19. **📦 Repositorios de Código**: Plataformas de alojamiento de código fuente
-20. **🔗 Relacionado**: Listas curadas y proyectos relacionados
+El proyecto organiza las herramientas en múltiples categorías temáticas. **Esta lista puede crecer con el tiempo** a medida que se agreguen nuevas herramientas. Para ver la lista actualizada de todas las categorías, consulta la sección "Contenido" en cualquiera de los archivos README.
+
+Algunas categorías incluyen (pero no se limitan a):
+
+- **💰 Financiera**: Herramientas relacionadas con finanzas, pagos, transferencias, división de gastos, inversiones
+- **🚀 Productividad**: Herramientas para mejorar la eficiencia y gestión de tareas
+- **🎬 Generador de Contenido**: Plataformas para crear contenido multimedia
+- **📧 Comunicación**: Servicios de email, mensajería y comunicación
+- **📝 Diagramación**: Herramientas para crear diagramas, gráficos y visualizaciones
+- **🎮 Motores Gráficos para el Navegador**: Bibliotecas para gráficos 3D y WebGL/WebGPU
+- **🤖 Automatización**: Plataformas para automatizar flujos de trabajo y procesos
+- **🤖 IA Agents**: Frameworks y herramientas para agentes de IA y desarrollo asistido
+- **🖥️ Infraestructura**: Servidores web, proxies, plataformas serverless
+- **🔧 Herramientas de Prueba de API**: Clientes HTTP y herramientas para testing de APIs
+- **🧪 Automatización de Navegadores y Testing**: Frameworks para testing E2E y automatización web
+- **👥 Comunidades**: Grupos y comunidades tecnológicas
+- **📰 Noticias**: Plataformas de noticias tecnológicas y actualizaciones
+- **📚 Recursos de Conocimiento**: Sitios de inspiración, aprendizaje y documentación
+- **🧩 Bibliotecas de Componentes UI**: Colecciones de componentes para interfaces de usuario
+- **🌐 Aprendizaje de Idiomas**: Recursos para aprender otros idiomas
+- **📖 Lectura**: Plataformas para gestionar y descubrir libros
+- **💼 Empleo**: Portales de búsqueda de trabajo y transparencia salarial
+- **📦 Repositorios de Código**: Plataformas de alojamiento de código fuente
+- **🔗 Relacionado**: Listas curadas y proyectos relacionados
+
+**Nota**: Al agregar una nueva categoría, asegúrate de actualizarla en los tres archivos README y en sus respectivas secciones de "Contenido".
 
 ## Proceso para Agregar Nuevas Herramientas
 
@@ -88,8 +100,11 @@ Cuando se solicite agregar una nueva herramienta:
 
 2. **Categorización**: Determinar la categoría apropiada para la herramienta:
    - Si la categoría ya existe, agregar la herramienta a esa sección
-   - Si no existe una categoría apropiada, crear una nueva sección con su emoji temático correspondiente
-   - Actualizar la sección "Contenido" con el enlace a la nueva categoría
+   - Si no existe una categoría apropiada, **crear una nueva sección**:
+     - Elegir un emoji temático apropiado (ver sección "Emojis Temáticos")
+     - Crear la nueva sección en los tres archivos README
+     - Actualizar la sección "Contenido" en los tres archivos con el enlace a la nueva categoría
+     - Mantener el orden lógico de las categorías
 
 3. **Formato de Descripción**: La descripción debe incluir:
    - Qué hace la herramienta
