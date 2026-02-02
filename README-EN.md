@@ -39,6 +39,7 @@ This is a list of personal recommendations for using certain tools in daily life
 
 ## 🎬 Content Generator
 
+- [Remotion](https://www.remotion.dev/) - React library for creating videos programmatically using code. Enables building animations and videos with TypeScript/JavaScript, rendering them in any resolution, and exporting as MP4 or serving as streaming. Includes real-time visual editor, pre-built animation components, and support for dynamic assets. It's especially useful for generating automated videos at scale (personalized thumbnails, social media videos, marketing content), creating animated data visualizations, developing complex motion graphics with full control over every frame, and automating video content production without traditional editing software like After Effects or Premiere.
 - [AutoAE](https://autoae.online/) - Platform designed to create reels for social media in an automated way. It's especially useful for content creators, digital marketers, and social media managers who need to produce attractive visual content quickly and efficiently for platforms like Instagram, TikTok, and Facebook, optimizing the short video creation process without requiring advanced editing knowledge.
 
 ## 📧 Communication
