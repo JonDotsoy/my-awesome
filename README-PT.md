@@ -39,6 +39,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 
 ## 🎬 Gerador de Conteúdo
 
+- [Remotion](https://www.remotion.dev/) - Biblioteca React para criar vídeos programaticamente usando código. Permite construir animações e vídeos com TypeScript/JavaScript, renderizá-los em qualquer resolução, e exportá-los como MP4 ou servir como streaming. Inclui editor visual em tempo real, componentes pré-definidos para animações, e suporte para assets dinâmicos. É especialmente útil para gerar vídeos automatizados em escala (miniaturas personalizadas, vídeos de redes sociais, conteúdo de marketing), criar visualizações de dados animadas, desenvolver motion graphics complexos com controle total sobre cada frame, e automatizar a produção de conteúdo de vídeo sem necessidade de software de edição tradicional como After Effects ou Premiere.
 - [AutoAE](https://autoae.online/) - Plataforma projetada para criar reels para redes sociais de maneira automatizada. É especialmente útil para criadores de conteúdo, profissionais de marketing digital e administradores de redes sociais que precisam produzir conteúdo visual atraente de forma rápida e eficiente para plataformas como Instagram, TikTok e Facebook, otimizando o processo de criação de vídeos curtos sem necessidade de conhecimentos avançados de edição.
 
 ## 📧 Comunicação
