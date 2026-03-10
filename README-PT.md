@@ -150,3 +150,4 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 ## 🔗 Relacionado
 
 - [LM Awesome](https://github.com/JonDotsoy/lm-awesome) - Uma coleção curada de links, repositórios e ferramentas para Modelos de Linguagem (LM). Inclui ferramentas de IA, modelos, prompts, sites comparativos e ferramentas MCP (Model Context Protocol). É especialmente útil para desenvolvedores que trabalham com inteligência artificial e precisam de referências rápidas às melhores ferramentas disponíveis no ecossistema de IA.
+- [skills](https://github.com/JonDotsoy/skills) - Uma coleção curada de skills de agentes de IA para automatizar documentação, relatórios de coaching e fluxos de trabalho técnicos. Inclui skills como Coaching Reporter, Runbook Generator, Runbook Executor e PR Creator, instaláveis via `npx skills` ou `bunx skills`. É especialmente útil para equipes que desejam ampliar as capacidades de seus agentes de IA com tarefas especializadas e reutilizáveis.

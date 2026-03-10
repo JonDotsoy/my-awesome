@@ -150,3 +150,4 @@ This is a list of personal recommendations for using certain tools in daily life
 ## 🔗 Related
 
 - [LM Awesome](https://github.com/JonDotsoy/lm-awesome) - A curated collection of links, repositories, and tools for Language Models (LM). It includes AI tools, models, prompts, comparison sites, and MCP (Model Context Protocol) tools. It's especially useful for developers working with artificial intelligence who need quick references to the best available tools in the AI ecosystem.
+- [skills](https://github.com/JonDotsoy/skills) - A curated collection of AI agent skills for automating documentation, coaching reports, and technical workflows. Includes skills like Coaching Reporter, Runbook Generator, Runbook Executor, and PR Creator, installable via `npx skills` or `bunx skills`. Especially useful for teams that want to extend their AI agents' capabilities with specialized and reusable tasks.
