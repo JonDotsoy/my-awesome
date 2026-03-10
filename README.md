@@ -19,6 +19,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [📰 Noticias](#-noticias)
 - [📚 Recursos de Conocimiento](#-recursos-de-conocimiento)
 - [🧩 Bibliotecas de Componentes UI](#-bibliotecas-de-componentes-ui)
+- [⚛️ Librerías React](#️-librerias-react)
 - [🌐 Aprendizaje de Idiomas](#-aprendizaje-de-idiomas)
 - [📖 Lectura](#-lectura)
 - [💼 Empleo](#-empleo)
@@ -120,6 +121,10 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [ReUI](https://reui.io/) - Biblioteca de componentes React de código abierto que ofrece componentes listos para usar, estilo copy-and-paste, construidos con Tailwind CSS, Radix UI y TypeScript. Presenta componentes sin dependencias, temas globales mediante variables CSS y plantillas de aplicaciones full-stack con integración Next.js. Es especialmente útil para desarrolladores que buscan prototipado rápido, componentes de UI listos para producción con personalización flexible, y una alternativa moderna a las bibliotecas de componentes tradicionales sin bloqueo de proveedor.
 - [Blocks](https://blocks.so/) - Biblioteca de componentes visuales de código abierto para shadcn/ui construida con React, TypeScript y Tailwind CSS. Ofrece una colección curada de componentes listos para copiar y pegar, diseñados para crear interfaces modernas y atractivas. Es especialmente útil para desarrolladores que utilizan shadcn/ui y buscan extender su biblioteca de componentes con elementos visuales adicionales y personalizables, acelerando el desarrollo de aplicaciones web con componentes bien diseñados y probados en producción.
 - [mapcn](https://mapcn.vercel.app/) - Biblioteca de componentes de mapas interactivos de código abierto para shadcn/ui, construida con React, TypeScript, Tailwind CSS y Leaflet. Ofrece componentes de mapas listos para copiar y pegar que se integran perfectamente con shadcn/ui, con soporte para temas claro/oscuro, marcadores, rutas, popups, controles personalizables y accesibilidad WAI-ARIA. Instalable con un solo comando CLI y sin configuración inicial compleja. Es especialmente útil para desarrolladores que necesitan agregar mapas interactivos a dashboards, localizadores de tiendas, aplicaciones de visualización de datos geográficos o cualquier proyecto React con shadcn/ui que requiera funcionalidades de mapeo con una apariencia nativa y moderna.
+
+## ⚛️ Librerías React
+
+- [Zustand](https://github.com/pmndrs/zustand) - Librería minimalista de gestión de estado global para React basada en hooks. Permite crear stores con muy poco código, sin necesidad de providers ni reducers, con re-renders selectivos para un rendimiento óptimo. Es especialmente útil para manejar estado compartido entre componentes sin el boilerplate de Redux, con soporte de TypeScript de primera clase, middleware para persistencia y compatibilidad con Redux DevTools.
 
 ## 🌐 Aprendizaje de Idiomas
 

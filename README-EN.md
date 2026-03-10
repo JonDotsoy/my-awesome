@@ -19,6 +19,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [📰 News](#-news)
 - [📚 Knowledge Resources](#-knowledge-resources)
 - [🧩 UI Component Libraries](#-ui-component-libraries)
+- [⚛️ React Libraries](#️-react-libraries)
 - [🌐 Language Learning](#-language-learning)
 - [📖 Reading](#-reading)
 - [💼 Employment](#-employment)
@@ -120,6 +121,10 @@ This is a list of personal recommendations for using certain tools in daily life
 - [ReUI](https://reui.io/) - Open-source React component library offering ready-to-use, copy-and-paste components built with Tailwind CSS, Radix UI, and TypeScript. Features zero-dependency components, global theming via CSS variables, and full-stack app templates with Next.js integration. It's especially useful for developers seeking fast prototyping, production-ready UI components with flexible customization, and a modern alternative to traditional component libraries without vendor lock-in.
 - [Blocks](https://blocks.so/) - Open-source visual component library for shadcn/ui built with React, TypeScript, and Tailwind CSS. Offers a curated collection of ready-to-copy-and-paste components designed to create modern and attractive interfaces. It's especially useful for developers using shadcn/ui who want to extend their component library with additional customizable visual elements, accelerating web application development with well-designed, production-tested components.
 - [mapcn](https://mapcn.vercel.app/) - Open-source interactive map component library for shadcn/ui, built with React, TypeScript, Tailwind CSS, and Leaflet. Offers ready-to-copy-and-paste map components that seamlessly integrate with shadcn/ui, with support for light/dark themes, markers, routes, popups, customizable controls, and WAI-ARIA accessibility. Installable with a single CLI command and minimal initial configuration. It's especially useful for developers who need to add interactive maps to dashboards, store locators, geographic data visualization applications, or any React project with shadcn/ui that requires mapping functionalities with a native and modern appearance.
+
+## ⚛️ React Libraries
+
+- [Zustand](https://github.com/pmndrs/zustand) - Minimalist global state management library for React based on hooks. It lets you create stores with very little code, no providers or reducers needed, with selective re-renders for optimal performance. Especially useful for sharing state across components without Redux boilerplate, with first-class TypeScript support, persistence middleware, and Redux DevTools compatibility.
 
 ## 🌐 Language Learning
 
