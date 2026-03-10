@@ -125,6 +125,7 @@ This is a list of personal recommendations for using certain tools in daily life
 ## ⚛️ React Libraries
 
 - [Zustand](https://github.com/pmndrs/zustand) - Minimalist global state management library for React based on hooks. It lets you create stores with very little code, no providers or reducers needed, with selective re-renders for optimal performance. Especially useful for sharing state across components without Redux boilerplate, with first-class TypeScript support, persistence middleware, and Redux DevTools compatibility.
+- [NanoStores](https://github.com/nanostores/nanostores) - Tiny (~286 bytes) state manager for React, Vue, Svelte, Preact, and vanilla JavaScript. Uses independent atomic stores to share state across components without providers or boilerplate. Especially useful for projects prioritizing performance and bundle size, with first-class TypeScript support and extensions for localStorage persistence, SPA routing, and internationalization.
 
 ## 🌐 Language Learning
 

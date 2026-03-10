@@ -125,6 +125,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 ## ⚛️ Librerías React
 
 - [Zustand](https://github.com/pmndrs/zustand) - Librería minimalista de gestión de estado global para React basada en hooks. Permite crear stores con muy poco código, sin necesidad de providers ni reducers, con re-renders selectivos para un rendimiento óptimo. Es especialmente útil para manejar estado compartido entre componentes sin el boilerplate de Redux, con soporte de TypeScript de primera clase, middleware para persistencia y compatibilidad con Redux DevTools.
+- [NanoStores](https://github.com/nanostores/nanostores) - Gestor de estado minimalista (~286 bytes) para React, Vue, Svelte, Preact y JavaScript vanilla. Utiliza stores atómicos independientes que permiten compartir estado entre componentes sin necesidad de providers ni boilerplate. Es especialmente útil para proyectos que priorizan rendimiento y tamaño del bundle, con soporte de TypeScript de primera clase y extensiones para persistencia en localStorage, routing SPA e internacionalización.
 
 ## 🌐 Aprendizaje de Idiomas
 
