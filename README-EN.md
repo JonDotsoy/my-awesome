@@ -13,6 +13,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [🤖 Automation](#-automation)
 - [🤖 AI Agents](#-ai-agents)
 - [🖥️ Infrastructure](#-infrastructure)
+- [📊 Analytics](#-analytics)
 - [🔧 API Testing Tools](#-api-testing-tools)
 - [🧪 Browser Automation and Testing](#-browser-automation-and-testing)
 - [👥 Communities](#-communities)
@@ -82,6 +83,10 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Cloudflare Workers](https://workers.cloudflare.com/) - Serverless platform that allows running JavaScript code at Cloudflare's edge, globally distributed to minimize latency. It's especially useful for quickly publishing web pages, including Astro.build sites, creating serverless APIs, implementing authentication and authorization functions, and developing complete web applications that run close to end users with high availability and optimized performance.
 - [IP Guide](https://ip.guide/) - Free web service for looking up detailed information about IP addresses, networks, and Autonomous System Numbers (ASN). Provides geolocation lookup, ISP, hosting company, and associated network details, with data updated nightly from authoritative sources. Includes a free API and bulk data download options. It's especially useful for developers who need to integrate IP lookups into their applications, network administrators for troubleshooting and planning, cybersecurity researchers for tracking suspicious activity or abuse, and web traffic analysis to understand visitor origin and detect potential threats.
 - [Portless](https://github.com/vercel-labs/portless) - Vercel Labs tool that replaces port numbers with stable, named `.localhost` URLs. Instead of accessing your dev server at `http://localhost:3000`, you can use memorable URLs like `http://myapp.localhost`. It acts as a reverse proxy that automatically resolves port conflicts by assigning free ports and routing traffic based on the hostname. It's especially useful for developers working with multiple local services or monorepos, as it simplifies access, prevents port conflicts, and maintains stable URLs between runs.
+
+## 📊 Analytics
+
+- [Amplitude](https://amplitude.com/) - AI-powered digital analytics platform that helps product teams understand user behavior, measure feature impact, and make data-driven decisions. Offers event analysis, conversion funnels, retention analysis, behavioral cohorts, session replay, A/B testing, and real-time dashboards. It's especially useful for product, marketing, and data teams that need full visibility into the user journey, experiment with new features, and optimize retention and engagement across web and mobile applications.
 
 ## 🔧 API Testing Tools
 

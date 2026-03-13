@@ -13,6 +13,7 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [🤖 Automatización](#-automatizacion)
 - [🤖 IA Agents](#-ia-agents)
 - [🖥️ Infraestructura](#-infraestructura)
+- [📊 Analítica](#-analitica)
 - [🔧 Herramientas de Prueba de API](#-herramientas-de-prueba-de-api)
 - [🧪 Automatización de Navegadores y Testing](#-automatizacion-de-navegadores-y-testing)
 - [👥 Comunidades](#-comunidades)
@@ -82,6 +83,10 @@ Este es una lista de recomendaciones personales para el uso de ciertas herramien
 - [Cloudflare Workers](https://workers.cloudflare.com/) - Plataforma serverless que permite ejecutar código JavaScript en el edge de Cloudflare, distribuido globalmente para minimizar la latencia. Es especialmente útil para publicar páginas web rápidamente, incluyendo sitios de Astro.build, crear APIs sin servidor, implementar funciones de autenticación y autorización, y desarrollar aplicaciones web completas que se ejecutan cerca de los usuarios finales con alta disponibilidad y rendimiento optimizado.
 - [IP Guide](https://ip.guide/) - Servicio web gratuito para consultar información detallada sobre direcciones IP, redes y números de sistema autónomo (ASN). Ofrece búsqueda de geolocalización, ISP, empresa de hosting y detalles de red asociados, con datos actualizados nocturnamente desde fuentes autorizadas. Incluye API gratuita y opciones de descarga masiva de datos. Es especialmente útil para desarrolladores que necesitan integrar consultas de IP en sus aplicaciones, administradores de red para diagnóstico y planificación, investigadores de ciberseguridad para rastrear actividad sospechosa o abuso, y análisis de tráfico web para comprender la procedencia de visitantes y detectar posibles amenazas.
 - [Portless](https://github.com/vercel-labs/portless) - Herramienta de Vercel Labs que reemplaza los números de puerto con URLs estables y con nombre en `.localhost`. En lugar de acceder a tu servidor de desarrollo con `http://localhost:3000`, puedes usar URLs memorables como `http://myapp.localhost`. Actúa como un proxy reverso que resuelve automáticamente los conflictos de puertos asignando puertos libres y enrutando el tráfico según el hostname. Es especialmente útil para desarrolladores que trabajan con múltiples servicios locales o monorepos, ya que simplifica el acceso, evita conflictos de puertos y mantiene URLs estables entre ejecuciones.
+
+## 📊 Analítica
+
+- [Amplitude](https://amplitude.com/) - Plataforma de analítica digital impulsada por IA que permite a los equipos de producto comprender el comportamiento de sus usuarios, medir el impacto de características y tomar decisiones basadas en datos. Ofrece análisis de eventos, embudos de conversión, análisis de retención, cohortes de comportamiento, replay de sesiones, A/B testing y dashboards en tiempo real. Es especialmente útil para equipos de producto, marketing y datos que necesitan visibilidad completa del journey del usuario, experimentar con nuevas funcionalidades y optimizar la retención y el engagement en aplicaciones web y móviles.
 
 ## 🔧 Herramientas de Prueba de API
 

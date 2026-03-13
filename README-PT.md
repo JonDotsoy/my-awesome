@@ -13,6 +13,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [🤖 Automação](#-automacao)
 - [🤖 Agentes IA](#-agentes-ia)
 - [🖥️ Infraestrutura](#-infraestrutura)
+- [📊 Análise](#-analise)
 - [🔧 Ferramentas de Teste de API](#-ferramentas-de-teste-de-api)
 - [🧪 Automação de Navegadores e Testing](#-automacao-de-navegadores-e-testing)
 - [👥 Comunidades](#-comunidades)
@@ -82,6 +83,10 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [Cloudflare Workers](https://workers.cloudflare.com/) - Plataforma serverless que permite executar código JavaScript no edge da Cloudflare, distribuído globalmente para minimizar a latência. É especialmente útil para publicar páginas web rapidamente, incluindo sites de Astro.build, criar APIs sem servidor, implementar funções de autenticação e autorização, e desenvolver aplicações web completas que se executam perto dos usuários finais com alta disponibilidade e desempenho otimizado.
 - [IP Guide](https://ip.guide/) - Serviço web gratuito para consultar informações detalhadas sobre endereços IP, redes e números de sistema autônomo (ASN). Oferece busca de geolocalização, ISP, empresa de hospedagem e detalhes de rede associados, com dados atualizados noturnamente de fontes autorizadas. Inclui API gratuita e opções de download massivo de dados. É especialmente útil para desenvolvedores que precisam integrar consultas de IP em suas aplicações, administradores de rede para diagnóstico e planejamento, pesquisadores de cibersegurança para rastrear atividade suspeita ou abuso, e análise de tráfego web para compreender a procedência de visitantes e detectar possíveis ameaças.
 - [Portless](https://github.com/vercel-labs/portless) - Ferramenta do Vercel Labs que substitui números de porta por URLs estáveis e nomeadas em `.localhost`. Em vez de acessar seu servidor de desenvolvimento em `http://localhost:3000`, você pode usar URLs memoráveis como `http://myapp.localhost`. Atua como um proxy reverso que resolve automaticamente conflitos de porta, atribuindo portas livres e roteando o tráfego com base no hostname. É especialmente útil para desenvolvedores que trabalham com múltiplos serviços locais ou monorepos, pois simplifica o acesso, evita conflitos de porta e mantém URLs estáveis entre execuções.
+
+## 📊 Análise
+
+- [Amplitude](https://amplitude.com/) - Plataforma de análise digital impulsionada por IA que ajuda equipes de produto a entender o comportamento dos usuários, medir o impacto de funcionalidades e tomar decisões baseadas em dados. Oferece análise de eventos, funis de conversão, análise de retenção, coortes comportamentais, replay de sessões, testes A/B e dashboards em tempo real. É especialmente útil para equipes de produto, marketing e dados que precisam de visibilidade completa da jornada do usuário, experimentar novas funcionalidades e otimizar retenção e engajamento em aplicações web e móveis.
 
 ## 🔧 Ferramentas de Teste de API
 
