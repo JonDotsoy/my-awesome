@@ -66,6 +66,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Stagehand](https://www.stagehand.dev/) - Browser automation framework combining code and natural language, designed for AI agents.
 - [HTTPie](https://httpie.io/) - Modern HTTP client with intuitive syntax and formatted output, a simple free alternative.
 - [Postman](https://www.postman.com/) - Comprehensive platform for API development, testing, documentation, and collaboration.
+- [Bruno](https://www.usebruno.com/) - Open-source, offline-first API client, an alternative to Postman with collections stored as text files.
 
 ## 🖥️ Infrastructure and Code
 
