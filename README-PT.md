@@ -1,5 +1,7 @@
 # my awesome
 
+[Español](README.md) | [English](README-EN.md) | **Português**
+
 Esta é uma lista de recomendações pessoais para o uso de certas ferramentas no dia a dia ou em instituições específicas. As ferramentas estão organizadas por categorias para facilitar sua busca e uso.
 
 ## Conteúdo

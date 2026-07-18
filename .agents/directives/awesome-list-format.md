@@ -9,9 +9,21 @@ Compliance is checked automatically by the linter: `node scripts/lint-awesome-li
 Each `README*.md` file must contain, in this order:
 
 1. **Title**: a single `# my awesome` H1 — identical and untranslated in every language file.
-2. **Intro paragraph**: one paragraph right after the title, translated per language.
-3. **Index section**: one `## ` heading (`Contenido` / `Contents` / `Conteúdo` / equivalent) followed only by bullet links, one per macro-category, in the same order the categories appear below, each pointing to `#<anchor>` of its category heading.
-4. **Categories**: one `## <emoji> <Name>` heading per macro-category, in the same order as the index, and nothing else at heading level (no `###`).
+2. **Language menu**: one line right after the title, listing every `README*.md` in the project in the same fixed order (`README.md` first, then the rest alphabetically) separated by ` | `. The file you're currently in is rendered as `**Label**` (bold, no link); every other file is a link `[Label](Filename.md)`. The label text for a given language is identical across all files (e.g. `English` is always `English`, never translated per viewing file) — only bold-vs-link changes between files. See "Language menu rules" below.
+3. **Intro paragraph**: one paragraph right after the language menu, translated per language.
+4. **Index section**: one `## ` heading (`Contenido` / `Contents` / `Conteúdo` / equivalent) followed only by bullet links, one per macro-category, in the same order the categories appear below, each pointing to `#<anchor>` of its category heading.
+5. **Categories**: one `## <emoji> <Name>` heading per macro-category, in the same order as the index, and nothing else at heading level (no `###`).
+
+## Language menu rules
+
+```markdown
+**Español** | [English](README-EN.md) | [Português](README-PT.md)
+```
+
+- One item per existing `README*.md` file, in the same order in every file: `README.md` first, then the others in alphabetical filename order.
+- Exactly one item is bold plain text (`**Label**`, no link) — the file you're currently reading. All other items are links pointing at the other files' exact filenames.
+- The set of labels and link targets must be identical across all files; only which one is bold changes.
+- When a new `README-<CODE>.md` is created, its entry must be added to the menu of every existing file (see `new-languages.md`).
 
 ## Category heading rules
 

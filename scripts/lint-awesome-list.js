@@ -27,10 +27,10 @@ function githubSlug(headingText) {
 }
 
 function findReadmeFiles() {
-  return fs
-    .readdirSync(ROOT)
-    .filter((f) => /^README(-[A-Z]{2}(-[A-Z]{2})?)?\.md$/.test(f))
-    .sort();
+  const files = fs.readdirSync(ROOT).filter((f) => /^README(-[A-Z]{2}(-[A-Z]{2})?)?\.md$/.test(f));
+  const main = files.includes("README.md") ? ["README.md"] : [];
+  const rest = files.filter((f) => f !== "README.md").sort();
+  return [...main, ...rest];
 }
 
 const ENTRY_RE = /^- \[(.+?)\]\((\S+)\) - (.+)$/;
@@ -38,6 +38,36 @@ const SUBGROUP_RE = /^\*\*(.+)\*\*$/;
 const HEADING2_RE = /^## (.+)$/;
 const HEADING1_RE = /^# (.+)$/;
 const INDEX_LINK_RE = /^- \[(.+?)\]\(#(.+?)\)$/;
+const MENU_BOLD_RE = /^\*\*(.+)\*\*$/;
+const MENU_LINK_RE = /^\[(.+?)\]\((.+?)\)$/;
+
+function parseMenuLine(file, trimmed, lineNo) {
+  const errors = [];
+  const items = trimmed.split("|").map((p) => p.trim());
+  const parsed = [];
+  let boldCount = 0;
+
+  for (const part of items) {
+    const boldMatch = part.match(MENU_BOLD_RE);
+    const linkMatch = part.match(MENU_LINK_RE);
+    if (boldMatch) {
+      boldCount++;
+      parsed.push({ label: boldMatch[1], bold: true, target: file });
+    } else if (linkMatch) {
+      parsed.push({ label: linkMatch[1], bold: false, target: linkMatch[2] });
+    } else {
+      errors.push(`${file}:${lineNo}: language menu item "${part}" must be "**Label**" or "[Label](File.md)"`);
+    }
+  }
+
+  if (boldCount !== 1) {
+    errors.push(
+      `${file}:${lineNo}: language menu must have exactly one bold (current-file) item, found ${boldCount}`
+    );
+  }
+
+  return { items: parsed, lineNo, errors };
+}
 
 function parseFile(file) {
   const content = fs.readFileSync(path.join(ROOT, file), "utf8");
@@ -45,10 +75,11 @@ function parseFile(file) {
 
   const errors = [];
   let title = null;
+  let menu = null; // {items:[{label, bold, target}], lineNo}
   let indexLinks = null; // [{text, anchor, lineNo}]
   const categories = []; // [{emoji, name, heading, anchor, lineNo, subgroups:[], entries:[]}]
 
-  let mode = "before-title"; // before-title | before-index | in-index | in-body
+  let mode = "before-title"; // before-title | before-menu | before-index | in-index | in-body
   let currentCategory = null;
   let currentBucket = null; // entries array currently being filled (category.entries or subgroup.entries)
 
@@ -61,11 +92,20 @@ function parseFile(file) {
       const m = trimmed.match(HEADING1_RE);
       if (m) {
         title = m[1];
-        mode = "before-index";
+        mode = "before-menu";
       } else {
         errors.push(`${file}:${lineNo}: expected the file to start with "# <title>", found "${trimmed}"`);
-        mode = "before-index";
+        mode = "before-menu";
       }
+      return;
+    }
+
+    if (mode === "before-menu") {
+      if (trimmed === "") return;
+      const result = parseMenuLine(file, trimmed, lineNo);
+      menu = { items: result.items, lineNo: result.lineNo };
+      errors.push(...result.errors);
+      mode = "before-index";
       return;
     }
 
@@ -187,7 +227,35 @@ function parseFile(file) {
     errors.push(`${file}: no index section found (expected a "## Contenido/Contents/..." section right after the intro)`);
   }
 
-  return { file, title, indexLinks, categories, errors };
+  if (!menu) {
+    errors.push(`${file}: no language menu found right after the title (expected "**Label** | [Label](File.md) | ...")`);
+  }
+
+  return { file, title, menu, indexLinks, categories, errors };
+}
+
+function checkMenuOrder(parsed, canonicalFiles) {
+  const errors = [];
+  if (!parsed.menu) return errors;
+
+  const targets = parsed.menu.items.map((i) => i.target);
+  const sameLength = targets.length === canonicalFiles.length;
+  const sameOrder = sameLength && targets.every((t, i) => t === canonicalFiles[i]);
+
+  if (!sameOrder) {
+    errors.push(
+      `${parsed.file}:${parsed.menu.lineNo}: language menu order is [${targets.join(", ")}], expected [${canonicalFiles.join(", ")}] (README.md first, then the rest alphabetically)`
+    );
+  }
+
+  const boldItem = parsed.menu.items.find((i) => i.bold);
+  if (boldItem && boldItem.target !== parsed.file) {
+    errors.push(
+      `${parsed.file}:${parsed.menu.lineNo}: the bold language menu item must be this file's own entry`
+    );
+  }
+
+  return errors;
 }
 
 function flattenUrls(parsed) {
@@ -207,10 +275,20 @@ function crossFileChecks(parsedFiles) {
 
   const base = parsedFiles[0];
   const baseUrls = flattenUrls(base);
+  const baseLabels = base.menu ? base.menu.items.map((i) => i.label) : null;
 
   for (const other of parsedFiles.slice(1)) {
     if (other.title !== base.title) {
       errors.push(`${other.file}: title "${other.title}" differs from ${base.file} title "${base.title}"`);
+    }
+
+    if (baseLabels && other.menu) {
+      const otherLabels = other.menu.items.map((i) => i.label);
+      if (otherLabels.length !== baseLabels.length || otherLabels.some((l, i) => l !== baseLabels[i])) {
+        errors.push(
+          `${other.file}:${other.menu.lineNo}: language menu labels [${otherLabels.join(", ")}] don't match ${base.file} labels [${baseLabels.join(", ")}]`
+        );
+      }
     }
 
     if (other.categories.length !== base.categories.length) {
@@ -277,7 +355,10 @@ function main() {
 
   const parsedFiles = files.map(parseFile);
   const allErrors = [];
-  for (const p of parsedFiles) allErrors.push(...p.errors);
+  for (const p of parsedFiles) {
+    allErrors.push(...p.errors);
+    allErrors.push(...checkMenuOrder(p, files));
+  }
   allErrors.push(...crossFileChecks(parsedFiles));
 
   if (allErrors.length > 0) {

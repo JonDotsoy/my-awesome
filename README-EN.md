@@ -1,5 +1,7 @@
 # my awesome
 
+[Español](README.md) | **English** | [Português](README-PT.md)
+
 This is a list of personal recommendations for using certain tools in daily life or specific institutions. The tools are organized by categories to facilitate their search and use.
 
 ## Contents
