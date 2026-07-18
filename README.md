@@ -66,6 +66,7 @@ Esta es una lista de recomendaciones personales para el uso de ciertas herramien
 - [Stagehand](https://www.stagehand.dev/) - Framework de automatización de navegadores que combina código y lenguaje natural, pensado para agentes IA.
 - [HTTPie](https://httpie.io/) - Cliente HTTP moderno con sintaxis intuitiva y salida formateada, alternativa simple y gratuita.
 - [Postman](https://www.postman.com/) - Plataforma integral para desarrollo, testing, documentación y colaboración de APIs.
+- [Bruno](https://www.usebruno.com/) - Cliente de API open-source y offline-first, alternativa a Postman con colecciones almacenadas como archivos de texto.
 
 ## 🖥️ Infraestructura y Código
 
