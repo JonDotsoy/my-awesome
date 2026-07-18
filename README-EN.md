@@ -4,166 +4,122 @@ This is a list of personal recommendations for using certain tools in daily life
 
 ## Contents
 
-- [💰 Financial](#-financial)
-- [🚀 Productivity](#-productivity)
-- [🎬 Content Generator](#-content-generator)
-- [📧 Communication](#-communication)
-- [📝 Diagramming](#-diagramming)
-- [🎮 Browser Graphics Engines](#-browser-graphics-engines)
-- [🤖 Automation](#-automation)
-- [🤖 AI Agents](#-ai-agents)
-- [🏆 LLM Comparators](#-llm-comparators)
-- [🖥️ Infrastructure](#-infrastructure)
-- [📊 Analytics](#-analytics)
-- [🔧 API Testing Tools](#-api-testing-tools)
-- [🧪 Browser Automation and Testing](#-browser-automation-and-testing)
-- [👥 Communities](#-communities)
-- [📰 News](#-news)
-- [📚 Knowledge Resources](#-knowledge-resources)
-- [🧩 UI Component Libraries](#-ui-component-libraries)
-- [⚛️ React Libraries](#️-react-libraries)
-- [🌐 Language Learning](#-language-learning)
-- [📖 Reading](#-reading)
-- [💼 Employment](#-employment)
-- [📦 Code Repositories](#-code-repositories)
+- [🤖 AI and Automation](#-ai-and-automation)
+- [💻 Web Development](#-web-development)
+- [🖥️ Infrastructure and Code](#-infrastructure-and-code)
+- [💰 Finance](#-finance)
+- [🚀 Productivity and Communication](#-productivity-and-communication)
+- [🎬 Content and Design](#-content-and-design)
+- [📚 Learning and Career](#-learning-and-career)
 - [🔗 Related](#-related)
 
-## 💰 Financial
+## 🤖 AI and Automation
 
-- [Splitwise](https://www.splitwise.com/) - A useful application for splitting expenses between people using phone numbers to contact them. It's especially useful for splitting expenses on restaurant outings or group activities.
-- [fintoc.me](https://fintoc.me/) - This tool is perfect for sharing bank transfer information without having to send it indirectly. In Chile, making a transfer to another person's bank account requires too much information, and fintoc.me simplifies it through a simple URL that groups all necessary information, allowing users to quickly copy and paste transfer data.
-- [Fintual](https://fintual.cl/) - Chilean automated investment platform that allows investing in mutual funds, stocks, reserves, and specific goals without minimum amounts. Regulated by the CMF (Financial Market Commission) and with more than 170,000 users. It's especially useful for people who want to start investing easily, with personalized risk profiles and technology that automates portfolio management.
-- [Racional](https://racional.cl/) - Chilean investment platform with a social focus that allows investing from $5,000 in US stocks, ETFs, and thematic portfolios. It includes a community where you can discover other users' investments, follow specific topics like sustainability or crypto, and have your own investment account with brokers regulated by the CMF and SEC. It's especially useful for people who want to start investing with small amounts and learn from a community of investors.
+**AI-assisted development and agents**
 
-## 🚀 Productivity
+- [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) - Open-source multi-agent framework with 21+ specialized agents (PM, Architect, Developer, QA) and guided workflows covering the full development lifecycle.
+- [GitHub Spec Kit](https://github.com/github/spec-kit) - Toolkit for Spec-Driven Development, built to work with AI coding agents like Copilot or Claude.
+- [OpenSpec](https://openspec.dev/) - SDD toolkit that structures development from Markdown specifications before implementation, designed for AI assistants.
+- [Skills.sh](https://skills.sh/) - Package manager for modular AI agent skills (like npm), to extend capabilities such as video editing or REST API interaction.
+- [Pencil.dev](https://www.pencil.dev/) - Infinite vector canvas embedded in your code editor that converts designs into HTML/CSS/React via MCP.
 
-- [Luma](https://lu.ma/) - Modern event management platform that allows creating attractive event pages, selling tickets, managing registrations, and automating communications via email, SMS, and WhatsApp. It includes integration with Zoom/Google Meet, guest check-in, event analytics, and advanced features like token gating and crypto payments. It's especially useful for organizing everything from small meetings to large conferences, with a free plan for unlimited events and premium options for advanced functionalities.
-- [Ray.so](https://www.ray.so/) - Online tool that transforms code snippets into visually appealing images perfect for sharing on social media, blogs, presentations, and documentation. Offers customizable themes (light/dark), multiple syntax highlighting color schemes, automatic programming language detection, options to show/hide line numbers, and padding adjustments. It's especially useful for developers sharing code on Twitter, LinkedIn, or technical communities, creating visually attractive tutorials, and adding professional code examples in articles or presentations. Includes integration with VS Code and other development tools.
+**LLM comparators**
 
-## 🎬 Content Generator
+- [Arena.ai Leaderboard](https://arena.ai/leaderboard) - Community-voted public leaderboard comparing frontier models on text, code, and vision.
+- [ARC Prize Leaderboard](https://arcprize.org/leaderboard) - Official ARC-AGI benchmark measuring fluid intelligence and generalization ability of models.
+- [OpenAI Compare Models](https://developers.openai.com/api/docs/models/compare) - Official side-by-side comparison of all OpenAI API models (pricing, context window, capabilities).
+- [Artificial Analysis](https://artificialanalysis.ai/) - Independent benchmarks of 100+ models with intelligence, speed, latency, and cost metrics.
+- [LLM Price](https://llm-price.com/) - Per-token pricing calculator to compare the cost of leading LLMs across providers.
 
-- [Remotion](https://www.remotion.dev/) - React library for creating videos programmatically using code. Enables building animations and videos with TypeScript/JavaScript, rendering them in any resolution, and exporting as MP4 or serving as streaming. Includes real-time visual editor, pre-built animation components, and support for dynamic assets. It's especially useful for generating automated videos at scale (personalized thumbnails, social media videos, marketing content), creating animated data visualizations, developing complex motion graphics with full control over every frame, and automating video content production without traditional editing software like After Effects or Premiere.
-- [AutoAE](https://autoae.online/) - Platform designed to create reels for social media in an automated way. It's especially useful for content creators, digital marketers, and social media managers who need to produce attractive visual content quickly and efficiently for platforms like Instagram, TikTok, and Facebook, optimizing the short video creation process without requiring advanced editing knowledge.
+**Process automation**
 
-## 📧 Communication
+- [Make.com](https://www.make.com/) - Visual automation platform with many integrations, simpler to understand than n8n.
+- [n8n](https://n8n.io/) - Open-source workflow automation platform via a visual interface.
+- [Apache Airflow](https://airflow.apache.org/) - Platform to schedule and monitor workflows as DAGs, ideal for data pipelines.
+- [Spring Batch](https://spring.io/projects/spring-batch) - Batch processing framework for Java within the Spring ecosystem.
 
-- [Resend](https://resend.com/) - Developer-focused email delivery service that enables sending transactional emails and marketing campaigns simply and reliably. Offers a modern, easy-to-integrate API with features like detailed delivery analytics, responsive templates, and DKIM authentication support. It's especially useful for developers who need to implement email functionality in their applications, from individual notifications to mass advertising campaigns, with minimal setup and high deliverability rates.
-- [Kapso](https://kapso.ai/) - Developer platform that enables integration of WhatsApp, SMS, and calls (voice/video) into applications via API. Offers a unified interface for managing messages, templates, contacts, and conversation history, with support for webhooks and conversational flows. Includes a generous free quota and SDK for TypeScript/JavaScript. It's especially useful for implementing chatbots, customer service systems, automated notifications, and multi-channel communication, with advanced features like interactive buttons, WebRTC call management, and automatic WhatsApp messaging window compliance.
+## 💻 Web Development
 
-## 📝 Diagramming
+**UI components and React**
 
-- [Mermaid](https://mermaid.js.org/) - Open-source library that allows creating diagrams and visualizations from text in Markdown. It's useful for documenting flows and designs directly in code or documentation.
-- [Excalidraw](https://excalidraw.com/) - Open-source collaborative virtual whiteboard that allows creating sketches and diagrams with a hand-drawn appearance, ideal for brainstorming and team work.
-- [MakeGraph](https://makegraph.app/es) - Free online tool for creating graphs and diagrams quickly and easily. It allows generating a wide variety of visualizations (bar charts, line charts, pie charts, scatter plots, radar charts, heat maps, among others) with color, theme, and label customization options. Exports in PNG or SVG formats, ideal for presentations, documentation, and static sites. No registration required and especially useful for creating professional data visualizations in seconds.
+- [Magic UI](https://magicui.design/) - 150+ copy-paste animated components for React/Tailwind, with an emphasis on motion design.
+- [ReUI](https://reui.io/) - Copy-paste React components built with Tailwind CSS, Radix UI, and TypeScript, with zero dependencies.
+- [Blocks](https://blocks.so/) - Collection of copy-paste visual components for shadcn/ui.
+- [mapcn](https://mapcn.vercel.app/) - Copy-paste interactive map components for shadcn/ui, built on Leaflet.
+- [Zustand](https://github.com/pmndrs/zustand) - Minimalist hooks-based global state library for React, no providers or reducers needed.
+- [NanoStores](https://github.com/nanostores/nanostores) - Tiny (~286 bytes) state manager for React, Vue, Svelte, and vanilla JS.
 
-## 🎮 Browser Graphics Engines
+**Graphics and diagramming**
 
-- [TypeGPU](https://docs.swmansion.com/TypeGPU/) - TypeScript library that enhances the WebGPU API with type-safe and declarative resource management. It enables working with 3D graphics and GPU computation in the browser safely, catching type errors at compile time rather than runtime, and automatically aligning data structures between TypeScript and WGSL shaders. It's especially useful for developers who need to create web applications with advanced 3D graphics, complex simulations, or parallel GPU computation, leveraging the power of WebGPU with TypeScript's type safety and significantly reducing GPU resource-related runtime errors.
-- [Three.js](https://threejs.org/) - Open-source JavaScript library that facilitates creating interactive 3D graphics and visualizations in the browser using WebGL. It abstracts WebGL's complexity with a high-level API that allows creating 3D scenes, adding lights, materials, textures, cameras, and animations with just a few lines of code. It's especially useful for developing browser-based games, 3D scientific and financial data visualizations, product previews for eCommerce, interactive educational content, and any web application requiring 3D graphics without plugins, taking advantage of the browser's native GPU acceleration.
-- [Babylon.js](https://www.babylonjs.com/) - Open-source 3D graphics engine that uses WebGL and WebGPU to render high-quality interactive 3D content directly in web browsers. It includes full support for physically based rendering (PBR), animation system, integrated physics engines, asset loaders for popular formats (glTF, OBJ, STL), Node Material Editor for creating shaders visually, and AR/VR capabilities through WebXR. It's especially useful for creating real-time games, immersive AR/VR browser experiences, interactive product configurators, 3D educational models, and architectural visualizations, all with native TypeScript support, advanced development tools, and performance optimizations that work even on less powerful devices.
+- [TypeGPU](https://docs.swmansion.com/TypeGPU/) - Type-safe TypeScript library over WebGPU for 3D graphics and GPU computation in the browser.
+- [Three.js](https://threejs.org/) - The most popular JS library for interactive 3D graphics and visualizations with WebGL.
+- [Babylon.js](https://www.babylonjs.com/) - 3D graphics engine with PBR support, built-in physics, and AR/VR via WebXR.
+- [Mermaid](https://mermaid.js.org/) - Creates diagrams and visualizations from Markdown text.
+- [Excalidraw](https://excalidraw.com/) - Collaborative virtual whiteboard with a hand-drawn look, ideal for brainstorming.
+- [MakeGraph](https://makegraph.app/es) - Free tool to create charts and diagrams (bar, line, radar, heat maps) with no signup.
 
-## 🤖 Automation
+**Testing and APIs**
 
-- [Make.com](https://www.make.com/) - Visual automation platform with a large number of integrations that allows connecting applications and automating workflows intuitively. It's simpler to understand than n8n, shows exactly the credits used in each execution, and is ideal for users looking for a more user-friendly experience in process automation.
-- [n8n](https://n8n.io/) - Open-source workflow automation platform that allows connecting services and creating integrations through a visual interface. It's useful for automating processes and synchronizing data without the need to write intensive code.
-- [Apache Airflow](https://airflow.apache.org/) - Open-source platform for scheduling, monitoring, and managing workflows as directed acyclic graphs (DAGs). It's useful for orchestrating data pipelines and large-scale periodic tasks.
-- [Spring Batch](https://spring.io/projects/spring-batch) - Batch processing framework for Java within the Spring ecosystem that facilitates creating robust and transactional jobs. It's useful for processing large volumes of data reliably.
+- [Playwright](https://playwright.dev/) - Microsoft's framework for browser automation and cross-browser end-to-end testing.
+- [Stagehand](https://www.stagehand.dev/) - Browser automation framework combining code and natural language, designed for AI agents.
+- [HTTPie](https://httpie.io/) - Modern HTTP client with intuitive syntax and formatted output, a simple free alternative.
+- [Postman](https://www.postman.com/) - Comprehensive platform for API development, testing, documentation, and collaboration.
 
-## 🤖 AI Agents
+## 🖥️ Infrastructure and Code
 
-- [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) - Open-source multi-agent framework for AI-driven software development. Implements the "Agent-as-Code" paradigm with 21+ specialized agents (Product Manager, Architect, Developer, QA, etc.) and 34+ guided workflows covering the entire development lifecycle (analysis, planning, implementation, QA). Integrates with popular tools like Claude, Cursor, and VS Code, automatically adjusting process complexity based on project size. It's especially useful for individual developers seeking to improve code quality with structured planning, teams wanting to implement AI-enhanced agile development best practices, and organizations needing systematic delivery pipelines with preserved context across project phases.
-- [GitHub Spec Kit](https://github.com/github/spec-kit) - Open-source toolkit for Spec-Driven Development that makes specifications the central source of truth in the software development process, especially when working with AI coding agents like GitHub Copilot, Claude, or Gemini. Includes CLI tools to initialize projects, draft executable specifications, break work into actionable tasks, and orchestrate the development process with validation at each phase. It's especially useful for teams seeking clarity and rigor in AI-assisted development, complex or enterprise-grade projects where architectural decisions and maintainability matter, and for transforming development from code-first improvisation to a structured, reviewable, and AI-ready workflow, facilitating collaboration between humans and coding agents with clear, updatable specifications.
-- [OpenSpec](https://openspec.dev/) - Open-source toolkit for spec-driven development (SDD) designed to work with AI assistants like GitHub Copilot, Claude, or Cursor. Implements a structured workflow that begins with creating clear Markdown-based specifications before implementation, ensuring AI assistants generate more predictable code aligned with requirements. Includes CLI tools, integration with multiple AI assistants, automatic diagram and technical documentation generation, and task breakdown with step-by-step validation. It's especially useful for improving AI-generated code quality, reducing ambiguity in requirements, maintaining automatically updated documentation, and working in teams where specification clarity is critical.
-- [Skills.sh](https://skills.sh/) - Command-line tool for managing modular AI agent skills, allowing you to install, update, and use code-based capabilities that extend what AI agents can do. Works like a package manager for agent skills (similar to npm for Node.js), enabling you to add specific capabilities such as video editing with FFmpeg, REST API interaction, following documented design systems, or managing files in specific ways. It's especially useful for quickly extending code agent capabilities like Claude, standardizing behaviors and outputs, reducing repetitive manual setup, and enabling advanced automation with minimal effort, turning general-purpose agents into specialized tools through modular and reusable skills.
-- [Pencil.dev](https://www.pencil.dev/) - AI-powered design tool that embeds an infinite vector canvas directly in your code editor (VS Code, Cursor). Lets you design interfaces visually and instantly convert them to production-ready HTML, CSS, and React code via the Model Context Protocol (MCP). Figma-compatible (copy and paste designs directly), manages design files inside your repository with Git version control, and supports simultaneous collaboration between humans and AI agents. It's especially useful for developers who want to eliminate the friction between design and code, rapidly prototype, and generate complete components or layouts from natural language prompts directly in their development environment.
+- [nginx](https://nginx.org/) - High-performance web server, reverse proxy, and load balancer.
+- [Caddy](https://caddyserver.com/) - Web server and reverse proxy with automatic HTTPS, a modern alternative to nginx.
+- [Cloudflare Workers](https://workers.cloudflare.com/) - Serverless platform to run JS at Cloudflare's edge with low global latency.
+- [IP Guide](https://ip.guide/) - Free lookup of detailed information about IPs, networks, and ASNs, with an included API.
+- [Portless](https://github.com/vercel-labs/portless) - Replaces port numbers with stable `.localhost` URLs for local development.
+- [GitHub](https://github.com/) - Code hosting platform with repos, PRs, issues, and GitHub Actions.
+- [Codeberg](https://codeberg.org/) - Non-profit free and open-source code hosting based on Forgejo, focused on privacy.
+- [GitLab](https://gitlab.com/) - All-in-one DevOps platform with Git, CI/CD, issues, and container registries.
 
-## 🏆 LLM Comparators
+## 💰 Finance
 
-- [Arena.ai Leaderboard](https://arena.ai/leaderboard) - Community-driven public leaderboard that ranks frontier AI models in text, code, vision, and image generation based on user votes. Displays rankings for models like GPT, Claude, Gemini, and Grok with comparative stats on context window, pricing, and performance by task type (creative writing, coding, chat). It's especially useful for choosing the most suitable model for your specific use case based on data voted by thousands of real users.
-- [ARC Prize Leaderboard](https://arcprize.org/leaderboard) - Official leaderboard for the ARC-AGI benchmark that measures fluid intelligence and generalization ability of AI models on novel abstract reasoning tasks outside their training data. Evaluates both the percentage of tasks solved and the cost per task, comparing frontier models against human performance (100%). It's especially useful for understanding real progress toward AGI and comparing models by their ability to adapt to genuinely new problems.
-- [OpenAI Compare Models](https://developers.openai.com/api/docs/models/compare) - Official OpenAI page offering a detailed side-by-side comparison of all its API models, including capabilities, pricing per million tokens, context window, knowledge cutoff date, supported endpoints, and available features (streaming, function calling, structured outputs, vision). It's especially useful for developers who need to choose the right OpenAI model for their application based on cost, performance, and feature requirements.
-- [Artificial Analysis](https://artificialanalysis.ai/) - Independent benchmarking platform that evaluates and compares 100+ AI models and APIs with objective metrics such as intelligence index, speed (tokens per second), latency, cost, and context window. Offers detailed leaderboards, side-by-side comparison tools, and quality-to-price analysis of models from OpenAI, Google, Anthropic, DeepSeek, Mistral, and more. It's especially useful for making informed decisions when selecting an AI model for production, simultaneously comparing intelligence, speed, and cost with regularly updated data.
-- [LLM Price](https://llm-price.com/) - LLM API pricing calculator that allows comparing the cost per token of leading language models such as GPT, Claude, Gemini, Llama, Mistral, and many more. Lets you input your estimated input and output token counts to calculate and estimate real costs across different providers side-by-side. It's especially useful for developers and teams who need to optimize their AI budget, compare cost-effectiveness between models before integrating them into production, and make informed decisions about which LLM API to use based on their use case and usage scale.
+- [Splitwise](https://www.splitwise.com/) - Splits expenses between people using phone numbers, ideal for group outings.
+- [fintoc.me](https://fintoc.me/) - Shares Chilean bank transfer details via a single simple URL.
+- [Fintual](https://fintual.cl/) - Chilean automated investment platform for mutual funds and stocks, regulated by the CMF.
+- [Racional](https://racional.cl/) - Chilean social investing from $5,000 in stocks and ETFs, with a community of investors.
 
-## 🖥️ Infrastructure
+## 🚀 Productivity and Communication
 
-- [nginx](https://nginx.org/) - High-performance web server, reverse proxy, load balancer, and HTTP mail proxy written in C. It's known for its stability, rich feature set, simple configuration, and low resource consumption. It's especially useful for efficiently serving static content, handling large volumes of concurrent connections, functioning as a reverse proxy for web applications, and distributing load among multiple backend servers.
-- [Caddy](https://caddyserver.com/) - Open-source web server and reverse proxy written in Go that automatically configures with HTTPS. It's especially useful for developers who need a modern alternative to nginx or Apache, with simpler configuration, automatic SSL certificates, and integrated reverse proxy capabilities for microservices and web applications.
-- [Cloudflare Workers](https://workers.cloudflare.com/) - Serverless platform that allows running JavaScript code at Cloudflare's edge, globally distributed to minimize latency. It's especially useful for quickly publishing web pages, including Astro.build sites, creating serverless APIs, implementing authentication and authorization functions, and developing complete web applications that run close to end users with high availability and optimized performance.
-- [IP Guide](https://ip.guide/) - Free web service for looking up detailed information about IP addresses, networks, and Autonomous System Numbers (ASN). Provides geolocation lookup, ISP, hosting company, and associated network details, with data updated nightly from authoritative sources. Includes a free API and bulk data download options. It's especially useful for developers who need to integrate IP lookups into their applications, network administrators for troubleshooting and planning, cybersecurity researchers for tracking suspicious activity or abuse, and web traffic analysis to understand visitor origin and detect potential threats.
-- [Portless](https://github.com/vercel-labs/portless) - Vercel Labs tool that replaces port numbers with stable, named `.localhost` URLs. Instead of accessing your dev server at `http://localhost:3000`, you can use memorable URLs like `http://myapp.localhost`. It acts as a reverse proxy that automatically resolves port conflicts by assigning free ports and routing traffic based on the hostname. It's especially useful for developers working with multiple local services or monorepos, as it simplifies access, prevents port conflicts, and maintains stable URLs between runs.
+- [Luma](https://lu.ma/) - Event management with ticket sales, guest check-in, and automated communications.
+- [Ray.so](https://www.ray.so/) - Turns code snippets into attractive images for sharing or documentation.
+- [Resend](https://resend.com/) - Transactional and marketing email service with a modern developer API.
+- [Kapso](https://kapso.ai/) - Integrates WhatsApp, SMS, and calls into applications via a unified API.
+- [Amplitude](https://amplitude.com/) - Product analytics with funnels, retention, cohorts, and real-time dashboards.
 
-## 📊 Analytics
+## 🎬 Content and Design
 
-- [Amplitude](https://amplitude.com/) - AI-powered digital analytics platform that helps product teams understand user behavior, measure feature impact, and make data-driven decisions. Offers event analysis, conversion funnels, retention analysis, behavioral cohorts, session replay, A/B testing, and real-time dashboards. It's especially useful for product, marketing, and data teams that need full visibility into the user journey, experiment with new features, and optimize retention and engagement across web and mobile applications.
+- [Remotion](https://www.remotion.dev/) - Creates videos programmatically with React/TypeScript, ideal for production at scale.
+- [AutoAE](https://autoae.online/) - Automated reel generation for Instagram, TikTok, and Facebook.
+- [Dribbble](https://dribbble.com) - Global designer community for UI/UX, branding, and illustration inspiration.
+- [Godly Website](https://godly.website/) - Curated gallery of modern web designs organized by category and style.
+- [Websitevice](https://websitevice.com/) - Gallery of realistic web designs focused on solving concrete business problems.
+- [Patterns.dev](https://www.patterns.dev/) - Collection of JavaScript, React, and modern web architecture design patterns.
+- [Refactoring Guru](https://refactoring.guru/) - Teaches Gang of Four design patterns and refactoring techniques with practical examples.
+- [CodeWiki](https://codewiki.google/) - Repository documentation automatically generated and maintained by AI (Gemini).
+- [Context7](https://context7.com/) - Up-to-date, version-specific library documentation for AI agents via MCP.
 
-## 🔧 API Testing Tools
+## 📚 Learning and Career
 
-- [HTTPie](https://httpie.io/) - Modern, user-friendly HTTP client that simplifies interaction with APIs and web services. Available as a command-line tool and desktop/web application, it offers intuitive syntax, colorized formatted output, native JSON support, built-in authentication (OAuth, JWT, Basic Auth, API keys), and persistent sessions. It's especially useful for developers looking for a simpler and free alternative to other API testing tools, with a clean interface that improves productivity when debugging and testing endpoints.
-- [Postman](https://www.postman.com/) - Comprehensive platform for API development, testing, documentation, and collaboration. Offers a complete API client with support for multiple HTTP methods, environment management, organized collections, automated testing with JavaScript scripts, mock servers, automatic documentation generation, and collaborative workspaces. It's especially useful for teams that need a robust solution for the entire API lifecycle, from design to monitoring, with integrations for CI/CD and collaboration tools.
-
-## 🧪 Browser Automation and Testing
-
-- [Playwright](https://playwright.dev/) - Open-source browser automation framework developed by Microsoft for end-to-end testing and browser automation. Supports Chromium, Firefox, and WebKit with a unified API, enabling reliable cross-browser testing. Includes automatic element waiting, parallel execution, mobile device emulation, network interception, screenshot and video capture, and advanced tools like code generator (codegen) and trace viewer for debugging. Available for JavaScript/TypeScript, Python, C#, and Java. It's especially useful for automated testing of modern web applications, visual regression testing, web process automation, and cross-browser validation, significantly reducing flaky tests thanks to its auto-wait system and robust event handling.
-- [Stagehand](https://www.stagehand.dev/) - Open-source browser automation framework specifically designed for developers, product teams, and AI-powered (LLM) agents. Allows writing automation tasks using both code and natural language, combining AI flexibility with the precise control of Playwright or Puppeteer. Includes composable primitives like `act()` (perform actions), `extract()` (extract structured data), `observe()` (discover elements), and `agent()` (automate complete workflows). It's especially useful for automated UI testing that's more robust and less brittle than traditional test suites, web scraping that adapts to UI changes, robotic process automation (RPA), and powering AI agents that need to reliably interact with dynamic websites, significantly reducing the typical maintenance burden of selector-based scripts.
-
-## 👥 Communities
-
-- [Chelas.js](https://lu.ma/chelas.js) - JavaScript community in Santiago, Chile that organizes regular meetups for developers. Events include technical talks, networking, and learning opportunities in a relaxed atmosphere with beers. It's especially useful for JavaScript developers who want to stay updated with the latest trends, network with other professionals in the field, and participate in the Chilean tech community.
-- [JavaScript Chile](https://lu.ma/javascript-chile) - Non-profit corporation composed of volunteers dedicated to promoting and encouraging the use of JavaScript in Chile. It organizes training workshops, conferences, meetups, and educational events to build an inclusive and diverse community of developers. It's especially useful for developers of all levels looking for formal learning opportunities, project collaboration, and professional growth in the Chilean JavaScript ecosystem.
-- [Tribú Latam](https://www.tribulatam.com/) - Platform that connects and empowers the Latin tech community through in-person and virtual events, free mentoring with more than 200 experts, job opportunities, exclusive groups of tech leaders (DOMOS), training, and benefits. With presence in multiple Latin American countries, it's especially useful for tech professionals seeking regional networking, career development, specialized mentoring, and access to job opportunities in the Latin American technology ecosystem.
-
-## 📰 News
-
-- [daily.dev](https://app.daily.dev/) - Professional network and platform for developers that offers a personalized tech news feed curated from over 1,300 trusted sources, including articles, tutorials, and updates on programming languages, frameworks, and design patterns. It includes a global community for discussions, project sharing and collaboration, career resources, coding events, and offline functionality. Available as a browser extension and PWA, it's especially useful for staying up to date with the latest tech trends, discovering new tools and libraries, participating in technical discussions, and accessing a centralized hub for continuous learning and professional networking in software development.
-- [Hacker News](https://news.ycombinator.com/) - Social news platform focused on technology, computer science, startups, and entrepreneurship, created and managed by Y Combinator. It's a minimalist text-based site where the tech community shares and discusses articles, product launches, programming advances, and scientific discoveries. It's especially useful for learning about new products in real-time (many founders launch their products with "Show HN" posts), learning how real companies are solving technical and business problems through detailed discussions with founders and engineers, discovering market strategies and how others sell their solutions, and obtaining direct feedback from industry experts in an environment of high intellectual quality.
-
-## 📚 Knowledge Resources
-
-- [Dribbble](https://dribbble.com) - Global community of designers that functions as an inspiration and portfolio platform where creative professionals share their graphic design, UI/UX, illustration, branding, and more work. It allows discovering design trends, exploring works by categories and colors, and connecting with designers from around the world. It's especially useful for finding inspiration for creative projects, staying updated with the latest digital design trends, discovering new styles and techniques, and searching for specific references by project type or industry.
-- [Godly Website](https://godly.website/) - Inspiration platform that presents a curated collection of modern web designs and high-quality visual examples. It offers a gallery of contemporary websites organized by categories, styles, and functionalities, allowing designers and developers to explore current web design trends. It's especially useful for finding inspiration for web projects, staying updated with the latest digital design trends, and discovering new creative approaches for user interfaces and innovative web experiences.
-- [Websitevice](https://websitevice.com/) - Web design inspiration gallery that offers examples of practical and achievable website designs across various industries such as business, startups, real estate, software, SaaS, products, agencies, and services. Unlike other galleries, Websitevice focuses on realistic designs that solve concrete business problems. It's especially useful for designers and developers seeking practical and applicable inspiration rather than award-oriented designs, providing examples organized by industry that can serve as direct reference for real web projects.
-- [Guía Salarial BUK 2025](https://www.buk.cl/hubfs/Guia-Salarialbuk_2025.pdf) - PDF with salary bands and compensation analysis in Chile based on administrative data from 31,700 employees and 3,270 organizations. Useful for comparing salaries by position, company size, and industry.
-- [Indie Hackers](https://www.indiehackers.com/) - Global community of independent entrepreneurs who share their experiences building profitable businesses. It offers detailed stories of successful startups, business ideas, monetization strategies, and discussion forums where entrepreneurs share real metrics from their projects. It's especially useful for finding inspiration for new projects, learning from real success cases, and connecting with other independent founders who have built businesses from scratch.
-- [Patterns.dev](https://www.patterns.dev/) - Comprehensive resource created by Lydia Hallie and Addy Osmani that presents a complete collection of design patterns for modern web development. It includes JavaScript, React, performance, and web application architecture patterns, all explained with practical examples, real use cases, and best practices. It's especially useful for frontend and fullstack developers looking to improve their application architecture, implement industry-proven patterns, and stay updated with the most effective techniques for building scalable and maintainable web applications.
-- [Refactoring Guru](https://refactoring.guru/) - Complete educational platform that teaches software design patterns, refactoring techniques, and software architecture principles through clear explanations, practical examples in multiple programming languages, and visual diagrams. It covers the classic 23 Gang of Four patterns, common antipatterns, and step-by-step refactoring methodologies. It's especially useful for developers of all levels looking to improve code quality, learn fundamental design patterns, master professional refactoring techniques, and build more maintainable and scalable software.
-- [CodeWiki](https://codewiki.google/) - AI-powered documentation platform by Google that automatically generates and maintains interactive wikis for code repositories. It uses Gemini AI to scan entire repositories, create structured documentation that updates after every commit, generate real-time architecture and sequence diagrams, and provide an integrated chat assistant to answer questions about the codebase. It's especially useful for accelerating new developer onboarding, maintaining always up-to-date documentation without manual effort, navigating and understanding complex projects through interactive visual diagrams, and getting instant answers about code architecture and functionality through AI-powered chat.
-- [Context7](https://context7.com/) - Service that provides up-to-date, version-specific documentation of libraries and frameworks for AI agents and code editors via Model Context Protocol (MCP). Solves the problem of outdated or incorrect code suggestions by indexing and semantically organizing official documentation from libraries like Next.js, React, Tailwind, Supabase, and many more, including real code examples extracted directly from official docs. It's especially useful for integrating with editors like Cursor, VSCode Agent Mode, or Claude, ensuring AI agents always consult the correct documentation for the exact version of libraries you're using, preventing AI hallucinations and errors in generated code.
-
-## 🧩 UI Component Libraries
-
-- [Magic UI](https://magicui.design/) - Open-source animated UI components and effects library for React, TypeScript, and Tailwind CSS. Offers over 150 ready-to-copy-and-paste animated components and effects, specifically designed to create visually engaging landing pages and dashboards with Framer Motion. Includes smooth, production-ready motion primitives, compatibility with shadcn/ui, and premium templates for hero sections, pricing, and testimonials. It's especially useful for design engineers, indie hackers, agencies, and startups who need to quickly build polished, interactive web UIs with emphasis on motion design and high-quality animations.
-- [ReUI](https://reui.io/) - Open-source React component library offering ready-to-use, copy-and-paste components built with Tailwind CSS, Radix UI, and TypeScript. Features zero-dependency components, global theming via CSS variables, and full-stack app templates with Next.js integration. It's especially useful for developers seeking fast prototyping, production-ready UI components with flexible customization, and a modern alternative to traditional component libraries without vendor lock-in.
-- [Blocks](https://blocks.so/) - Open-source visual component library for shadcn/ui built with React, TypeScript, and Tailwind CSS. Offers a curated collection of ready-to-copy-and-paste components designed to create modern and attractive interfaces. It's especially useful for developers using shadcn/ui who want to extend their component library with additional customizable visual elements, accelerating web application development with well-designed, production-tested components.
-- [mapcn](https://mapcn.vercel.app/) - Open-source interactive map component library for shadcn/ui, built with React, TypeScript, Tailwind CSS, and Leaflet. Offers ready-to-copy-and-paste map components that seamlessly integrate with shadcn/ui, with support for light/dark themes, markers, routes, popups, customizable controls, and WAI-ARIA accessibility. Installable with a single CLI command and minimal initial configuration. It's especially useful for developers who need to add interactive maps to dashboards, store locators, geographic data visualization applications, or any React project with shadcn/ui that requires mapping functionalities with a native and modern appearance.
-
-## ⚛️ React Libraries
-
-- [Zustand](https://github.com/pmndrs/zustand) - Minimalist global state management library for React based on hooks. It lets you create stores with very little code, no providers or reducers needed, with selective re-renders for optimal performance. Especially useful for sharing state across components without Redux boilerplate, with first-class TypeScript support, persistence middleware, and Redux DevTools compatibility.
-- [NanoStores](https://github.com/nanostores/nanostores) - Tiny (~286 bytes) state manager for React, Vue, Svelte, Preact, and vanilla JavaScript. Uses independent atomic stores to share state across components without providers or boilerplate. Especially useful for projects prioritizing performance and bundle size, with first-class TypeScript support and extensions for localStorage persistence, SPA routing, and internationalization.
-
-## 🌐 Language Learning
-
-- [BBC Learning English](https://www.bbc.co.uk/learningenglish) - BBC educational platform offering a wide collection of free resources for learning English, including structured courses, video lessons, podcasts, interactive exercises, and materials to improve vocabulary, grammar, and pronunciation. It's especially useful for practicing listening (audio comprehension) with authentic content from native speakers, improving comprehension skills through news and current affairs programs, and accessing content organized by levels from beginner to advanced.
-- [Curso-ingles.com](https://curso-ingles.com/) - Free Spanish-language website dedicated to teaching English with courses organized by levels (basic, intermediate, advanced), business English, and travel vocabulary. It includes practical tools like verb conjugator, translator, and interactive exercises. It's especially useful for Spanish speakers looking for simple and clear grammatical explanations in Spanish, expanding vocabulary in a structured way, and learning English self-taught with resources organized from scratch to advanced level.
-
-## 📖 Reading
-
-- [Goodreads](https://www.goodreads.com/) - Platform for cataloging and tracking the books you read, recording your reading progress, and discovering new recommendations. It allows sharing reviews with a global community of readers, facilitating the organization of your reading processes.
-
-## 💼 Employment
-
-- [Get on Board](https://www.getonbrd.com/) - Job platform focused on technology and startups in Latin America. It allows companies to post vacancies and professionals to create profiles to receive offers, in addition to offering resources such as courses, conferences, and meetups. It's especially useful for those seeking remote or in-person job opportunities in the Latin American tech ecosystem.
-- [Glassdoor](https://www.glassdoor.com/) - Workplace transparency platform that combines job search, salary research, and company reviews written by current and former employees. Offers detailed information about company culture, salary ranges by position and location, real interview questions, and CEO ratings. It's especially useful for researching employers before applying, negotiating salaries based on real market data, preparing for interviews with experiences shared by the community, and making informed decisions about job opportunities with complete transparency about compensation and work environment.
-- [Tribu Latam](https://www.tribulatam.com/en/oportunidades) - Specialized job portal focused on connecting tech talent in Latin America with quality employment opportunities. Offers remote, hybrid, and on-site positions across the region, with roles in Frontend, Backend, Full Stack, AI, and QA. Beyond job listings, it fosters a community for Latin American tech leaders through events, forums, and continuous education resources. It's especially useful for tech professionals in Latin America looking for quality job opportunities, both local and international.
-
-## 📦 Code Repositories
-
-- [GitHub](https://github.com/) - Cloud-based code hosting platform that enables storing, managing, and collaborating on software projects using Git. Offers public and private repositories, version control, pull requests, code reviews, issue tracking, GitHub Actions for CI/CD, and a global developer community. It's especially useful for collaborating on open-source projects, maintaining a professional development portfolio, and managing software projects of any scale with integrated automation and security tools.
-- [Codeberg](https://codeberg.org/) - Free and open-source code hosting platform operated as a non-profit by the community. Based on Forgejo (a Gitea fork), it offers Git repositories, issue tracking, wikis, and static page hosting through Codeberg Pages. Prioritizes user privacy with no corporate tracking and servers located in the European Union. It's especially useful for developers who value privacy, seek an ethical alternative to commercial platforms, and want to contribute to free software projects in a community-managed environment.
-- [GitLab](https://gitlab.com/) - Complete DevOps platform that integrates Git repository hosting, CI/CD, issue tracking, project management, container registries, and security tools in a single application. Offers cloud-hosted or self-hosted options, with automated pipelines defined through YAML files. It's especially useful for teams seeking an all-in-one solution for the software development lifecycle, from planning to deployment and monitoring, with emphasis on DevSecOps and automation.
+- [BBC Learning English](https://www.bbc.co.uk/learningenglish) - Free BBC resources for learning English: courses, video, podcasts, and exercises.
+- [Curso-ingles.com](https://curso-ingles.com/) - Spanish-language English courses by level, with a verb conjugator and translator.
+- [Goodreads](https://www.goodreads.com/) - Catalogs books, tracks your reading progress, and surfaces recommendations.
+- [Guía Salarial BUK 2025](https://www.buk.cl/hubfs/Guia-Salarialbuk_2025.pdf) - Chilean salary bands based on data from 31,700 employees and 3,270 organizations.
+- [Indie Hackers](https://www.indiehackers.com/) - Community of independent founders sharing real metrics from their businesses.
+- [Get on Board](https://www.getonbrd.com/) - Tech and startup jobs across Latin America, with courses and meetups.
+- [Glassdoor](https://www.glassdoor.com/) - Workplace transparency: salaries, company reviews, and real interview questions.
+- [Tribu Latam](https://www.tribulatam.com/en/oportunidades) - Tech job portal for Latin America with a community of leaders and ongoing training.
+- [daily.dev](https://app.daily.dev/) - Personalized tech news feed curated from 1,300+ sources.
+- [Hacker News](https://news.ycombinator.com/) - Social news on technology and startups, run by Y Combinator.
+- [Chelas.js](https://lu.ma/chelas.js) - JavaScript community in Santiago, Chile, with regular meetups.
+- [JavaScript Chile](https://lu.ma/javascript-chile) - Non-profit promoting JavaScript in Chile through workshops and conferences.
+- [Tribú Latam](https://www.tribulatam.com/) - Latin tech community with mentoring, jobs, and leader groups (DOMOS).
 
 ## 🔗 Related
 
-- [LM Awesome](https://github.com/JonDotsoy/lm-awesome) - A curated collection of links, repositories, and tools for Language Models (LM). It includes AI tools, models, prompts, comparison sites, and MCP (Model Context Protocol) tools. It's especially useful for developers working with artificial intelligence who need quick references to the best available tools in the AI ecosystem.
-- [skills](https://github.com/JonDotsoy/skills) - A curated collection of AI agent skills for automating documentation, coaching reports, and technical workflows. Includes skills like Coaching Reporter, Runbook Generator, Runbook Executor, and PR Creator, installable via `npx skills` or `bunx skills`. Especially useful for teams that want to extend their AI agents' capabilities with specialized and reusable tasks.
+- [LM Awesome](https://github.com/JonDotsoy/lm-awesome) - Curated collection of links and tools for Language Models (LM), including MCP.
+- [skills](https://github.com/JonDotsoy/skills) - Collection of AI agent skills for documentation, coaching, and technical workflows, installable via `npx skills`.
