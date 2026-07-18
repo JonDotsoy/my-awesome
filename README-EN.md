@@ -24,6 +24,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [OpenSpec](https://openspec.dev/) - SDD toolkit that structures development from Markdown specifications before implementation, designed for AI assistants.
 - [Skills.sh](https://skills.sh/) - Package manager for modular AI agent skills (like npm), to extend capabilities such as video editing or REST API interaction.
 - [Pencil.dev](https://www.pencil.dev/) - Infinite vector canvas embedded in your code editor that converts designs into HTML/CSS/React via MCP.
+- [Zro](https://zro.moonmath.ai/) - Private inference endpoint from MoonMath.ai with open-weight models for coding agents, EU-based infrastructure, and OpenAI/Anthropic API compatibility.
 
 **LLM comparators**
 
