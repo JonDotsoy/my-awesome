@@ -17,6 +17,20 @@ Each `README*.md` file must contain, in this order:
 
 - Format: `## <emoji><space><Name>` — must start with exactly one thematic emoji followed by a space and the category name.
 - The anchor generated from the heading text (GitHub slug rules: strip diacritics, drop any character outside `[a-z0-9 -]`, lowercase, spaces → hyphens) must match the `#anchor` used by its link in the index.
+- The emoji must be intuitive and visually represent the category's topic. Reuse an existing category's emoji when the topic overlaps; otherwise pick a new one that isn't already used by another category.
+
+**Emojis currently in use:**
+
+- 🤖 IA y Automatización
+- 💻 Desarrollo Web
+- 🖥️ Infraestructura y Código
+- 💰 Finanzas
+- 🚀 Productividad y Comunicación
+- 🎬 Contenido y Diseño
+- 📚 Aprendizaje y Carrera
+- 🔗 Relacionado
+
+This list grows as new categories are added — check the "Contenido"/"Contents" index of any README for the current, authoritative set before picking a new emoji.
 
 ## Subgroup rules (optional, within a category)
 

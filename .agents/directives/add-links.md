@@ -25,7 +25,7 @@ Some macro-categories are split into **bold thematic subgroups** (no `#`), for e
    - Find the most suitable macro-category among the 8 existing ones.
    - If that category has subgroups, pick the right thematic subgroup; if none fits, a new bold subgroup can be created within the category.
    - Only create a **new macro-category** (`##`) if the tool doesn't reasonably fit any of the 8 existing ones. In that case:
-     - Choose an appropriate thematic emoji (see examples in `AGENTS.md`).
+     - Choose an appropriate thematic emoji (see examples in `awesome-list-format.md`).
      - Add the new entry to the "Contenido"/"Contents" index in all README files.
      - Keep a logical order between categories.
 
