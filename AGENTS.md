@@ -140,6 +140,15 @@ Cuando se solicite agregar una nueva herramienta:
 - Actualizar la sección "Contenido" cuando se agreguen nuevas categorías
 - No es necesario ejecutar pruebas automatizadas tras realizar cambios en este repositorio
 
+## Directivas Adicionales
+
+Este archivo (`AGENTS.md`) es el punto de entrada único para las instrucciones de agentes. Las directivas detalladas para tareas específicas viven en `.agents/directives/` y deben consultarse desde aquí antes de ejecutar la tarea correspondiente:
+
+- [`.agents/directives/add-links.md`](.agents/directives/add-links.md) - Cómo agregar una nueva herramienta: elección de categoría/subgrupo, formato de la entrada y sincronización multiidioma.
+- [`.agents/directives/new-languages.md`](.agents/directives/new-languages.md) - Cómo crear un nuevo `README-<CODE>.md`: convención de nombres y cómo replicar la estructura desde `README.md`.
+
+No crear directivas nuevas fuera de `.agents/directives/` sin referenciarlas desde esta sección.
+
 ## Convenciones de commits
 
 - Los mensajes de commit deben seguir el formato [Conventional Commits](https://www.conventionalcommits.org/).
