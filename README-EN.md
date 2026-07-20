@@ -33,6 +33,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [OpenAI Compare Models](https://developers.openai.com/api/docs/models/compare) - Official side-by-side comparison of all OpenAI API models (pricing, context window, capabilities).
 - [Artificial Analysis](https://artificialanalysis.ai/) - Independent benchmarks of 100+ models with intelligence, speed, latency, and cost metrics.
 - [LLM Price](https://llm-price.com/) - Per-token pricing calculator to compare the cost of leading LLMs across providers.
+- [isbetter.ai](https://isbetter.ai/) - Compares the answer, code, preview, speed, and cost of multiple AI models given the same prompt.
 
 **Process automation**
 
