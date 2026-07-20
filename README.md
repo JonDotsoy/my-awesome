@@ -33,6 +33,7 @@ Esta es una lista de recomendaciones personales para el uso de ciertas herramien
 - [OpenAI Compare Models](https://developers.openai.com/api/docs/models/compare) - Comparación oficial lado a lado de todos los modelos de la API de OpenAI (precio, contexto, capacidades).
 - [Artificial Analysis](https://artificialanalysis.ai/) - Benchmarks independientes de 100+ modelos con métricas de inteligencia, velocidad, latencia y costo.
 - [LLM Price](https://llm-price.com/) - Calculadora de precios por token para comparar el costo de los principales LLMs entre proveedores.
+- [isbetter.ai](https://isbetter.ai/) - Compara la respuesta, código, vista previa, velocidad y costo de varios modelos de IA ante el mismo prompt.
 
 **Automatización de procesos**
 
