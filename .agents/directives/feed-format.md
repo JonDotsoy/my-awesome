@@ -1,12 +1,28 @@
-# Directive: feed-format.md (anuncios estilo X en feed-*.md)
+# Directive: feeds/ (anuncios estilo X)
 
-Instrucciones para agentes que agreguen entradas a los archivos `feed-<idioma>.md` (`feed-es.md`, `feed-en.md`, `feed-pt.md`, y cualquier `feed-<CODE>.md` adicional siguiendo los idiomas de `new-languages.md`), el registro de cambios del proyecto en formato de post tipo X (Twitter).
+Instrucciones para agentes que agreguen anuncios de nuevas herramientas en `feeds/`, el registro de publicaciones estilo X (Twitter) de "my awesome".
 
-## Cuándo actualizar
+## Estructura
 
-Cada vez que se agregue una nueva herramienta a los README (ver `add-links.md`), se debe agregar una entrada correspondiente en **todos** los `feed-<idioma>.md` existentes, traducida a cada idioma.
+Una carpeta por publicación, no un archivo único que crece indefinidamente:
 
-## Formato de la entrada (estilo B: pregunta/gancho)
+```
+feeds/
+  <slug>/
+    es.md
+    en.md
+    pt.md
+```
+
+- `<slug>`: nombre de la herramienta en kebab-case, minúsculas, sin espacios ni acentos (ej. `namethatui`, `magic-ui`).
+- Un archivo por idioma dentro de la carpeta, con el mismo conjunto de idiomas que los README (`es`, `en`, `pt`, y cualquier código adicional de `new-languages.md`).
+- Cada archivo `<idioma>.md` contiene **únicamente** el bloque del post (sin encabezado `# Feed`, sin separadores `---` — esos ya no aplican porque cada publicación vive en su propia carpeta).
+
+## Cuándo crear una entrada
+
+Cada vez que se agregue una nueva herramienta a los README (ver `add-links.md`), crear la carpeta `feeds/<slug>/` con un archivo por idioma.
+
+## Formato del post (estilo B: pregunta/gancho)
 
 ```markdown
 ¿<Pregunta o gancho relatable sobre el problema que resuelve la herramienta>? 🤔
@@ -21,23 +37,18 @@ Con **<Nombre de la herramienta>** <beneficio concreto en una frase>.
 - **Gancho**: una pregunta corta y relatable que conecte con el problema que resuelve la herramienta. Debe terminar en `?` y puede llevar un emoji de cierre (ej. 🤔).
 - **Cuerpo**: una sola frase, con el nombre de la herramienta en negrita, explicando el beneficio concreto (no repitas la descripción textual del README; reformúlala en tono conversacional).
 - **Link**: precedido por 🔗, en su propia línea. La URL es idéntica en todos los idiomas.
-- **Hashtags**: siempre incluir `#myawesome`, más 1-2 hashtags relevantes al tema de la herramienta (ej. `#UI`, `#frontend`, `#finanzas`, `#productividad`). Los hashtags no se traducen, se mantienen iguales entre idiomas.
+- **Hashtags**: siempre incluir `#myawesome`, más 1-2 hashtags relevantes al tema de la herramienta (ej. `#UI`, `#frontend`, `#finanzas`, `#productividad`). No se traducen.
 - No usar el formato "🆕 Se agregó X a la lista..." (estilo A, descartado) ni formatos tipo changelog/lista.
 
 ## Sincronización multi-idioma (obligatorio)
 
-- Cada entrada nueva debe agregarse en `feed-es.md`, `feed-en.md`, `feed-pt.md` y cualquier `feed-<CODE>.md` adicional, en el mismo orden relativo en todos los archivos.
-- Solo se traduce el texto (gancho, cuerpo, hashtags si aplica); la URL y el nombre de la herramienta permanecen iguales.
-- `feed-es.md` es la fuente de verdad del contenido a traducir (mismo criterio que `README.md` para los README).
-
-## Dónde agregar la entrada
-
-- Agregar la nueva entrada **al final** del archivo, después de la última entrada existente (no sobrescribir entradas anteriores).
-- Separar cada entrada de la siguiente con una línea `---`.
+- Cada publicación nueva debe tener su archivo en todos los idiomas soportados (`es.md`, `en.md`, `pt.md`, y cualquier `<CODE>.md` adicional).
+- Solo se traduce el texto (gancho, cuerpo); la URL, el nombre de la herramienta y los hashtags permanecen iguales.
+- `es.md` es la fuente de verdad del contenido a traducir (mismo criterio que `README.md` para los README).
 
 ## Ejemplo
 
-`feed-es.md`:
+`feeds/namethatui/es.md`:
 ```markdown
 ¿Viste un componente en un sitio y no sabías cómo se llamaba? 🤔
 
@@ -48,7 +59,7 @@ Con **NameThatUI** encuentras el nombre exacto de patrones UI reales, catalogado
 #myawesome #UI #frontend
 ```
 
-`feed-en.md`:
+`feeds/namethatui/en.md`:
 ```markdown
 Ever seen a UI component on a site and had no idea what it's called? 🤔
 
