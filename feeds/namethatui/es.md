@@ -3,5 +3,3 @@
 Con **NameThatUI** encuentras el nombre exacto de patrones UI reales, catalogados y buscables.
 
 🔗 https://namethatui.com/
-
-#myawesome #UI #frontend

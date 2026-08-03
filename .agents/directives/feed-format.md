@@ -30,21 +30,30 @@ Cada vez que se agregue una nueva herramienta a los README (ver `add-links.md`),
 Con **<Nombre de la herramienta>** <beneficio concreto en una frase>.
 
 🔗 <URL>
-
-#myawesome #<tag relevante 1> #<tag relevante 2>
 ```
 
 - **Gancho**: una pregunta corta y relatable que conecte con el problema que resuelve la herramienta. Debe terminar en `?` y puede llevar un emoji de cierre (ej. 🤔).
 - **Cuerpo**: una sola frase, con el nombre de la herramienta en negrita, explicando el beneficio concreto (no repitas la descripción textual del README; reformúlala en tono conversacional).
 - **Link**: precedido por 🔗, en su propia línea. La URL es idéntica en todos los idiomas.
-- **Hashtags**: siempre incluir `#myawesome`, más 1-2 hashtags relevantes al tema de la herramienta (ej. `#UI`, `#frontend`, `#finanzas`, `#productividad`). No se traducen.
+- **Sin hashtags**: el post no debe incluir hashtags (`#tag`).
+- **Límite de 280 caracteres**: el post completo (gancho + cuerpo + link) no debe superar los 280 caracteres, contando la URL tal cual aparece en el texto.
 - No usar el formato "🆕 Se agregó X a la lista..." (estilo A, descartado) ni formatos tipo changelog/lista.
 
 ## Sincronización multi-idioma (obligatorio)
 
 - Cada publicación nueva debe tener su archivo en todos los idiomas soportados (`es.md`, `en.md`, `pt.md`, y cualquier `<CODE>.md` adicional).
-- Solo se traduce el texto (gancho, cuerpo); la URL, el nombre de la herramienta y los hashtags permanecen iguales.
+- Solo se traduce el texto (gancho, cuerpo); la URL y el nombre de la herramienta permanecen iguales.
 - `es.md` es la fuente de verdad del contenido a traducir (mismo criterio que `README.md` para los README).
+
+## Linter
+
+Después de crear o modificar cualquier `feeds/<slug>/<idioma>.md`, ejecutar:
+
+```bash
+node scripts/lint-feeds.js
+```
+
+Valida que cada carpeta `feeds/<slug>/` tenga los idiomas requeridos, que cada post respete el límite de 280 caracteres (contando la URL) y que no contenga hashtags. El comando debe salir con código `0` antes de dar por terminado el cambio.
 
 ## Ejemplo
 
@@ -55,8 +64,6 @@ Con **<Nombre de la herramienta>** <beneficio concreto en una frase>.
 Con **NameThatUI** encuentras el nombre exacto de patrones UI reales, catalogados y buscables.
 
 🔗 https://namethatui.com/
-
-#myawesome #UI #frontend
 ```
 
 `feeds/namethatui/en.md`:
@@ -66,6 +73,4 @@ Ever seen a UI component on a site and had no idea what it's called? 🤔
 With **NameThatUI** you find the exact name of real UI patterns, catalogued and searchable.
 
 🔗 https://namethatui.com/
-
-#myawesome #UI #frontend
 ```

@@ -41,11 +41,19 @@ node scripts/lint-awesome-list.js
 
 Valida el cumplimiento de `awesome-list-format.md` (estructura, formato de entradas y sincronización entre archivos de idioma). El comando debe salir con código `0` antes de dar por terminado el cambio.
 
+Después de crear o modificar cualquier `feeds/<slug>/<idioma>.md`, ejecutar además:
+
+```bash
+node scripts/lint-feeds.js
+```
+
+Valida el cumplimiento de `feed-format.md` (idiomas requeridos, límite de 280 caracteres, sin hashtags). El comando debe salir con código `0` antes de dar por terminado el cambio.
+
 ## Notas Importantes
 
 - Siempre verificar que las URLs funcionen antes de agregarlas.
 - Considerar el contexto local (por ejemplo, herramientas específicas para Chile) cuando sea relevante.
-- No hace falta correr ninguna otra suite de pruebas del repositorio más allá del linter anterior.
+- No hace falta correr ninguna otra suite de pruebas del repositorio más allá de los linters anteriores.
 
 ## Convenciones de commits
 
