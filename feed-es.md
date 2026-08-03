@@ -4,12 +4,12 @@ Registro de cambios en formato tipo X (Twitter) para "my awesome".
 
 ---
 
-🆕 Se agregó **NameThatUI** a la lista 🎬 Contenido y Diseño
+¿Viste un componente en un sitio y no sabías cómo se llamaba? 🤔
 
-Galería de componentes UI de sitios reales, etiquetados y buscables por nombre y patrón. Ideal para encontrar el nombre exacto de ese componente que viste y no sabías cómo se llamaba.
+Con **NameThatUI** encuentras el nombre exacto de patrones UI reales, catalogados y buscables.
 
 🔗 https://namethatui.com/
 
-#myawesome #UI #diseño #herramientas
+#myawesome #UI #frontend
 
 ---
