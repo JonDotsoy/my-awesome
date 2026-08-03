@@ -29,12 +29,12 @@ Cada vez que se agregue una nueva herramienta a los README (ver `add-links.md`),
 
 Con **<Nombre de la herramienta>** <beneficio concreto en una frase>.
 
-🔗 <URL>
+<URL>
 ```
 
 - **Gancho**: una pregunta corta y relatable que conecte con el problema que resuelve la herramienta. Debe terminar en `?` y puede llevar un emoji de cierre (ej. 🤔).
 - **Cuerpo**: una sola frase, con el nombre de la herramienta en negrita, explicando el beneficio concreto (no repitas la descripción textual del README; reformúlala en tono conversacional).
-- **Link**: precedido por 🔗, en su propia línea. La URL es idéntica en todos los idiomas.
+- **Link**: la URL sola, en su propia línea, sin prefijo ni emoji. La URL es idéntica en todos los idiomas.
 - **Sin hashtags**: el post no debe incluir hashtags (`#tag`).
 - **Límite de 280 caracteres**: el post completo (gancho + cuerpo + link) no debe superar los 280 caracteres, contando la URL tal cual aparece en el texto.
 - No usar el formato "🆕 Se agregó X a la lista..." (estilo A, descartado) ni formatos tipo changelog/lista.
@@ -63,7 +63,7 @@ Valida que cada carpeta `feeds/<slug>/` tenga los idiomas requeridos, que cada p
 
 Con **NameThatUI** encuentras el nombre exacto de patrones UI reales, catalogados y buscables.
 
-🔗 https://namethatui.com/
+https://namethatui.com/
 ```
 
 `feeds/namethatui/en.md`:
@@ -72,5 +72,5 @@ Ever seen a UI component on a site and had no idea what it's called? 🤔
 
 With **NameThatUI** you find the exact name of real UI patterns, catalogued and searchable.
 
-🔗 https://namethatui.com/
+https://namethatui.com/
 ```
