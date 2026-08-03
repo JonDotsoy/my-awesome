@@ -103,6 +103,7 @@ Esta es una lista de recomendaciones personales para el uso de ciertas herramien
 - [Dribbble](https://dribbble.com) - Comunidad global de diseñadores para inspiración en UI/UX, branding e ilustración.
 - [Godly Website](https://godly.website/) - Galería curada de diseños web modernos organizados por categorías y estilos.
 - [Websitevice](https://websitevice.com/) - Galería de diseños web realistas orientados a resolver problemas de negocio concretos.
+- [NameThatUI](https://namethatui.com/) - Galería de componentes UI de sitios reales, etiquetados y buscables por nombre y patrón.
 - [Patterns.dev](https://www.patterns.dev/) - Colección de patrones de diseño de JavaScript, React y arquitectura web moderna.
 - [Refactoring Guru](https://refactoring.guru/) - Enseña patrones de diseño (Gang of Four) y técnicas de refactorización con ejemplos prácticos.
 - [CodeWiki](https://codewiki.google/) - Documentación de repositorios generada y mantenida automáticamente por IA (Gemini).

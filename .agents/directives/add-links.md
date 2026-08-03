@@ -40,6 +40,8 @@ Some macro-categories are split into **bold thematic subgroups** (no `#`), for e
 
 5. **Order within the subgroup**: append the new tool at the end of the corresponding subgroup or category, unless there's a clear reason to place it elsewhere (e.g. grouping very similar tools together).
 
+6. **Feed announcement (mandatory)**: create a `feeds/<slug>/` folder with one X-style post per language (`es.md`, `en.md`, `pt.md`, and any additional `feed-<CODE>.md` language), following [`feed-format.md`](feed-format.md).
+
 ## Example
 
 ✅ Correct:

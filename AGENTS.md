@@ -27,6 +27,7 @@ Este archivo (`AGENTS.md`) es el punto de entrada único para las instrucciones 
 - [`.agents/directives/awesome-list-format.md`](.agents/directives/awesome-list-format.md) - Especificación canónica del formato Markdown de los README (estructura, categorías, subgrupos, formato de entradas y consistencia entre idiomas). Consulta esta directiva primero.
 - [`.agents/directives/add-links.md`](.agents/directives/add-links.md) - Cómo agregar una nueva herramienta: elección de categoría/subgrupo, formato de la entrada y sincronización multiidioma.
 - [`.agents/directives/new-languages.md`](.agents/directives/new-languages.md) - Cómo crear un nuevo `README-<CODE>.md`: convención de nombres y cómo replicar la estructura desde `README.md`.
+- [`.agents/directives/feed-format.md`](.agents/directives/feed-format.md) - Cómo crear un anuncio en `feeds/<slug>/` (una carpeta por publicación, un archivo por idioma) cada vez que se agrega una herramienta a los README.
 
 No crear directivas nuevas fuera de `.agents/directives/` sin referenciarlas desde esta sección. No dupliques aquí lo que ya esté documentado en una directiva.
 
@@ -40,11 +41,19 @@ node scripts/lint-awesome-list.js
 
 Valida el cumplimiento de `awesome-list-format.md` (estructura, formato de entradas y sincronización entre archivos de idioma). El comando debe salir con código `0` antes de dar por terminado el cambio.
 
+Después de crear o modificar cualquier `feeds/<slug>/<idioma>.md`, ejecutar además:
+
+```bash
+node scripts/lint-feeds.js
+```
+
+Valida el cumplimiento de `feed-format.md` (idiomas requeridos, límite de 280 caracteres, sin hashtags). El comando debe salir con código `0` antes de dar por terminado el cambio.
+
 ## Notas Importantes
 
 - Siempre verificar que las URLs funcionen antes de agregarlas.
 - Considerar el contexto local (por ejemplo, herramientas específicas para Chile) cuando sea relevante.
-- No hace falta correr ninguna otra suite de pruebas del repositorio más allá del linter anterior.
+- No hace falta correr ninguna otra suite de pruebas del repositorio más allá de los linters anteriores.
 
 ## Convenciones de commits
 
