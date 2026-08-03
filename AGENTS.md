@@ -27,7 +27,7 @@ Este archivo (`AGENTS.md`) es el punto de entrada único para las instrucciones 
 - [`.agents/directives/awesome-list-format.md`](.agents/directives/awesome-list-format.md) - Especificación canónica del formato Markdown de los README (estructura, categorías, subgrupos, formato de entradas y consistencia entre idiomas). Consulta esta directiva primero.
 - [`.agents/directives/add-links.md`](.agents/directives/add-links.md) - Cómo agregar una nueva herramienta: elección de categoría/subgrupo, formato de la entrada y sincronización multiidioma.
 - [`.agents/directives/new-languages.md`](.agents/directives/new-languages.md) - Cómo crear un nuevo `README-<CODE>.md`: convención de nombres y cómo replicar la estructura desde `README.md`.
-- [`.agents/directives/feed-es.md`](.agents/directives/feed-es.md) - Cómo agregar una entrada a `feed-es.md` (anuncio estilo X) cada vez que se agrega una herramienta a los README.
+- [`.agents/directives/feed-format.md`](.agents/directives/feed-format.md) - Cómo agregar una entrada a `feed-es.md`, `feed-en.md`, `feed-pt.md` (anuncio estilo X, con sincronización multiidioma) cada vez que se agrega una herramienta a los README.
 
 No crear directivas nuevas fuera de `.agents/directives/` sin referenciarlas desde esta sección. No dupliques aquí lo que ya esté documentado en una directiva.
 
