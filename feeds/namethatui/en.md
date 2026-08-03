@@ -1,9 +1,3 @@
-# Feed
-
-X-style (Twitter) changelog for "my awesome".
-
----
-
 Ever seen a UI component on a site and had no idea what it's called? 🤔
 
 With **NameThatUI** you find the exact name of real UI patterns, catalogued and searchable.
@@ -11,5 +5,3 @@ With **NameThatUI** you find the exact name of real UI patterns, catalogued and 
 🔗 https://namethatui.com/
 
 #myawesome #UI #frontend
-
----
