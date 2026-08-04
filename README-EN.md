@@ -80,6 +80,8 @@ This is a list of personal recommendations for using certain tools in daily life
 - [GitHub](https://github.com/) - Code hosting platform with repos, PRs, issues, and GitHub Actions.
 - [Codeberg](https://codeberg.org/) - Non-profit free and open-source code hosting based on Forgejo, focused on privacy.
 - [GitLab](https://gitlab.com/) - All-in-one DevOps platform with Git, CI/CD, issues, and container registries.
+- [Name.com](https://www.name.com/) - Domain registrar with DNS management, WHOIS privacy, and email included.
+- [DonDominio](https://www.dondominio.com/) - Spanish-language domain registrar supporting gTLDs and ccTLDs, including `.cl`.
 
 ## 💰 Finance
 
