@@ -80,6 +80,8 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [GitHub](https://github.com/) - Plataforma de hospedagem de código com repos, PRs, issues e GitHub Actions.
 - [Codeberg](https://codeberg.org/) - Hospedagem de código livre e sem fins lucrativos baseada em Forgejo, com foco em privacidade.
 - [GitLab](https://gitlab.com/) - Plataforma DevOps tudo-em-um com Git, CI/CD, issues e registros de contêineres.
+- [Name.com](https://www.name.com/) - Registrador de domínios com gestão de DNS, privacidade WHOIS e e-mail incluídos.
+- [DonDominio](https://www.dondominio.com/) - Registrador de domínios em espanhol com suporte a gTLDs e ccTLDs, incluindo `.cl`.
 
 ## 💰 Finanças
 
