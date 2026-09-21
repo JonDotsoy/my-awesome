@@ -82,6 +82,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [GitLab](https://gitlab.com/) - All-in-one DevOps platform with Git, CI/CD, issues, and container registries.
 - [Name.com](https://www.name.com/) - Domain registrar with DNS management, WHOIS privacy, and email included.
 - [DonDominio](https://www.dondominio.com/) - Spanish-language domain registrar supporting gTLDs and ccTLDs, including `.cl`.
+- [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - Self-hosted web tool to manipulate PDFs: split, merge, convert, compress, and more.
 
 ## 💰 Finance
 

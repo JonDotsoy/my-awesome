@@ -82,6 +82,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [GitLab](https://gitlab.com/) - Plataforma DevOps tudo-em-um com Git, CI/CD, issues e registros de contêineres.
 - [Name.com](https://www.name.com/) - Registrador de domínios com gestão de DNS, privacidade WHOIS e e-mail incluídos.
 - [DonDominio](https://www.dondominio.com/) - Registrador de domínios em espanhol com suporte a gTLDs e ccTLDs, incluindo `.cl`.
+- [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - Ferramenta web autohospedada para manipular PDFs: dividir, combinar, converter, comprimir e mais.
 
 ## 💰 Finanças
 
