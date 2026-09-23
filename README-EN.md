@@ -98,6 +98,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Resend](https://resend.com/) - Transactional and marketing email service with a modern developer API.
 - [Kapso](https://kapso.ai/) - Integrates WhatsApp, SMS, and calls into applications via a unified API.
 - [Amplitude](https://amplitude.com/) - Product analytics with funnels, retention, cohorts, and real-time dashboards.
+- [Workcat](https://workcat.app/) - Mac focus app with an animated desktop cat that detects and closes distracting content like Shorts, Reels, and TikToks without interrupting your work.
 
 ## 🎬 Content and Design
 
