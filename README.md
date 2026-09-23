@@ -98,6 +98,7 @@ Esta es una lista de recomendaciones personales para el uso de ciertas herramien
 - [Resend](https://resend.com/) - Servicio de email transaccional y de marketing con API moderna para desarrolladores.
 - [Kapso](https://kapso.ai/) - Integra WhatsApp, SMS y llamadas en aplicaciones mediante una API unificada.
 - [Amplitude](https://amplitude.com/) - Analítica de producto con embudos, retención, cohortes y dashboards en tiempo real.
+- [Workcat](https://workcat.app/) - App de foco para Mac con un gato animado en el escritorio que detecta y cierra contenido distractor como Shorts, Reels y TikToks sin interrumpir tu trabajo.
 
 ## 🎬 Contenido y Diseño
 
