@@ -69,6 +69,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [HTTPie](https://httpie.io/) - Cliente HTTP moderno com sintaxe intuitiva e saída formatada, alternativa simples e gratuita.
 - [Postman](https://www.postman.com/) - Plataforma integral para desenvolvimento, teste, documentação e colaboração de APIs.
 - [Bruno](https://www.usebruno.com/) - Cliente de API open-source e offline-first, alternativa ao Postman com coleções armazenadas como arquivos de texto.
+- [Agent QA](https://github.com/vostride/agent-qa) - Ferramenta de QA com código-fonte disponível para escrever e executar testes web e móveis em linguagem natural.
 
 ## 🖥️ Infraestrutura e Código
 
