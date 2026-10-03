@@ -90,6 +90,7 @@ Esta es una lista de recomendaciones personales para el uso de ciertas herramien
 - [fintoc.me](https://fintoc.me/) - Comparte datos de transferencia bancaria en Chile mediante una URL simple.
 - [Fintual](https://fintual.cl/) - Plataforma chilena de inversión automatizada en fondos mutuos y acciones, regulada por la CMF.
 - [Racional](https://racional.cl/) - Inversión social chilena desde $5.000 en acciones y ETFs, con comunidad de inversionistas.
+- [FeeGuard](https://feeguard.dev) - Checks Stripe Connect refunds and disputes for unreversed transfers, unadjusted application fees, and uncovered platform losses.
 
 ## 🚀 Productividad y Comunicación
 
