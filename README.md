@@ -100,6 +100,7 @@ Esta es una lista de recomendaciones personales para el uso de ciertas herramien
 - [Kapso](https://kapso.ai/) - Integra WhatsApp, SMS y llamadas en aplicaciones mediante una API unificada.
 - [Amplitude](https://amplitude.com/) - Analítica de producto con embudos, retención, cohortes y dashboards en tiempo real.
 - [Workcat](https://workcat.app/) - App de foco para Mac con un gato animado en el escritorio que detecta y cierra contenido distractor como Shorts, Reels y TikToks sin interrumpir tu trabajo.
+- [Harper](https://writewithharper.com/) - Corrector gramatical de código abierto que funciona 100 % sin conexión y con total privacidad, disponible como extensión de navegador, plugin de editores y app para Mac.
 
 ## 🎬 Contenido y Diseño
 
