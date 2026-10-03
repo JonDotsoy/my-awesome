@@ -108,6 +108,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Godly Website](https://godly.website/) - Curated gallery of modern web designs organized by category and style.
 - [Websitevice](https://websitevice.com/) - Gallery of realistic web designs focused on solving concrete business problems.
 - [NameThatUI](https://namethatui.com/) - Gallery of UI components from real sites, tagged and searchable by name and pattern.
+- [Refero Styles](https://styles.refero.design/) - Library of 2,000+ AI-readable design systems from real sites, so coding agents can build interfaces with better visual taste.
 - [Patterns.dev](https://www.patterns.dev/) - Collection of JavaScript, React, and modern web architecture design patterns.
 - [Refactoring Guru](https://refactoring.guru/) - Teaches Gang of Four design patterns and refactoring techniques with practical examples.
 - [CodeWiki](https://codewiki.google/) - Repository documentation automatically generated and maintained by AI (Gemini).
