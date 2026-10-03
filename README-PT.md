@@ -108,6 +108,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [Godly Website](https://godly.website/) - Galeria curada de designs web modernos organizados por categoria e estilo.
 - [Websitevice](https://websitevice.com/) - Galeria de designs web realistas focados em resolver problemas de negócio concretos.
 - [NameThatUI](https://namethatui.com/) - Galeria de componentes de UI de sites reais, etiquetados e pesquisáveis por nome e padrão.
+- [Refero Styles](https://styles.refero.design/) - Biblioteca com mais de 2.000 sistemas de design de sites reais em formato legível por IA, para que agentes gerem interfaces com melhor critério estético.
 - [Patterns.dev](https://www.patterns.dev/) - Coleção de padrões de design de JavaScript, React e arquitetura web moderna.
 - [Refactoring Guru](https://refactoring.guru/) - Ensina padrões de design (Gang of Four) e técnicas de refatoração com exemplos práticos.
 - [CodeWiki](https://codewiki.google/) - Documentação de repositórios gerada e mantida automaticamente por IA (Gemini).
