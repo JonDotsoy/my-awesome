@@ -1,0 +1,18 @@
+name: Assign reviewer
+
+on:
+  pull_request_target:
+    types: [opened, reopened, ready_for_review]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  assign-reviewer:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.user.login != 'jondotsoy'
+    steps:
+      - name: Request review from @jondotsoy
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr edit "${{ github.event.pull_request.number }}" --repo "${{ github.repository }}" --add-reviewer jondotsoy
