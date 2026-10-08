@@ -25,6 +25,7 @@ Esta es una lista de recomendaciones personales para el uso de ciertas herramien
 - [Skills.sh](https://skills.sh/) - Gestor de paquetes de habilidades modulares para agentes de IA (similar a npm), para extender capacidades como edición de video o interacción con APIs.
 - [Pencil.dev](https://www.pencil.dev/) - Canvas vectorial infinito integrado en el editor de código que convierte diseños en HTML/CSS/React vía MCP.
 - [Zro](https://zro.moonmath.ai/) - Endpoint de inferencia privado de MoonMath.ai con modelos open-weight para agentes de codificación, infraestructura en la UE y compatibilidad de API OpenAI/Anthropic.
+- [Tale](https://tale.dev/) - Espacio de trabajo autoalojado para personas y agentes de IA persistentes, con tareas, archivos y conocimiento compartidos, y delegación y revisión explícitas.
 
 **Comparadores de LLMs**
 
