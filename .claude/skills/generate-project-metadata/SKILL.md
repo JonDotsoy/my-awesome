@@ -60,6 +60,9 @@ awk -v n=<N> 'NR<=n && /^## /{c=$0; s=""} NR<=n && /^\*\*.*\*\*$/{s=$0} END{prin
    - Licencias no OSI (p. ej. FSL, BUSL, Sustainable Use): registra el identificador SPDX en `license` (o el nombre si no tiene SPDX) y usa `open_source: false`.
    - `license_type` clasifica la licencia: `permissive`, `copyleft`, `fair-code`, `source-available`, `proprietary` o `null` si no se conoce. Debe ser coherente con `open_source` (`permissive`/`copyleft` → `true`; el resto → `false`).
    - `pricing_url`: URL de la página de precios si existe y la verificaste (WebFetch); si no, `null`. Nunca la adivines. `pricing` (free/freemium/paid) sigue siendo inferido y debe ser coherente con `pricing_plans` cuando existan.
+   - Producto sin repositorio (SaaS cerrado): `repository: null`, `stats: null`, `license: null`, `license_type: proprietary` y `open_source: false`; omite el script de GitHub. Registra la empresa en `company` y los enlaces extra (`developers_url`) si la página los muestra (ver `metadata/make-com.yaml`).
+   - Solo agrega `aliases` que aparezcan en las fuentes consultadas, no los que recuerdes de memoria.
+   - Cuando la misma cifra difiere entre secciones del sitio (p. ej. número de integraciones), deja `null` y documenta los valores en un comentario.
    - El HTML de GitHub no entrega la fecha del último commit; déjala en `null` o consúltala vía API.
 8. **Anotar preguntas abiertas** al final del archivo (qué campos salen de API vs. requieren LLM, vocabulario por cerrar, etc.).
 9. **Validar**:

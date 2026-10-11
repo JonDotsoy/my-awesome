@@ -1,0 +1,139 @@
+# Metadata research: what data can we extract per project?
+# Generated following .claude/skills/generate-project-metadata/SKILL.md
+# Fields marked "inferred" are our own classification, not extracted.
+
+schema_version: 0.1
+
+# --- Identity ---
+id: make-com
+name: Make.com
+url: https://www.make.com/
+url_canonical: https://www.make.com/
+homepage: https://www.make.com/
+docs_url: https://help.make.com/
+developers_url: https://developers.make.com/
+repository: null          # closed-source SaaS, no public repository
+aliases: [Make]           # product name shown on the site
+company: Celonis          # footer: "Celonis, Inc."
+
+# --- Curation (from this list) ---
+readme:
+  category: IA y Automatización
+  category_emoji: "🤖"
+  subgroup: Automatización de procesos
+  descriptions:
+    es: Plataforma de automatización visual con muchas integraciones, más simple de entender que n8n.
+    en: Visual automation platform with many integrations, simpler to understand than n8n.
+    pt: Plataforma de automação visual com muitas integrações, mais simples de entender que o n8n.
+
+# --- Classification ---
+segment: automation                         # inferred
+audience: [no-code-users, automation-engineers, teams]   # inferred
+labels:                                     # inferred
+  - workflow-automation
+  - no-code
+  - ai-agents
+  - ipaas
+  - mcp
+  - saas
+  - integrations
+topics_upstream: []                         # no repository
+
+# --- Summary ---
+summary: >-
+  Hosted visual platform for connecting apps, data and AI models into
+  automations and AI agents, built by drag-and-drop, prompt or MCP. Offers a
+  permanent free plan and paid tiers priced by monthly credits.
+tagline: The visual AI automation platform
+
+# --- Features (extracted from the site) ---
+features:
+  - Visual builder: drag-and-drop, by prompt, in code, or via an MCP server
+  - AI agents and workflows across integrations
+  - Central view of all automations with enterprise controls
+  - On-prem agents (linked under Resources; scope not explained)
+  - Security: GDPR, SOC 2 Type II, encryption, SSO
+  - Make API access (paid plans)
+
+# --- Technical ---
+license: null
+license_type: proprietary                   # inferred: SaaS, no source published
+open_source: false
+language: null
+platforms: [web, cloud]
+integrations_count: null                    # conflicting on-site figures: "3,000+" (home), "3,500+" (free plan on pricing page); "400+ AI apps" is a subset
+hosting: AWS (EU / North America)           # per pricing page, all plans
+self_hostable: false                        # inferred: not stated; only "on-prem agents" mentioned
+pricing: freemium
+pricing_url: https://www.make.com/en/pricing
+pricing_source_url: https://www.make.com/en/pricing
+pricing_captured_at: 2026-10-11
+pricing_plans:                              # snapshot as shown on the page; prices change
+  - name: Free
+    price: 0
+    currency: USD
+    billing_period: month
+    price_note: No time limit, no credit card required
+    audience: Users trying the visual interface and building a first scenario
+    hosting: cloud
+    limits: [Up to 1000 credits/month, 2 active scenarios, 15 min minimum interval, 5 min max execution time, 5 MB max file size, 512 MB data transfer, 7 days execution log storage]
+    features: [No-code builder, 3500+ apps, Routers and filters, Customer support]
+  - name: Core
+    price: 12
+    currency: USD
+    billing_period: month
+    price_note: Monthly price at 10000 credits/month; credits slider goes from 10k to 8M+; annual billing saves "15% or more" (totals not listed)
+    audience: Fundamental AI and automation needs
+    hosting: cloud
+    limits: [10000 credits/month (default), 1 min minimum interval, 40 min max execution time, 100 MB max file size, 5 GB data transfer, 30 days execution log storage]
+    features: [Unlimited active scenarios, Scheduled scenarios down to the minute, Make API access]
+  - name: Pro
+    price: 21
+    currency: USD
+    billing_period: month
+    price_note: Marked "Recommended"; monthly price at 10000 credits/month
+    audience: Advanced AI and automation, high-performance execution
+    hosting: cloud
+    limits: [10000 credits/month (default), 250 MB max file size]
+    features: [Priority scenario execution, Custom variables, Full-text execution log search]
+  - name: Teams
+    price: 38
+    currency: USD
+    billing_period: month
+    price_note: Monthly price at 10000 credits/month
+    audience: Teams working on AI and automation together
+    hosting: cloud
+    limits: [10000 credits/month (default), 500 MB max file size]
+    features: [Teams and team roles, Create and share scenario templates]
+  - name: Enterprise
+    price: null
+    currency: null
+    billing_period: custom
+    price_note: Contact sales
+    audience: Large organizations needing scalable, secure solutions
+    hosting: cloud
+    limits: [Custom credits, 1000 MB max file size, 60 days execution log storage]
+    features: [Custom functions, Enterprise app integrations, 24/7 enterprise support, Value Engineering team access, Overage protection, Advanced security]
+
+# --- Health signals (point-in-time snapshot) ---
+# No repository: GitHub stats do not apply.
+stats: null
+
+# --- Provenance ---
+sources:
+  - url: https://www.make.com/
+    kind: product-page
+    fetched_at: 2026-10-11
+  - url: https://www.make.com/en/pricing
+    kind: pricing-page
+    fetched_at: 2026-10-11
+
+# --- Open questions for the extraction stage ---
+# - Non-repo projects: how to capture health signals (status page, changelog, G2/Capterra rating)?
+#   `stats: null` for now.
+# - Credits-based pricing: price depends on a credits slider; model price per credit tier
+#   instead of one price per plan?
+# - Per-plan limits were only partially mapped by the page text (users, support tiers): verify
+#   in a browser.
+# - Redirect chain / canonical tag not visible via WebFetch; verify in a browser that
+#   www.make.com/ is the final canonical URL.
