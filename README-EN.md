@@ -61,6 +61,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Mermaid](https://mermaid.js.org/) - Creates diagrams and visualizations from Markdown text.
 - [Excalidraw](https://excalidraw.com/) - Collaborative virtual whiteboard with a hand-drawn look, ideal for brainstorming.
 - [MakeGraph](https://makegraph.app/es) - Free tool to create charts and diagrams (bar, line, radar, heat maps) with no signup.
+- [Diagram Design](https://github.com/cathrynlavery/diagram-design) - Skill for coding agents (Claude Code, Codex, Cursor) that generates polished, brand-matched diagrams as a single HTML/SVG file.
 
 **Testing and APIs**
 

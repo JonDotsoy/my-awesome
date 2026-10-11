@@ -61,6 +61,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [Mermaid](https://mermaid.js.org/) - Cria diagramas e visualizações a partir de texto em Markdown.
 - [Excalidraw](https://excalidraw.com/) - Quadro branco virtual colaborativo com aparência desenhada à mão, ideal para brainstorming.
 - [MakeGraph](https://makegraph.app/es) - Ferramenta gratuita para criar gráficos e diagramas (barras, linhas, radar, mapas de calor) sem cadastro.
+- [Diagram Design](https://github.com/cathrynlavery/diagram-design) - Skill para agentes de código (Claude Code, Codex, Cursor) que gera diagramas polidos e alinhados à sua marca como um único arquivo HTML/SVG.
 
 **Testing e APIs**
 
