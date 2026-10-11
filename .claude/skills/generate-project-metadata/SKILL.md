@@ -23,7 +23,7 @@ grep -n -i "<termino>" README.md
 
 ```bash
 # Categoría y subgrupo de una línea N
-awk -v n=<N> 'NR<=n && /^## /{c=$0} NR<=n && /^\*\*.*\*\*$/{s=$0} END{print c; print s}' README.md
+awk -v n=<N> 'NR<=n && /^## /{c=$0; s=""} NR<=n && /^\*\*.*\*\*$/{s=$0} END{print c; print s}' README.md
 ```
 
 ## Pasos
