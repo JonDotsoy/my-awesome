@@ -39,6 +39,9 @@ awk -v n=<N> 'NR<=n && /^## /{c=$0; s=""} NR<=n && /^\*\*.*\*\*$/{s=$0} END{prin
    - Valor deducido por ti (`segment`, `labels`, `audience`, `language` si la fuente no lo dice) → comentario `# inferred`.
    - Las métricas de salud llevan `captured_at` con la fecha de consulta; registra cada fuente en `sources` con `fetched_at`.
    - `summary` en inglés, 2–3 frases, sin copiar el texto literal del README.
+   - Si la URL del README es un sitio de producto y existe un repo, la canónica es la del README y el repo va en `repository.url` (ver `metadata/isbetter-ai.yaml`).
+   - Licencias no OSI (p. ej. FSL, BUSL): registra el identificador SPDX en `license` y usa `open_source: false`.
+   - El HTML de GitHub no entrega la fecha del último commit; déjala en `null` o consúltala vía API.
 8. **Anotar preguntas abiertas** al final del archivo (qué campos salen de API vs. requieren LLM, vocabulario por cerrar, etc.).
 9. **Validar**:
    ```bash
