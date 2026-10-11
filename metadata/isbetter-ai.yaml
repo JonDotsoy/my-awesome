@@ -62,6 +62,7 @@ features:
 
 # --- Technical ---
 license: FSL-1.1-MIT       # Functional Source License; each release becomes MIT after 2 years
+license_type: source-available
 open_source: false         # source-available, not OSI open source until the MIT conversion
 language: null             # GitHub languages panel was empty; topics suggest Astro/TypeScript (inferred)
 platforms: [web]
@@ -70,6 +71,7 @@ providers:
   local: [Ollama, LM Studio, llama.cpp, vLLM, LocalAI]   # requires CORS on the local server
 auth: bring-your-own-keys   # keys stored in the browser, sent only to the provider
 signup_required: null       # not stated
+pricing_url: null
 pricing: free               # inferred: "Keep AI Battle free" + GitHub Sponsors link
 sponsor_url: https://github.com/sponsors/midudev
 self_hostable: true

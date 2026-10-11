@@ -20,7 +20,7 @@ REQUIRED = [
     "segment", "labels", "summary", "sources",
 ]
 ENTRY_RE = re.compile(r"^- \[(?P<name>[^\]]+)\]\((?P<url>[^)]+)\) - (?P<desc>.+)$")
-LANG_FILES = {"es": "README.md"}
+LICENSE_TYPES = {"permissive", "copyleft", "fair-code", "source-available", "proprietary"}
 
 
 def readme_entries(path):
@@ -89,6 +89,14 @@ def lint(path, readmes):
                 errs.append(f"sources[{i}].url must be an http(s) URL")
             elif not isinstance(s.get("fetched_at"), (datetime.date, datetime.datetime)):
                 errs.append(f"sources[{i}].fetched_at must be a date (YYYY-MM-DD)")
+    lt = data.get("license_type")
+    if lt is not None and lt not in LICENSE_TYPES:
+        errs.append(f"license_type must be null or one of {sorted(LICENSE_TYPES)}")
+    elif lt is not None and "open_source" in data:
+        if (lt in ("permissive", "copyleft")) != (data["open_source"] is True):
+            errs.append(f"license_type '{lt}' is inconsistent with open_source: {data['open_source']}")
+    if data.get("pricing_url") is not None and not is_http_url(data["pricing_url"]):
+        errs.append("pricing_url must be null or an http(s) URL")
     stats = data.get("stats")
     if stats is not None:
         if not isinstance(stats.get("captured_at"), (datetime.date, datetime.datetime)):

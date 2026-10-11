@@ -40,7 +40,9 @@ awk -v n=<N> 'NR<=n && /^## /{c=$0; s=""} NR<=n && /^\*\*.*\*\*$/{s=$0} END{prin
    - Las métricas de salud llevan `captured_at` con la fecha de consulta; registra cada fuente en `sources` con `fetched_at`.
    - `summary` en inglés, 2–3 frases, sin copiar el texto literal del README.
    - Si la URL del README es un sitio de producto y existe un repo, la canónica es la del README y el repo va en `repository.url` (ver `metadata/isbetter-ai.yaml`).
-   - Licencias no OSI (p. ej. FSL, BUSL): registra el identificador SPDX en `license` y usa `open_source: false`.
+   - Licencias no OSI (p. ej. FSL, BUSL, Sustainable Use): registra el identificador SPDX en `license` (o el nombre si no tiene SPDX) y usa `open_source: false`.
+   - `license_type` clasifica la licencia: `permissive`, `copyleft`, `fair-code`, `source-available`, `proprietary` o `null` si no se conoce. Debe ser coherente con `open_source` (`permissive`/`copyleft` → `true`; el resto → `false`).
+   - `pricing_url`: URL de la página de precios si existe y la verificaste (WebFetch); si no, `null`. Nunca la adivines. `pricing` (free/freemium/paid) sigue siendo inferido.
    - El HTML de GitHub no entrega la fecha del último commit; déjala en `null` o consúltala vía API.
 8. **Anotar preguntas abiertas** al final del archivo (qué campos salen de API vs. requieren LLM, vocabulario por cerrar, etc.).
 9. **Validar**:

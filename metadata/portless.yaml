@@ -65,6 +65,7 @@ features:
 
 # --- Technical ---
 license: Apache-2.0
+license_type: permissive
 language: JavaScript/TypeScript            # inferred; GitHub languages panel was empty
 runtime:
   name: Node.js
@@ -77,6 +78,7 @@ frameworks:
   native_port_env: [Next.js, Express, Nuxt]
   injected_flags: [Vite, Astro, React Router, Angular, Expo, React Native]
 pricing: free
+pricing_url: null
 open_source: true
 self_hostable: true
 

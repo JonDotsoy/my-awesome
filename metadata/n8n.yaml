@@ -69,6 +69,7 @@ integrations_count: null                 # conflicting upstream: site "500+", re
 install:
   - curl -fsSL https://get.n8n.io | sh   # requires Docker
   - docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n   # editor on http://localhost:5678
+pricing_url: null                        # pricing page not fetched; verify before filling
 pricing: freemium                        # inferred: "Get started for free", pricing page and enterprise sales; plan details not on page
 self_hostable: true
 
@@ -95,9 +96,9 @@ sources:
     fetched_at: 2026-10-11
 
 # --- Open questions for the extraction stage ---
-# - README says "código abierto" but the license is fair-code (Sustainable Use):
-#   should the list wording be revised, or keep license_type as a separate field?
+# - README says "código abierto" but the license is fair-code (Sustainable Use, see license_type):
+#   should the list wording be revised?
 # - Stars/forks on GitHub are rounded ("207.0k"); store exact values via API?
 # - Integration counts disagree across sources: pick one source of truth or keep a range?
-# - Pricing needs the pricing page (not fetched); add a pricing_url field?
+# - pricing_url is null: fetch the pricing page to fill it and confirm plan details.
 # - last_commit_at and latest_release need the GitHub API; the HTML fetch omits them.
