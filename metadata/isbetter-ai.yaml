@@ -1,0 +1,112 @@
+# Metadata research: what data can we extract per project?
+# Generated following .claude/skills/generate-project-metadata/SKILL.md
+# Fields marked "inferred" are our own classification, not extracted.
+
+schema_version: 0.1
+
+# --- Identity ---
+id: isbetter-ai
+name: isbetter.ai
+url: https://isbetter.ai/
+url_canonical: https://isbetter.ai/
+homepage: https://isbetter.ai
+docs_url: null            # none visible
+repository:
+  host: github.com
+  owner: midudev
+  name: isbetter.ai
+  kind: git
+  url: https://github.com/midudev/isbetter.ai
+aliases: [AI Battle]      # name shown on the site and in the clone URL
+
+# --- Curation (from this list) ---
+readme:
+  category: IA y Automatización
+  category_emoji: "🤖"
+  subgroup: Comparadores de LLMs
+  descriptions:
+    es: Compara la respuesta, código, vista previa, velocidad y costo de varios modelos de IA ante el mismo prompt.
+    en: Compares the answer, code, preview, speed, and cost of multiple AI models given the same prompt.
+    pt: Compara a resposta, código, pré-visualização, velocidade e custo de vários modelos de IA para o mesmo prompt.
+
+# --- Classification ---
+segment: ai-tools                           # inferred
+audience: [developers, ai-practitioners]    # inferred
+labels:                                     # inferred, informed by upstream topics
+  - llm
+  - model-comparison
+  - benchmarking
+  - prompt-testing
+  - byok
+  - web-app
+topics_upstream: [ai, ai-tools, anthropic, astro, cloudflare-workers, llm, model-comparison, openai, tailwindcss]
+
+# --- Summary ---
+summary: >-
+  Browser-based tool that sends one prompt to several AI models and shows the
+  streamed answers side by side, with live code previews plus speed, token and
+  cost metrics. Works with your own API keys, kept in the browser, and with
+  local model servers.
+tagline: Compare AI models. Side by side.
+
+# --- Features (extracted from the site) ---
+features:
+  - Same prompt to multiple models, streamed side by side
+  - Live code previews
+  - Speed, token and cost metrics; normalized battle analysis
+  - Blind comparison mode
+  - Synchronized scrolling
+  - Advanced instructions (system prompt)
+  - Battle history stored locally in the browser
+  - Optional public sharing via unique link (prompt and successful results only)
+
+# --- Technical ---
+license: FSL-1.1-MIT       # Functional Source License; each release becomes MIT after 2 years
+license_type: source-available
+open_source: false         # source-available, not OSI open source until the MIT conversion
+language: null             # GitHub languages panel was empty; topics suggest Astro/TypeScript (inferred)
+platforms: [web]
+providers:
+  cloud: [OpenRouter, OpenAI, Anthropic, Google Gemini, xAI, DeepSeek, Kimi, Mistral AI, Groq, Cerebras]
+  local: [Ollama, LM Studio, llama.cpp, vLLM, LocalAI]   # requires CORS on the local server
+auth: bring-your-own-keys   # keys stored in the browser, sent only to the provider
+signup_required: null       # not stated
+pricing_url: null
+pricing_plans: []                          # free to use, no pricing page
+pricing: free               # inferred: "Keep AI Battle free" + GitHub Sponsors link
+sponsor_url: https://github.com/sponsors/midudev
+self_hostable: true
+self_host:
+  requirements: [Node.js >=22.12, pnpm]
+  commands: [pnpm install, pnpm dev]   # dev server on http://localhost:4321
+author: midudev
+author_url: https://midu.dev
+
+# --- Health signals (point-in-time snapshot) ---
+stats:
+  stars: 59
+  forks: 11
+  watchers: 0
+  open_issues: 4
+  open_pull_requests: 1
+  commits: 68
+  latest_release: null      # no releases shown
+  last_commit_at: null      # not shown by the page fetch
+  archived: false           # no archive banner; not explicitly confirmed
+  captured_at: 2026-10-11
+
+# --- Provenance ---
+sources:
+  - url: https://isbetter.ai/
+    kind: product-page
+    fetched_at: 2026-10-11
+  - url: https://github.com/midudev/isbetter.ai
+    kind: repository-page
+    fetched_at: 2026-10-11
+
+# --- Open questions for the extraction stage ---
+# - README entry points to the product site, not the repo: which one is canonical?
+#   Chosen here: the README URL (site); repo kept under repository.url.
+# - Non-OSI licenses (FSL) break a simple open_source boolean: use license_type?
+# - The repo clone URL says ai-battle; track renames/aliases?
+# - last_commit_at needs the GitHub API; the HTML fetch does not return it.

@@ -1,0 +1,108 @@
+# Metadata research: what data can we extract per project?
+# Stage: exploratory. Fields marked "source" show where the value came from;
+# fields marked "inferred" are our own classification, not extracted.
+
+schema_version: 0.1
+
+# --- Identity ---
+id: portless
+name: Portless
+url: https://github.com/vercel-labs/portless
+url_canonical: https://github.com/vercel-labs/portless
+homepage: https://portless.sh
+docs_url: null            # none found; README + apps/docs folder in repo
+repository:
+  host: github.com
+  owner: vercel-labs
+  name: portless
+  kind: git
+
+# --- Curation (from this list) ---
+readme:
+  category: Infraestructura y Código       # segmento en el README
+  category_emoji: "🖥️"
+  subgroup: null
+  descriptions:
+    es: Reemplaza puertos por URLs estables en `.localhost` para desarrollo local.
+    en: Replaces port numbers with stable `.localhost` URLs for local development.
+    pt: Substitui portas por URLs estáveis em `.localhost` para desenvolvimento local.
+
+# --- Classification ---
+segment: developer-tools                    # inferred
+audience: [developers, ai-agents]           # inferred
+labels:                                     # inferred from README features
+  - local-development
+  - dns
+  - reverse-proxy
+  - https
+  - cli
+  - monorepo
+  - git-worktree
+  - nodejs
+topics_upstream: []                         # GitHub topics: none shown
+
+# --- Summary ---
+summary: >-
+  Gives local dev servers stable, named .localhost URLs instead of port
+  numbers. Prefix your dev command with `portless <name>` and it runs the app
+  behind a local proxy with HTTPS/HTTP2, WebSocket/HMR support, subdomains,
+  and per-branch URLs for git worktrees.
+tagline: Replace port numbers with stable, named local URLs. For humans and agents.
+
+# --- Features (extracted from README) ---
+features:
+  - Named .localhost URLs (e.g. `portless myapp next dev`)
+  - HTTPS with HTTP/2 by default via a generated local CA
+  - WebSocket / HMR through the proxy
+  - Automatic PORT and --port/--host injection for common frameworks
+  - Subdomains, custom TLDs, wildcard routing
+  - Git worktree support (one subdomain per branch)
+  - Monorepo / Turborepo support
+  - LAN mode (.local names for other devices)
+  - Tailscale and ngrok sharing
+  - OS startup service (launchd, systemd, Task Scheduler)
+  - "`doctor` command for diagnosing setup"
+
+# --- Technical ---
+license: Apache-2.0
+license_type: permissive
+language: JavaScript/TypeScript            # inferred; GitHub languages panel was empty
+runtime:
+  name: Node.js
+  min_version: "24"
+platforms: [macos, linux, windows]
+install:
+  - npm install -g portless
+  - npm install -D portless
+frameworks:
+  native_port_env: [Next.js, Express, Nuxt]
+  injected_flags: [Vite, Astro, React Router, Angular, Expo, React Native]
+pricing: free
+pricing_url: null
+pricing_plans: []                          # free tool, no pricing page
+open_source: true
+self_hostable: true
+
+# --- Health signals (point-in-time snapshot) ---
+stats:
+  stars: 12700
+  forks: 434
+  watchers: 24
+  open_issues: 79
+  open_pull_requests: 69
+  latest_release: null                     # no releases published
+  maturity: pre-1.0                        # stated in README
+  captured_at: 2026-10-11
+
+# --- Provenance ---
+sources:
+  - url: https://github.com/vercel-labs/portless
+    kind: repository-page
+    fetched_at: 2026-10-11
+
+# --- Open questions for the extraction stage ---
+# - Which fields can be fetched deterministically (GitHub API: license, stars,
+#   topics, pushed_at, archived) vs. need an LLM (summary, segment, labels)?
+# - Add last_commit_at / archived to detect abandoned projects?
+# - Should descriptions per language live here or stay only in READMEs?
+# - Closed vocabulary for segment and labels?
