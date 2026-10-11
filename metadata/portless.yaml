@@ -79,6 +79,7 @@ frameworks:
   injected_flags: [Vite, Astro, React Router, Angular, Expo, React Native]
 pricing: free
 pricing_url: null
+pricing_plans: []                          # free tool, no pricing page
 open_source: true
 self_hostable: true
 

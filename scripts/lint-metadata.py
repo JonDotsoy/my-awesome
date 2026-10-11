@@ -20,6 +20,7 @@ REQUIRED = [
     "segment", "labels", "summary", "sources",
 ]
 ENTRY_RE = re.compile(r"^- \[(?P<name>[^\]]+)\]\((?P<url>[^)]+)\) - (?P<desc>.+)$")
+BILLING_PERIODS = {"month", "year", "one-time", "usage", "custom"}
 LICENSE_TYPES = {"permissive", "copyleft", "fair-code", "source-available", "proprietary"}
 
 
@@ -97,6 +98,31 @@ def lint(path, readmes):
             errs.append(f"license_type '{lt}' is inconsistent with open_source: {data['open_source']}")
     if data.get("pricing_url") is not None and not is_http_url(data["pricing_url"]):
         errs.append("pricing_url must be null or an http(s) URL")
+    plans = data.get("pricing_plans")
+    if plans is not None:
+        if not isinstance(plans, list):
+            errs.append("pricing_plans must be a list")
+        else:
+            for i, pl in enumerate(plans):
+                if not isinstance(pl, dict) or not isinstance(pl.get("name"), str) or not pl["name"].strip():
+                    errs.append(f"pricing_plans[{i}].name must be a non-empty string")
+                    continue
+                price = pl.get("price")
+                if price is not None and (isinstance(price, bool) or not isinstance(price, (int, float)) or price < 0):
+                    errs.append(f"pricing_plans[{i}].price must be null or a non-negative number")
+                cur = pl.get("currency")
+                if price is not None and not (isinstance(cur, str) and re.fullmatch(r"[A-Z]{3}", cur)):
+                    errs.append(f"pricing_plans[{i}].currency must be an ISO 4217 code when price is set")
+                if pl.get("billing_period") is not None and pl["billing_period"] not in BILLING_PERIODS:
+                    errs.append(f"pricing_plans[{i}].billing_period must be null or one of {sorted(BILLING_PERIODS)}")
+                for k in ("limits", "features"):
+                    if pl.get(k) is not None and not (isinstance(pl[k], list) and all(isinstance(x, str) for x in pl[k])):
+                        errs.append(f"pricing_plans[{i}].{k} must be a list of strings")
+            if plans:
+                if not is_http_url(data.get("pricing_source_url")):
+                    errs.append("pricing_source_url is required (http(s) URL) when pricing_plans is not empty")
+                if not isinstance(data.get("pricing_captured_at"), (datetime.date, datetime.datetime)):
+                    errs.append("pricing_captured_at is required (YYYY-MM-DD) when pricing_plans is not empty")
     stats = data.get("stats")
     if stats is not None:
         if not isinstance(stats.get("captured_at"), (datetime.date, datetime.datetime)):

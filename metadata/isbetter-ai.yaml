@@ -72,6 +72,7 @@ providers:
 auth: bring-your-own-keys   # keys stored in the browser, sent only to the provider
 signup_required: null       # not stated
 pricing_url: null
+pricing_plans: []                          # free to use, no pricing page
 pricing: free               # inferred: "Keep AI Battle free" + GitHub Sponsors link
 sponsor_url: https://github.com/sponsors/midudev
 self_hostable: true

@@ -69,7 +69,55 @@ integrations_count: null                 # conflicting upstream: site "500+", re
 install:
   - curl -fsSL https://get.n8n.io | sh   # requires Docker
   - docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n   # editor on http://localhost:5678
-pricing_url: null                        # pricing page not fetched; verify before filling
+pricing_url: https://n8n.io/pricing/
+pricing_source_url: https://n8n.io/pricing/
+pricing_captured_at: 2026-10-11
+pricing_plans:                           # snapshot as shown on the page; prices change
+  - name: Starter
+    price: 20
+    currency: EUR
+    billing_period: month
+    price_note: Annual billing shown; monthly option exists but its price is not listed
+    audience: Building and running first workflows and agents
+    hosting: cloud
+    limits: [2.5K executions/month, 1 shared project, 5 concurrent executions, 1600 Assistant credits/month, 5 min max execution duration]
+    features: [Unlimited users and workflows, All integrations, Agents, MCP, AI nodes, Forum support, Free trial without credit card]
+  - name: Pro
+    price: 50
+    currency: EUR
+    billing_period: month
+    price_note: Annual billing shown; monthly option exists but its price is not listed
+    audience: Solo builders and small teams running automations in production
+    hosting: cloud
+    limits: [10K executions/month, 3 shared projects, 50 concurrent executions, 9600 Assistant credits/month, 25k saved executions, 40 min max execution duration]
+    features: [Admin roles, Metric-based evaluations, 7 days of insights, Workflow history, Free trial without credit card]
+  - name: Business
+    price: 667
+    currency: EUR
+    billing_period: month
+    price_note: Annual billing shown; cloud version is waitlisted; 14-day trial requires a credit card; 50% start-up discount under 20 employees
+    audience: Companies under 100 employees that need collaboration and scale
+    hosting: self-hosted
+    limits: [40K executions/month, 6 shared projects, Overage EUR 4000 per 300000-execution bucket]
+    features: [SSO and LDAP, 30 days of insights, Multiple environments, Queue mode, Git version control, Assistant (preview), Forum support]
+  - name: Enterprise
+    price: null
+    currency: null
+    billing_period: custom
+    price_note: Contact sales
+    audience: Organisations with strict compliance and governance needs
+    hosting: cloud or self-hosted
+    limits: [Unlimited shared projects, 200+ concurrent executions, Extended data retention]
+    features: [365 days of insights, External secret store, Log streaming, Dedicated support with SLA]
+  - name: Community Edition
+    price: 0
+    currency: EUR
+    billing_period: null
+    price_note: Free self-hosted version distributed on GitHub
+    audience: null
+    hosting: self-hosted
+    limits: []
+    features: []
 pricing: freemium                        # inferred: "Get started for free", pricing page and enterprise sales; plan details not on page
 self_hostable: true
 
@@ -100,5 +148,6 @@ sources:
 #   should the list wording be revised?
 # - Stars/forks on GitHub are rounded ("207.0k"); store exact values via API?
 # - Integration counts disagree across sources: pick one source of truth or keep a range?
-# - pricing_url is null: fetch the pricing page to fill it and confirm plan details.
+# - Business plan is shown as EUR 667/mo with annual billing; should price_note become structured (price_annual / price_monthly)?
+# - Trial terms (cloud trial limits, 14-day Business trial) are only in price_note: add a trial field?
 # - last_commit_at and latest_release need the GitHub API; the HTML fetch omits them.
