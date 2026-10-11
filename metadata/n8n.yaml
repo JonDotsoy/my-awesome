@@ -1,0 +1,103 @@
+# Metadata research: what data can we extract per project?
+# Generated following .claude/skills/generate-project-metadata/SKILL.md
+# Fields marked "inferred" are our own classification, not extracted.
+
+schema_version: 0.1
+
+# --- Identity ---
+id: n8n
+name: n8n
+url: https://n8n.io/
+url_canonical: https://n8n.io/
+homepage: https://n8n.io
+docs_url: https://docs.n8n.io
+repository:
+  host: github.com
+  owner: n8n-io
+  name: n8n
+  kind: git
+  url: https://github.com/n8n-io/n8n
+
+# --- Curation (from this list) ---
+readme:
+  category: IA y Automatización
+  category_emoji: "🤖"
+  subgroup: Automatización de procesos
+  descriptions:
+    es: Plataforma de automatización de flujos de trabajo de código abierto mediante interfaz visual.
+    en: Open-source workflow automation platform via a visual interface.
+    pt: Plataforma de automação de fluxos de trabalho de código aberto via interface visual.
+
+# --- Classification ---
+segment: automation                         # inferred
+audience: [developers, automation-engineers, ai-practitioners]   # inferred
+labels:                                     # inferred, informed by upstream topics
+  - workflow-automation
+  - low-code
+  - ai-agents
+  - ipaas
+  - mcp
+  - self-hosted
+  - integrations
+topics_upstream: [ai, apis, automation, cli, data-flow, development, integration-framework, integrations, ipaas, low-code, low-code-platform, mcp, mcp-client, mcp-server, n8n, no-code, self-hosted, typescript, workflow, workflow-automation]
+
+# --- Summary ---
+summary: >-
+  Visual workflow and AI-agent builder that connects hundreds of apps and lets
+  you drop into JavaScript or Python when needed. Runs self-hosted via Docker
+  or on a managed cloud, under a fair-code license with an enterprise tier.
+tagline: AI agents and workflows you can see and control
+
+# --- Features (extracted from the site) ---
+features:
+  - Visual workflow builder with JavaScript / Python code steps
+  - Inspect inputs and outputs per step; re-run single steps, replay or mock data
+  - Logs view and native AI evaluation
+  - Multi-agent setups and RAG systems
+  - Swappable cloud or offline AI models
+  - Human-in-the-loop approvals
+  - MCP support (client and server)
+  - Enterprise controls: SSO (SAML), LDAP, encrypted secret stores, RBAC, audit logs, SIEM log streaming, Git-based version control
+
+# --- Technical ---
+license: Sustainable Use License        # fair-code; no SPDX id (LicenseRef); enterprise features under the n8n Enterprise License
+license_type: fair-code
+open_source: false                       # source-available; README entry says "código abierto"
+language: TypeScript                     # inferred from topics; GitHub languages panel was empty
+platforms: [self-hosted, docker, cloud]
+integrations_count: null                 # conflicting upstream: site "500+", repo About "400+", repo README "1500+"
+install:
+  - curl -fsSL https://get.n8n.io | sh   # requires Docker
+  - docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n   # editor on http://localhost:5678
+pricing: freemium                        # inferred: "Get started for free", pricing page and enterprise sales; plan details not on page
+self_hostable: true
+
+# --- Health signals (point-in-time snapshot) ---
+stats:
+  stars: 207000
+  forks: 61100
+  watchers: 1200
+  open_issues: 365
+  open_pull_requests: 807
+  commits: 25573
+  latest_release: null      # Releases section empty in the fetch
+  last_commit_at: null      # not shown by the page fetch
+  archived: false           # no archive notice on the page
+  captured_at: 2026-10-11
+
+# --- Provenance ---
+sources:
+  - url: https://n8n.io/
+    kind: product-page
+    fetched_at: 2026-10-11
+  - url: https://github.com/n8n-io/n8n
+    kind: repository-page
+    fetched_at: 2026-10-11
+
+# --- Open questions for the extraction stage ---
+# - README says "código abierto" but the license is fair-code (Sustainable Use):
+#   should the list wording be revised, or keep license_type as a separate field?
+# - Stars/forks on GitHub are rounded ("207.0k"); store exact values via API?
+# - Integration counts disagree across sources: pick one source of truth or keep a range?
+# - Pricing needs the pricing page (not fetched); add a pricing_url field?
+# - last_commit_at and latest_release need the GitHub API; the HTML fetch omits them.
