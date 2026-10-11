@@ -41,6 +41,12 @@ node scripts/lint-awesome-list.js
 
 Valida el cumplimiento de `awesome-list-format.md` (estructura, formato de entradas y sincronización entre archivos de idioma). El comando debe salir con código `0` antes de dar por terminado el cambio.
 
+Después de crear o modificar cualquier `metadata/*.yaml`, ejecutar además (requiere PyYAML; también corre en CI):
+
+```bash
+python3 scripts/lint-metadata.py
+```
+
 ## Notas Importantes
 
 - Siempre verificar que las URLs funcionen antes de agregarlas.

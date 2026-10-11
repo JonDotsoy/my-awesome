@@ -24,6 +24,8 @@ readme:
   subgroup: null
   descriptions:
     es: Reemplaza puertos por URLs estables en `.localhost` para desarrollo local.
+    en: Replaces port numbers with stable `.localhost` URLs for local development.
+    pt: Substitui portas por URLs estáveis em `.localhost` para desenvolvimento local.
 
 # --- Classification ---
 segment: developer-tools                    # inferred

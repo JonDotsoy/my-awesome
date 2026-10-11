@@ -45,10 +45,10 @@ awk -v n=<N> 'NR<=n && /^## /{c=$0; s=""} NR<=n && /^\*\*.*\*\*$/{s=$0} END{prin
 8. **Anotar preguntas abiertas** al final del archivo (qué campos salen de API vs. requieren LLM, vocabulario por cerrar, etc.).
 9. **Validar**:
    ```bash
-   python3 -c "import yaml,sys; yaml.safe_load(open('metadata/<id>.yaml')); print('yaml ok')"
+   python3 scripts/lint-metadata.py metadata/<id>.yaml   # requiere PyYAML
    node scripts/lint-awesome-list.js
    ```
-   Ambos deben terminar sin error. El linter solo valida los `README*.md`; no se deben modificar al generar metadata.
+   Ambos deben terminar sin error (el primero también corre en CI: `.github/workflows/lint-metadata.yml`). `lint-awesome-list.js` solo valida los `README*.md`; no se deben modificar al generar metadata.
 10. **Commit**: `docs: add exploratory YAML metadata for <Nombre>` (usa `feat` solo si también cambiaron los README).
 
 ## Salida esperada

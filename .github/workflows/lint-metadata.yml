@@ -1,0 +1,31 @@
+name: Lint metadata
+
+on:
+  pull_request:
+    paths:
+      - "metadata/**"
+      - "README*.md"
+      - "scripts/lint-metadata.py"
+      - ".github/workflows/lint-metadata.yml"
+  push:
+    branches: [main, develop]
+    paths:
+      - "metadata/**"
+      - "README*.md"
+      - "scripts/lint-metadata.py"
+
+permissions:
+  contents: read
+
+jobs:
+  lint-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install PyYAML
+        run: pip install pyyaml
+      - name: Validate metadata/*.yaml
+        run: python3 scripts/lint-metadata.py
