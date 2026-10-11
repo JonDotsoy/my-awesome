@@ -32,6 +32,17 @@ awk -v n=<N> 'NR<=n && /^## /{c=$0; s=""} NR<=n && /^\*\*.*\*\*$/{s=$0} END{prin
 2. **Verificar que no exista ya** `metadata/<id>.yaml`. Si existe, actualízalo en vez de recrearlo.
 3. **Recolectar descripciones por idioma**: busca la misma URL en `README-EN.md`, `README-PT.md` y cualquier `README-<CODE>.md`, y copia la descripción de cada uno en `readme.descriptions`.
 4. **Consultar la fuente**: abre la URL del README (WebFetch). Si es un repositorio de GitHub, extrae: descripción, licencia, lenguaje, stars/forks/watchers, issues y PRs abiertos, topics, último release, instalación, features, plataformas y homepage. Si no es un repo, usa la página oficial y deja `repository: null`.
+   **Stats de GitHub con script**: si hay repositorio, ejecuta primero el script en vez de leer el HTML (el HTML redondea cifras y omite fechas):
+   ```bash
+   python3 .claude/skills/generate-project-metadata/scripts/github-stats.py <owner/repo | URL>          # fragmento YAML
+   python3 .claude/skills/generate-project-metadata/scripts/github-stats.py <owner/repo> --json         # mismo contenido en JSON
+   ```
+   - Solo usa la biblioteca estándar; toma `GITHUB_TOKEN` o `GH_TOKEN` si existen (más cuota de la API).
+   - Devuelve `repository`, `description`, `homepage`, `license` (SPDX), `license_type` (solo `permissive`/`copyleft`; en otro caso `null` y debes clasificarlo tú), `language`, `topics_upstream`, `stats` (stars, forks, watchers, issues sin PRs, PRs abiertos, commits, último release, `last_commit_at`, archivado, `captured_at`) y `sources`.
+   - `last_commit_at` proviene de `pushed_at` (último push a cualquier rama), no del último commit de la rama por defecto.
+   - Copia los valores al YAML; los campos `null` del script se mantienen `null`.
+   - Si la API no responde (código de salida `2`, p. ej. 403 por política de red o límite de tasa), no inventes valores: usa el HTML de la página (WebFetch), marca las cifras como aproximadas y anótalo en las preguntas abiertas.
+   - Prueba sin red: `--from-fixture <archivo.json>` con la respuesta ya recolectada (`{"repo": ..., "open_prs": ..., "commits": ..., "release": ...}`).
 4b. **Capturar precios** (si el producto tiene planes): consulta `pricing_url` (o la URL de precios que indique quien pide la tarea; si no la hay, busca el enlace "Pricing" en la página oficial) con WebFetch y registra cada plan visible en `pricing_plans`. Es una captura genérica, tal como aparece en la página:
    - Por plan: `name`, `price` (número o `null` si es "contactar ventas"), `currency` (ISO 4217, p. ej. `EUR`), `billing_period` (`month`, `year`, `one-time`, `usage`, `custom` o `null`), `price_note` (aclaraciones como "facturado anualmente"), `audience`, `hosting`, `limits` y `features` (listas de texto breve).
    - Incluye también planes gratuitos y ediciones comunitarias (`price: 0`).
