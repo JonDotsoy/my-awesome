@@ -107,7 +107,7 @@ Esta es una lista de recomendaciones personales para el uso de ciertas herramien
 
 - [Remotion](https://www.remotion.dev/) - Crea videos programáticamente con React/TypeScript, ideal para producción a escala.
 - [AutoAE](https://autoae.online/) - Generación automatizada de reels para Instagram, TikTok y Facebook.
-- [ArtCraft](https://getartcraft.com/) - Suite creativa gratuita y de código abierto que busca clonar Adobe Creative Cloud y Microsoft Office con apps en Rust (aún en alpha), además de dirigir la generación de imágenes y video con IA.
+- [ArtCraft](https://getartcraft.com/) - ⚠️ Proyecto muy inmaduro (alpha): suite creativa gratuita y de código abierto que busca clonar Adobe Creative Cloud y Microsoft Office con apps en Rust, además de dirigir la generación de imágenes y video con IA.
 - [Dribbble](https://dribbble.com) - Comunidad global de diseñadores para inspiración en UI/UX, branding e ilustración.
 - [Godly Website](https://godly.website/) - Galería curada de diseños web modernos organizados por categorías y estilos.
 - [Websitevice](https://websitevice.com/) - Galería de diseños web realistas orientados a resolver problemas de negocio concretos.
