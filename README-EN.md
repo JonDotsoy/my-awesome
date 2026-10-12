@@ -107,6 +107,7 @@ This is a list of personal recommendations for using certain tools in daily life
 
 - [Remotion](https://www.remotion.dev/) - Creates videos programmatically with React/TypeScript, ideal for production at scale.
 - [AutoAE](https://autoae.online/) - Automated reel generation for Instagram, TikTok, and Facebook.
+- [ArtCraft](https://getartcraft.com/) - Free, open-source creative suite to direct AI image and video generation through scene layout, character posing, and background removal.
 - [Dribbble](https://dribbble.com) - Global designer community for UI/UX, branding, and illustration inspiration.
 - [Godly Website](https://godly.website/) - Curated gallery of modern web designs organized by category and style.
 - [Websitevice](https://websitevice.com/) - Gallery of realistic web designs focused on solving concrete business problems.
