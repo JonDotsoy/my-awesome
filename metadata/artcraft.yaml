@@ -1,0 +1,149 @@
+# Metadata research: what data can we extract per project?
+# Stage: exploratory. Fields marked "source" show where the value came from;
+# fields marked "inferred" are our own classification, not extracted.
+
+schema_version: 0.1
+
+# --- Identity ---
+id: artcraft
+name: ArtCraft
+url: https://getartcraft.com/
+url_canonical: https://getartcraft.com
+homepage: https://getartcraft.com
+docs_url: null            # none found; repo has _docs/dev_setup.md
+company: ArtCraft         # footer: "© 2026 ArtCraft"; contact domain storyteller.ai
+repository:
+  host: github.com
+  owner: storytold
+  name: artcraft
+  kind: git
+
+# --- Curation (from this list) ---
+readme:
+  category: Contenido y Diseño             # segmento en el README
+  category_emoji: "🎬"
+  subgroup: null
+  descriptions:
+    es: "⚠️ Proyecto muy inmaduro (alpha): suite creativa gratuita y de código abierto que busca clonar Adobe Creative Cloud y Microsoft Office con apps en Rust, además de dirigir la generación de imágenes y video con IA."
+    en: "⚠️ Very immature project (alpha): free, open-source creative suite aiming to clone Adobe Creative Cloud and Microsoft Office with Rust apps, plus tools to direct AI image and video generation."
+    pt: "⚠️ Projeto muito imaturo (alpha): suíte criativa gratuita e de código aberto que busca clonar o Adobe Creative Cloud e o Microsoft Office com apps em Rust, além de dirigir a geração de imagens e vídeo com IA."
+
+# --- Classification ---
+segment: creative-tools                     # inferred
+audience: [artists, designers, filmmakers]  # inferred
+labels:                                     # inferred from site and repo
+  - ai-image-generation
+  - ai-video-generation
+  - 3d-compositing
+  - character-posing
+  - background-removal
+  - adobe-alternative
+  - office-alternative
+  - rust
+topics_upstream: [3d-graphics, ai, aivideo, filmmaking, imagegeneration]
+
+# --- Summary ---
+summary: >-
+  Open-source studio for directing AI image and video generation with hands-on
+  tools: 2D/3D compositing, image-to-3D mesh, character posing, camera
+  blocking and background removal. Press coverage describes a wider effort to
+  clone Adobe Creative Cloud and Microsoft Office apps, still in early alpha.
+tagline: Capable tools for artists.
+
+# --- Features (extracted from the product page) ---
+features:
+  - Image to Location (places virtual actors into real environments)
+  - 3D compositing with depth from images, backdrops and props
+  - 2D compositing with layers, drawing tools and background removal
+  - Image to 3D mesh
+  - Mixed assets (cutouts, worlds and meshes on one canvas)
+  - Character posing and camera blocking
+  - Browser-based studio with multiple generation models
+
+# --- Technical ---
+license: MIT OR Apache-2.0                  # dual-licensed per repo page
+license_type: permissive
+language: Rust                              # inferred; GitHub languages panel was empty (Cargo.toml, crates/)
+runtime: null
+platforms: [macos, windows, web]            # Linux only by building from source
+install:
+  - Download from https://getartcraft.com/download
+  - Build from source (see _docs/dev_setup.md in the repo)
+pricing: freemium                           # inferred: free open-source app, paid credit plans
+pricing_url: https://getartcraft.com/pricing
+pricing_source_url: https://getartcraft.com/pricing
+pricing_captured_at: 2026-10-12
+pricing_plans:                              # snapshot as shown on the page; prices change
+  - name: Basic
+    price: 8
+    currency: USD
+    billing_period: month
+    price_note: Yearly toggle shown by default ($96 billed yearly, 20% off); $10/month when billed monthly
+    audience: Getting started
+    hosting: cloud
+    limits: [1000 credits/month, ~250 Nano Banana images, ~67 Nano Banana Pro images, ~63 s Seedance 2.0 video, ~45 s Kling 3.0 Pro video]
+    features: [You own ArtCraft forever]
+  - name: Pro
+    price: 28
+    currency: USD
+    billing_period: month
+    price_note: Yearly toggle shown by default ($336 billed yearly, 20% off); $35/month when billed monthly
+    audience: Serious creators
+    hosting: cloud
+    limits: [3750 credits/month, ~938 Nano Banana images, ~250 Nano Banana Pro images, ~234 s Seedance 2.0 video, ~167 s Kling 3.0 Pro video]
+    features: [You own ArtCraft forever]
+  - name: Max
+    price: 48
+    currency: USD
+    billing_period: month
+    price_note: Yearly toggle shown by default ($576 billed yearly, 20% off); $60/month when billed monthly
+    audience: Studios and power users
+    hosting: cloud
+    limits: [6600 credits/month, ~1650 Nano Banana images, ~440 Nano Banana Pro images, ~413 s Seedance 2.0 video, ~295 s Kling 3.0 Pro video]
+    features: [You own ArtCraft forever]
+  - name: Enterprise
+    price: null
+    currency: null
+    billing_period: custom
+    price_note: Custom; contact hello@storyteller.ai
+    audience: Bespoke volume and terms
+    hosting: null
+    limits: []
+    features: [Everything in Max, Bespoke credit allocation, Secure models, Support SLAs, Custom integrations]
+open_source: true
+self_hostable: true                         # inferred: can be built from source
+
+# --- Health signals (point-in-time snapshot) ---
+stats:                                      # approximate: from rendered GitHub page (GitHub API returned 403)
+  stars: 20900
+  forks: 3400
+  watchers: 114
+  open_issues: 200
+  open_pull_requests: 58
+  latest_release: null                      # Releases section empty in captured page
+  last_commit_at: null                      # not shown on the repo page
+  archived: false
+  maturity: alpha                           # per press coverage; not stated in the repo
+  captured_at: 2026-10-12
+
+# --- Provenance ---
+sources:
+  - url: https://getartcraft.com
+    kind: product-page
+    fetched_at: 2026-10-12
+  - url: https://getartcraft.com/pricing
+    kind: pricing-page
+    fetched_at: 2026-10-12
+  - url: https://github.com/storytold/artcraft
+    kind: repository-page
+    fetched_at: 2026-10-12
+
+# --- Open questions for the extraction stage ---
+# - GitHub API returned 403, so stats are rounded values from the HTML page;
+#   re-run scripts/github-stats.py with a token for exact figures and last_commit_at.
+# - Press reports say download links were removed from the site; the product page
+#   still linked /download at capture time. Re-check availability.
+# - Adobe/Office clone apps (PhotoCraft, WordCraft, ...) are reported by press but
+#   not described on getartcraft.com; the listed product is the AI studio.
+# - Pricing page shows monthly price under a yearly-billing toggle; plan prices
+#   here use the discounted default view.
