@@ -25,6 +25,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Skills.sh](https://skills.sh/) - Package manager for modular AI agent skills (like npm), to extend capabilities such as video editing or REST API interaction.
 - [Pencil.dev](https://www.pencil.dev/) - Infinite vector canvas embedded in your code editor that converts designs into HTML/CSS/React via MCP.
 - [Zro](https://zro.moonmath.ai/) - Private inference endpoint from MoonMath.ai with open-weight models for coding agents, EU-based infrastructure, and OpenAI/Anthropic API compatibility.
+- [REA](https://rea.tools/) - Reverse engineering toolkit that lets your coding agent inspect native binaries, JavaScript/Electron apps, and browser behavior to explain or rebuild how they work.
 
 **LLM comparators**
 

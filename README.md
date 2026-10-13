@@ -25,6 +25,7 @@ Esta es una lista de recomendaciones personales para el uso de ciertas herramien
 - [Skills.sh](https://skills.sh/) - Gestor de paquetes de habilidades modulares para agentes de IA (similar a npm), para extender capacidades como edición de video o interacción con APIs.
 - [Pencil.dev](https://www.pencil.dev/) - Canvas vectorial infinito integrado en el editor de código que convierte diseños en HTML/CSS/React vía MCP.
 - [Zro](https://zro.moonmath.ai/) - Endpoint de inferencia privado de MoonMath.ai con modelos open-weight para agentes de codificación, infraestructura en la UE y compatibilidad de API OpenAI/Anthropic.
+- [REA](https://rea.tools/) - Toolkit de ingeniería inversa que permite a tu agente de código inspeccionar binarios nativos, apps JavaScript/Electron y el comportamiento del navegador para explicar o reconstruir cómo funcionan.
 
 **Comparadores de LLMs**
 
