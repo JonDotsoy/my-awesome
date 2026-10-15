@@ -88,6 +88,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - Self-hosted web tool to manipulate PDFs: split, merge, convert, compress, and more.
 
 ## 💰 Finance
+
 - [Splitwise](https://www.splitwise.com/) - Splits expenses between people using phone numbers, ideal for group outings.
 - [fintoc.me](https://fintoc.me/) - Shares Chilean bank transfer details via a single simple URL.
 - [Fintual](https://fintual.cl/) - Chilean automated investment platform for mutual funds and stocks, regulated by the CMF.
