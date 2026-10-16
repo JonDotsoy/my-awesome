@@ -26,6 +26,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Pencil.dev](https://www.pencil.dev/) - Infinite vector canvas embedded in your code editor that converts designs into HTML/CSS/React via MCP.
 - [Zro](https://zro.moonmath.ai/) - Private inference endpoint from MoonMath.ai with open-weight models for coding agents, EU-based infrastructure, and OpenAI/Anthropic API compatibility.
 - [REA](https://rea.tools/) - Reverse engineering toolkit that lets your coding agent inspect native binaries, JavaScript/Electron apps, and browser behavior to explain or rebuild how they work.
+- [Archify](https://github.com/tt-a1i/archify) - Skill for coding agents that turns an idea, plan, or repository into a self-contained interactive HTML diagram, with architecture maps linked to the source code.
 
 **LLM comparators**
 

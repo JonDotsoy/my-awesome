@@ -26,6 +26,7 @@ Esta es una lista de recomendaciones personales para el uso de ciertas herramien
 - [Pencil.dev](https://www.pencil.dev/) - Canvas vectorial infinito integrado en el editor de código que convierte diseños en HTML/CSS/React vía MCP.
 - [Zro](https://zro.moonmath.ai/) - Endpoint de inferencia privado de MoonMath.ai con modelos open-weight para agentes de codificación, infraestructura en la UE y compatibilidad de API OpenAI/Anthropic.
 - [REA](https://rea.tools/) - Toolkit de ingeniería inversa que permite a tu agente de código inspeccionar binarios nativos, apps JavaScript/Electron y el comportamiento del navegador para explicar o reconstruir cómo funcionan.
+- [Archify](https://github.com/tt-a1i/archify) - Skill para agentes de código que convierte una idea, plan o repositorio en un diagrama HTML interactivo y autocontenido, con mapas de arquitectura enlazados al código fuente.
 
 **Comparadores de LLMs**
 
