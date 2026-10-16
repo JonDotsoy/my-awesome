@@ -104,6 +104,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [Amplitude](https://amplitude.com/) - Analítica de produto com funis, retenção, coortes e dashboards em tempo real.
 - [Workcat](https://workcat.app/) - App de foco para Mac com um gato animado na área de trabalho que detecta e fecha conteúdo distrativo como Shorts, Reels e TikToks sem interromper seu trabalho.
 - [Harper](https://writewithharper.com/) - Corretor gramatical de código aberto que funciona 100% offline e com total privacidade, disponível como extensão de navegador, plugin de editores e app para Mac.
+- [Online Lists Maker](https://onlinelistsmaker.com/) - Criador de listas online gratuito para criar e compartilhar listas instantaneamente sem cadastro.
 
 ## 🎬 Conteúdo e Design
 
