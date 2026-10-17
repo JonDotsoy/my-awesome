@@ -5,6 +5,7 @@ Uses `health_url` when set; otherwise falls back to `url_canonical`.
 Usage: python3 scripts/check-health.py [file.yaml ...]
 Requires PyYAML. Exit code 0 = all healthy, 1 = at least one failed.
 """
+import os
 import sys
 import urllib.error
 import urllib.request
@@ -40,9 +41,30 @@ def check(url):
     return False, last
 
 
+def write_summary(rows, failed):
+    """Append a Markdown report to the GitHub job summary, when running in Actions."""
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not path:
+        return
+    lines = [
+        "## Metadata health",
+        "",
+        f"{len(rows) - failed} of {len(rows)} healthy" + (f" — **{failed} failing**" if failed else ""),
+        "",
+        "| Status | Metadata | URL | Source | Result |",
+        "| --- | --- | --- | --- | --- |",
+    ]
+    for id_, url, source, detail, ok in rows:
+        detail = detail.replace("|", "\\|")
+        lines.append(f"| {'✅' if ok else '❌'} | `{id_}` | {url} | `{source}` | {detail} |")
+    with open(path, "a", encoding="utf-8") as fh:
+        fh.write("\n".join(lines) + "\n")
+
+
 def main(argv):
     files = [Path(a) for a in argv] or sorted((ROOT / "metadata").glob("*.yaml"))
     failed = 0
+    rows = []
     for f in files:
         data = yaml.safe_load(f.read_text(encoding="utf-8"))
         url = data.get("health_url")
@@ -53,12 +75,14 @@ def main(argv):
             print(f"::warning file={f}::no health_url or url_canonical")
             continue
         ok, detail = check(url)
+        rows.append((data["id"], url, source, detail, ok))
         if ok:
             print(f"✔ {data['id']}: {url} ({source}) {detail}")
         else:
             failed += 1
             print(f"::error file={f}::{data['id']} unhealthy: {url} ({source}) {detail}")
     print(f"\n{len(files) - failed} of {len(files)} healthy")
+    write_summary(rows, failed)
     return 1 if failed else 0
 
 
