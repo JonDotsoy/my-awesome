@@ -1,0 +1,22 @@
+name: Monitor metadata health
+
+on:
+  schedule:
+    - cron: "0 12 * * *" # daily, 12:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install PyYAML
+        run: pip install pyyaml
+      - name: Check health URL of metadata/*.yaml
+        run: python3 scripts/check-health.py

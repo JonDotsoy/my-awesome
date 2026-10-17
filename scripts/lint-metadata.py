@@ -73,7 +73,7 @@ def lint(path, readmes):
     for k in ("url", "url_canonical"):
         if not is_http_url(data[k]):
             errs.append(f"{k} must be an http(s) URL")
-    for k in ("homepage", "docs_url"):
+    for k in ("homepage", "docs_url", "health_url"):
         if data.get(k) is not None and not is_http_url(data[k]):
             errs.append(f"{k} must be null or an http(s) URL")
     if not isinstance(data["labels"], list) or not data["labels"] or not all(
