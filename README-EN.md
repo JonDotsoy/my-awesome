@@ -105,6 +105,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Workcat](https://workcat.app/) - Mac focus app with an animated desktop cat that detects and closes distracting content like Shorts, Reels, and TikToks without interrupting your work.
 - [Harper](https://writewithharper.com/) - Open-source grammar checker that runs fully offline with total privacy, available as a browser extension, editor plugin, and Mac app.
 - [Online Lists Maker](https://onlinelistsmaker.com/) - Free online list maker, create and share lists instantly with no signup.
+- [Glim](https://github.com/NeoPanic/Glim) - Free, MIT-licensed macOS file viewer for Markdown, source code, PDF and data in one workspace, with basic UTF-8 text editing.
 
 ## 🎬 Content and Design
 
