@@ -1,0 +1,105 @@
+# Metadata research: what data can we extract per project?
+# Stage: exploratory. Fields marked "source" show where the value came from;
+# fields marked "inferred" are our own classification, not extracted.
+
+schema_version: 0.1
+
+# --- Identity ---
+id: obscura
+name: Obscura
+url: https://www.obscura.sh/
+url_canonical: https://www.obscura.sh
+homepage: https://www.obscura.sh
+docs_url: https://docs.obscura.sh
+repository:
+  host: github.com
+  owner: h4ckf0r0day
+  name: obscura
+  kind: git
+
+# --- Curation (from this list) ---
+readme:
+  category: Desarrollo Web                 # segmento en el README
+  category_emoji: "💻"
+  subgroup: Testing y APIs
+  descriptions:
+    es: Motor de navegador headless open source en Rust para agentes de IA y web scraping, compatible con Playwright y Puppeteer vía CDP.
+    en: Open-source headless browser engine written in Rust for AI agents and web scraping, compatible with Playwright and Puppeteer via CDP.
+    pt: Motor de navegador headless open source em Rust para agentes de IA e web scraping, compatível com Playwright e Puppeteer via CDP.
+
+# --- Classification ---
+segment: developer-tools                    # inferred
+audience: [developers, ai-agents]           # inferred
+labels:                                     # inferred from site and repo features
+  - headless-browser
+  - browser-automation
+  - web-scraping
+  - cdp
+  - playwright
+  - puppeteer
+  - rust
+  - mcp
+topics_upstream: [antidetect, antidetect-browser, browser, browser-automation, cdp, headless, playwright, puppeteer, rust]
+
+# --- Summary ---
+summary: >-
+  A lightweight headless browser engine built for AI agents and scraping
+  pipelines. It runs JavaScript with V8, exposes a Chrome DevTools Protocol
+  server so existing Playwright and Puppeteer scripts can point at it, and
+  can be self-hosted in Docker or used as a managed cloud.
+tagline: The open source headless browser engine for AI agents and web scraping.
+
+# --- Features (extracted from site and README) ---
+features:
+  - CDP server (`obscura serve`) compatible with Playwright and Puppeteer
+  - JavaScript execution via V8 without Chromium
+  - Sessions start in under 50 ms with no shared state between them
+  - Memory use around 10x lower than Chrome (per the site)
+  - CSS layout, screenshots, PDF export and screencasting
+  - Stealth mode with per-session fingerprint randomization and tracker blocking
+  - CLI for fetching pages (HTML, text, links, markdown) and parallel scraping
+  - MCP server exposing browser tools to agents
+  - HTTP/SOCKS5 proxy support
+  - Managed cloud or self-hosting in a single Docker container
+
+# --- Technical ---
+license: Apache-2.0
+license_type: permissive
+language: Rust
+runtime: null
+platforms: [linux, macos, windows, docker]
+install:
+  - docker run -d --name obscura -p 127.0.0.1:9222:9222 h4ckf0r0day/obscura
+  - nix-env -iA nixpkgs.obscura
+  - cargo build --release -p obscura-cli --bins
+pricing: freemium                           # inferred: open source plus a managed cloud with no public prices
+pricing_url: null                           # no pricing page; site only offers "Book a demo"
+pricing_plans: []
+open_source: true
+self_hostable: true
+
+# --- Health signals (point-in-time snapshot) ---
+stats:
+  stars: 29200                              # approximate, from rounded GitHub page figure (29.2k)
+  forks: 2200                               # approximate (2.2k)
+  watchers: 81
+  open_issues: 102
+  open_pull_requests: 92
+  latest_release: null                      # not shown on the repository page
+  last_commit_at: null                      # GitHub API blocked (HTTP 403)
+  archived: null
+  captured_at: 2026-10-23
+
+# --- Provenance ---
+sources:
+  - url: https://www.obscura.sh
+    kind: product-page
+    fetched_at: 2026-10-23
+  - url: https://github.com/h4ckf0r0day/obscura
+    kind: repository-page
+    fetched_at: 2026-10-23
+
+# --- Open questions for the extraction stage ---
+# - The site shows 16.2k stars while the repository page shows 29.2k; the repo figure was used.
+# - GitHub API returned 403, so exact stats, last_commit_at and latest_release are unset.
+# - Managed cloud pricing is not public; confirm whether it deserves a pricing_plans entry.
