@@ -1,0 +1,101 @@
+# Metadata research: what data can we extract per project?
+# Generated following .claude/skills/generate-project-metadata/SKILL.md
+# Fields marked "inferred" are our own classification, not extracted.
+
+schema_version: 0.1
+
+# --- Identity ---
+id: yylo
+name: YYLO
+url: https://github.com/yylo-dev/yylo
+url_canonical: https://github.com/yylo-dev/yylo
+homepage: null            # none found in the repository README
+docs_url: null            # docs/ folder in the repository, no hosted site found
+repository:
+  host: github.com
+  owner: yylo-dev
+  name: yylo
+  kind: git
+aliases: [yy, ypl]        # CLI commands named in the README (`yylo` and `yy` are equivalent; `ypl` is `yy pi --live`)
+company: JUNO AI INC.     # LICENSE copyright holder
+
+# --- Curation (from this list) ---
+readme:
+  category: IA y Automatización
+  category_emoji: "🤖"
+  subgroup: Agentes y desarrollo asistido por IA
+  descriptions:
+    es: Orquestador de código abierto para agentes de codificación en la terminal, con flujos de trabajo repetibles y cambios de repositorio respaldados por evidencia.
+    en: Open-source command-line orchestrator for coding agents, with repeatable workflows and receipt-backed repository changes.
+    pt: Orquestrador de código aberto para agentes de programação no terminal, com fluxos de trabalho repetíveis e alterações de repositório respaldadas por evidências.
+
+# --- Classification ---
+segment: developer-tools                    # inferred
+audience: [developers, project-operators, ai-agents]   # inferred
+labels:                                     # inferred from README features
+  - coding-agents
+  - orchestration
+  - cli
+  - workflows
+  - git-worktree
+  - task-management
+  - typescript
+  - nodejs
+topics_upstream: []                         # GitHub API blocked (HTTP 403); topics not captured
+
+# --- Summary ---
+summary: >-
+  Command-line orchestrator that runs coding agents (Pi, Claude, Codex, Cursor,
+  Gemini) in bounded loops and managed workflows. It tracks typed tasks, records
+  validation evidence and lands changes through protected Git worktrees.
+tagline: Task-driven AI subagent orchestration
+
+# --- Features (extracted from README) ---
+features:
+  - Agent runs via `yy pi`, `yy start` and aliases for several coding agents
+  - Controlled iterations and `yy loop` workflows (inline steps or `flow.yaml`)
+  - Typed task lifecycle with exact-base task worktrees and protected merge (`task`, `merge`)
+  - Content-addressed validation evidence (`evidence run|status|await`)
+  - Repository topology inspection and repair (`info`, `where`, `doctor workspace`)
+  - Session continuity (continue, clone, branches, switch)
+  - Stable machine output (`--format json|ndjson --raw`)
+  - Installable agent skills (`yy skills install`) and delegation to YYLO Ledger and Benchmark
+
+# --- Technical ---
+license: MIT
+license_type: permissive
+language: TypeScript                        # inferred: tsconfig.json and tsup config in repo; also ships Python/shell scripts
+runtime:
+  name: Node.js
+  min_version: "20.10"
+platforms: [macos, linux]                   # inferred: only Linux verified; README does not list platforms
+install:
+  - npm install --global '@yylo/cli@latest'
+pricing: free
+pricing_url: null
+pricing_plans: []                           # free tool, no pricing page
+open_source: true
+self_hostable: true
+
+# --- Health signals (point-in-time snapshot) ---
+# GitHub API returned HTTP 403 from this environment, so stars/forks/issues/PRs
+# were not captured and `stats` stays null. Partial signals found elsewhere
+# (captured 2026-10-17): last commit on the default branch 2026-10-15T20:20:32Z
+# (shallow git clone); npm `latest` of @yylo/cli is 0.2.12 (pre-1.0).
+stats: null
+
+# --- Provenance ---
+sources:
+  - url: https://github.com/yylo-dev/yylo
+    kind: repository-clone
+    fetched_at: 2026-10-17
+  - url: https://registry.npmjs.org/@yylo/cli
+    kind: package-registry
+    fetched_at: 2026-10-17
+
+# --- Open questions for the extraction stage ---
+# - Re-run scripts/github-stats.py with API access to fill stars, forks, issues, PRs and topics.
+# - npm package created 2026-08-23 (17 versions); check whether stars/age fit the list's curation bar.
+# - README badges list ~60 "Mentioned in Awesome ..." lists; decide if that is a useful signal or noise.
+# - README says stable is 0.2.2 while npm `latest` is 0.2.12: the README may lag the registry.
+# - Supported platforms are not stated; verify macOS/Windows.
