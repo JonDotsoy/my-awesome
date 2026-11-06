@@ -27,6 +27,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [Zro](https://zro.moonmath.ai/) - Endpoint de inferência privado da MoonMath.ai com modelos open-weight para agentes de codificação, infraestrutura na UE e compatibilidade de API OpenAI/Anthropic.
 - [REA](https://rea.tools/) - Toolkit de engenharia reversa que permite ao seu agente de código inspecionar binários nativos, apps JavaScript/Electron e o comportamento do navegador para explicar ou reconstruir como funcionam.
 - [Archify](https://github.com/tt-a1i/archify) - Skill para agentes de código que transforma uma ideia, plano ou repositório em um diagrama HTML interativo e autocontido, com mapas de arquitetura vinculados ao código-fonte.
+- [YYLO](https://github.com/yylo-dev/yylo) - Orquestrador de código aberto para agentes de programação no terminal, com fluxos de trabalho repetíveis e alterações de repositório respaldadas por evidências.
 
 **Comparadores de LLMs**
 
