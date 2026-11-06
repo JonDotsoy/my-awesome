@@ -105,6 +105,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [Workcat](https://workcat.app/) - App de foco para Mac com um gato animado na área de trabalho que detecta e fecha conteúdo distrativo como Shorts, Reels e TikToks sem interromper seu trabalho.
 - [Harper](https://writewithharper.com/) - Corretor gramatical de código aberto que funciona 100% offline e com total privacidade, disponível como extensão de navegador, plugin de editores e app para Mac.
 - [Online Lists Maker](https://onlinelistsmaker.com/) - Criador de listas online gratuito para criar e compartilhar listas instantaneamente sem cadastro.
+- [Snaply](https://snaply.ai/) - App gratuito para Mac que processa tudo localmente, com ditado por voz em qualquer app e gravação de reuniões com notas e tarefas organizadas.
 
 ## 🎬 Conteúdo e Design
 
