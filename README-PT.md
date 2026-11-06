@@ -73,6 +73,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [Postman](https://www.postman.com/) - Plataforma integral para desenvolvimento, teste, documentação e colaboração de APIs.
 - [Bruno](https://www.usebruno.com/) - Cliente de API open-source e offline-first, alternativa ao Postman com coleções armazenadas como arquivos de texto.
 - [Agent QA](https://github.com/vostride/agent-qa) - Ferramenta de QA com código-fonte disponível para escrever e executar testes web e móveis em linguagem natural.
+- [Obscura](https://www.obscura.sh/) - Motor de navegador headless open source em Rust para agentes de IA e web scraping, compatível com Playwright e Puppeteer via CDP.
 
 ## 🖥️ Infraestrutura e Código
 

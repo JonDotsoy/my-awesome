@@ -73,6 +73,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Postman](https://www.postman.com/) - Comprehensive platform for API development, testing, documentation, and collaboration.
 - [Bruno](https://www.usebruno.com/) - Open-source, offline-first API client, an alternative to Postman with collections stored as text files.
 - [Agent QA](https://github.com/vostride/agent-qa) - Source-available QA tool for writing and running web and mobile tests in natural language.
+- [Obscura](https://www.obscura.sh/) - Open-source headless browser engine written in Rust for AI agents and web scraping, compatible with Playwright and Puppeteer via CDP.
 
 ## 🖥️ Infrastructure and Code
 
