@@ -107,6 +107,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Harper](https://writewithharper.com/) - Open-source grammar checker that runs fully offline with total privacy, available as a browser extension, editor plugin, and Mac app.
 - [Online Lists Maker](https://onlinelistsmaker.com/) - Free online list maker, create and share lists instantly with no signup.
 - [Snaply](https://snaply.ai/) - Free Mac app that processes everything locally, with voice dictation into any app and meeting recording with organized notes and action items.
+- [Glim](https://github.com/NeoPanic/Glim) - Free, MIT-licensed macOS file viewer for Markdown, source code, PDF and data in one workspace, with basic UTF-8 text editing.
 
 ## 🎬 Content and Design
 

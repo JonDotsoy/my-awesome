@@ -107,6 +107,7 @@ Esta es una lista de recomendaciones personales para el uso de ciertas herramien
 - [Harper](https://writewithharper.com/) - Corrector gramatical de código abierto que funciona 100 % sin conexión y con total privacidad, disponible como extensión de navegador, plugin de editores y app para Mac.
 - [Online Lists Maker](https://onlinelistsmaker.com/) - Creador de listas en línea gratuito para crear y compartir listas al instante sin registro.
 - [Snaply](https://snaply.ai/) - App gratuita para Mac que procesa todo en local, con dictado por voz en cualquier app y grabación de reuniones con notas y tareas organizadas.
+- [Glim](https://github.com/NeoPanic/Glim) - Visor de archivos para macOS, gratuito y de código abierto, que reúne Markdown, código, PDF y datos en un espacio de trabajo con edición básica de texto UTF-8.
 
 ## 🎬 Contenido y Diseño
 
