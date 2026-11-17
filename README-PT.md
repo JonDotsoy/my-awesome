@@ -73,6 +73,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [Postman](https://www.postman.com/) - Plataforma integral para desenvolvimento, teste, documentação e colaboração de APIs.
 - [Bruno](https://www.usebruno.com/) - Cliente de API open-source e offline-first, alternativa ao Postman com coleções armazenadas como arquivos de texto.
 - [Agent QA](https://github.com/vostride/agent-qa) - Ferramenta de QA com código-fonte disponível para escrever e executar testes web e móveis em linguagem natural.
+- [Obscura](https://www.obscura.sh/) - Motor de navegador headless open source em Rust para agentes de IA e web scraping, compatível com Playwright e Puppeteer via CDP.
 
 ## 🖥️ Infraestrutura e Código
 
@@ -105,6 +106,7 @@ Esta é uma lista de recomendações pessoais para o uso de certas ferramentas n
 - [Workcat](https://workcat.app/) - App de foco para Mac com um gato animado na área de trabalho que detecta e fecha conteúdo distrativo como Shorts, Reels e TikToks sem interromper seu trabalho.
 - [Harper](https://writewithharper.com/) - Corretor gramatical de código aberto que funciona 100% offline e com total privacidade, disponível como extensão de navegador, plugin de editores e app para Mac.
 - [Online Lists Maker](https://onlinelistsmaker.com/) - Criador de listas online gratuito para criar e compartilhar listas instantaneamente sem cadastro.
+- [Snaply](https://snaply.ai/) - App gratuito para Mac que processa tudo localmente, com ditado por voz em qualquer app e gravação de reuniões com notas e tarefas organizadas.
 - [Glim](https://github.com/NeoPanic/Glim) - Visualizador de arquivos gratuito e de código aberto para macOS, com Markdown, código, PDF e dados em um espaço de trabalho e edição básica de texto UTF-8.
 
 ## 🎬 Conteúdo e Design

@@ -1,0 +1,6 @@
+# Los code owners son solicitados automáticamente como revisores en los PRs.
+# Documentación: https://docs.github.com/articles/about-code-owners
+# Sintaxis: <patrón> <@usuario|@org/equipo|correo>; gana la última regla que coincida.
+
+# Dueño por defecto de todo el repositorio
+* @JonDotsoy

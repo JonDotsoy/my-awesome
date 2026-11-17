@@ -73,6 +73,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Postman](https://www.postman.com/) - Comprehensive platform for API development, testing, documentation, and collaboration.
 - [Bruno](https://www.usebruno.com/) - Open-source, offline-first API client, an alternative to Postman with collections stored as text files.
 - [Agent QA](https://github.com/vostride/agent-qa) - Source-available QA tool for writing and running web and mobile tests in natural language.
+- [Obscura](https://www.obscura.sh/) - Open-source headless browser engine written in Rust for AI agents and web scraping, compatible with Playwright and Puppeteer via CDP.
 
 ## 🖥️ Infrastructure and Code
 
@@ -105,6 +106,7 @@ This is a list of personal recommendations for using certain tools in daily life
 - [Workcat](https://workcat.app/) - Mac focus app with an animated desktop cat that detects and closes distracting content like Shorts, Reels, and TikToks without interrupting your work.
 - [Harper](https://writewithharper.com/) - Open-source grammar checker that runs fully offline with total privacy, available as a browser extension, editor plugin, and Mac app.
 - [Online Lists Maker](https://onlinelistsmaker.com/) - Free online list maker, create and share lists instantly with no signup.
+- [Snaply](https://snaply.ai/) - Free Mac app that processes everything locally, with voice dictation into any app and meeting recording with organized notes and action items.
 - [Glim](https://github.com/NeoPanic/Glim) - Free, MIT-licensed macOS file viewer for Markdown, source code, PDF and data in one workspace, with basic UTF-8 text editing.
 
 ## 🎬 Content and Design
